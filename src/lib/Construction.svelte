@@ -20,7 +20,7 @@
 			classes.remove("hidden");
 		} else {
 			classes.add("hidden");
-			classes.adremoved("block");
+			classes.remove("block");
 		}
 	}
 

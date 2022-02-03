@@ -32,7 +32,7 @@
 			document.cookie = "theme=light";
 		} else {
 			if (theme == "light") setLight();
-			else if (theme == "dark") setDark();
+			if (theme == "dark") setDark();
 		}
 	});
 </script>

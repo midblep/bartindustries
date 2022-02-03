@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	import ThemeSwitcher from "$lib/ThemeSwitcher.svelte";
 
 	import Button from "./Button.svelte";
