@@ -3,8 +3,8 @@
 
 	import { variables } from "$lib/helpers/variables";
 
-	let email;
-	let message;
+	let email = "";
+	let message = "";
 	let notify;
 
 	function send() {
@@ -45,7 +45,7 @@
 					id="email"
 					name="email"
 					type="text"
-					class="text-lg py-1 px-2 rounded-lg shadow"
+					class="text-lg py-1 px-2 rounded-lg shadow dark:bg-gray-600"
 					bind:value={email}
 				/>
 			</div>
@@ -57,19 +57,31 @@
 				<textarea
 					id="message"
 					name="message"
-					class="text-lg py-1 px-2 rounded-lg shadow"
+					class="text-lg py-1 px-2 rounded-lg shadow dark:bg-gray-600"
 					bind:value={message}
 					rows="5"
 				/>
 			</div>
 
 			<div class="flex flex-col">
-				<button
-					type="submit"
-					on:click={send}
-					class="bg-white py-2 px-3 rounded-lg font-bold shadow"
-					>Send</button
-				>
+                {#if email != "" && message != ""}
+                    <button
+                        type="submit"
+                        on:click={send}
+                        class="bg-white dark:bg-black py-2 px-3 rounded-lg font-bold shadow button"
+                        >Send</button
+                    >
+                {:else}
+                    <button
+                        disabled
+                        type="none"
+                        on:click={send}
+                        title="Fill in the fields before submitting"
+                        class="bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 py-2 px-3 rounded-lg font-bold shadow text-gray-400"
+                    >
+                        Send
+                    </button>
+                {/if}
 			</div>
 
 			{#if notify}
@@ -80,16 +92,16 @@
 </main>
 
 <style>
-	button {
+	.button {
 		transition-duration: 0.3s;
 	}
 
-	button:hover {
+	.button:hover {
 		transition-duration: 0.3s;
-		transform: translateY(-5px);
+		transform: translateY(-2px);
 	}
 
-	button:active {
+	.button:active {
 		transition-duration: 0.3s;
 		transform: translateY(5px);
 	}
