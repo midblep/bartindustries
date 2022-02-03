@@ -36,8 +36,8 @@
 
 			<div class="flex flex-col lg:flex-row gap-5 justify-between">
 				<Card
-					buttonHref="/works#puppypride"
-					buttonText="🌐 More details and pictures on my Works page"
+					buttonHref="https://puppypride.social"
+					buttonText="🌐 Visit Puppy Pride"
 					rotation="left"
 					color="bg-blue-300 dark:bg-blue-700"
 				>
@@ -71,7 +71,7 @@
 				</Card>
 
 				<Card
-					buttonHref="https://puppypride.social"
+					buttonHref="https://discord.gg/ygw4DNnKvt"
 					buttonText="🚪 Join the Discord"
 					rotation="left"
 					color="bg-orange-300 dark:bg-orange-800"
