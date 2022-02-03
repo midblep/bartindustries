@@ -1,6 +1,4 @@
 <script>
-	import AnchorButton from "$lib/elements/AnchorButton.svelte";
-
 	import Banner from "$lib/home/Banner.svelte";
 	import Card from "$lib/home/Card.svelte";
 	import Form from "$lib/home/Form.svelte";

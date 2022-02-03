@@ -1,6 +1,4 @@
 <script>
-	import MenuIcon from "./MenuIcon.svelte";
-
 	export let text;
 	export let type;
 
