@@ -46,6 +46,10 @@
 			src={randomBannerPic}
 			alt="mid"
 			class="rounded-xl shadow-xl w-full"
+			data-tilt data-tilt-max="10" data-tilt-speed="200" data-tilt-perspective="1000"
+			data-tilt-glare data-tilt-max-glare="0.8"
+			data-tilt-reverse="true"
+			data-tilt-reset="false"
 		/>
 	</div>
 </main>

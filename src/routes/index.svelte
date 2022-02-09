@@ -32,12 +32,11 @@
 		<div class="container px-5 flex flex-col gap-10 justify-center">
 			<h2 class="text-2xl font-bold italic">Places I'm a part of</h2>
 
-			<div class="flex flex-col lg:flex-row gap-5 justify-between">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
-					rotation="left"
-					color="bg-blue-300 dark:bg-blue-700"
+					color="bg-gradient-to-br from-blue-300 to-blue-400 dark:bg-gradient-to-br dark:from-blue-700 dark:to-blue-900"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -71,8 +70,7 @@
 				<Card
 					buttonHref="https://discord.gg/ygw4DNnKvt"
 					buttonText="🚪 Join the Discord"
-					rotation="left"
-					color="bg-orange-300 dark:bg-orange-800"
+					color="bg-gradient-to-br from-orange-300 to-orange-400 dark:bg-gradient-to-br dark:from-orange-700 dark:to-orange-900"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -101,8 +99,6 @@
 				<Card
 					buttonHref="https://dubbelnull.com"
 					buttonText="➡️ Go to DubbelNull.com"
-					rotation="left"
-					color="bg-gray-300 dark:bg-gray-700"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -125,9 +121,47 @@
 						We focus on efficiency in communication and satisfaction
 						of the end result.
 						<br /><br />
-						We are also looking into expanding into the SaaS business,
-						notably with our own Cloud Storage solution built on top
-						of Nextcloud, and a chatting app in the works called Flame.
+						We are also expanding into the SaaS business with our own Cloud Storage solution built on top
+						of Nextcloud and a communication platform in the works called Flame.
+					</p>
+				</Card>
+			</div>
+
+			<br class="my-5"/>
+
+			<h2 class="text-2xl font-bold italic">Things I built</h2>
+
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
+				<Card
+					buttonHref="https://sivkyne.xyz"
+					buttonRedirect="_blank"
+					buttonText="🌐 Visit Website"
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						<img
+							src="/sivkyne.png"
+							class="h-8 rounded-full"
+							alt="siv kyne"
+						/> Siv Kyne
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I developed this website in exchange for artistic goods.
+						It is hosted on Vercel and built on top of SvelteKit.
+						It features a fully mobile compatible design that catches your eye from the moment you visit the homepage.
+					</p>
+				</Card>
+
+				<Card
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						More here soon...
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I am still working on this website, and adding my previous works to this as I go. I have done many more things than this though!
 					</p>
 				</Card>
 			</div>

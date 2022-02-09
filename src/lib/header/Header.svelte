@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-50"
+	class="bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-40"
 >
 	<section class="container">
 		<Nav />
