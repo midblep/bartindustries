@@ -6,18 +6,14 @@
 	import "../app.css";
 </script>
 
-<main class="bg-black">
-	<div class="container">
-		<Construction />
+<div class="bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
+	<Construction />
 
-		<div class="min-h-screen bg-neutral-900 text-white">
-			<Header />
+	<div class="min-h-screen">
+		<Header />
 
-			<div class="p-10">
-				<slot />
-			</div>
-		</div>
-
-		<Footer />
+		<slot />
 	</div>
-</main>
+
+	<Footer />
+</div>

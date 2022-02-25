@@ -1,12 +1,10 @@
 <script>
 	export let href;
-	export let target;
 </script>
 
 <a
-	target={target}
-	href={href}
-	class="py-3 px-10 text-lg font-bold font-mono bg-opacity-20 hover:bg-opacity-100 bg-black text-white rounded-full border-white hover:bg-white hover:text-black border-2 hover:shadow-inner duration-300"
+	{href}
+	class="py-2 px-5 bg-white dark:bg-black bg-opacity-70 dark:bg-opacity-50 rounded-lg hover:bg-opacity-100 dark:hover:bg-opacity-100 duration-150 text-gray-800 hover:text-black dark:text-gray-200 dark:hover:text-white"
 >
 	<slot />
 </a>

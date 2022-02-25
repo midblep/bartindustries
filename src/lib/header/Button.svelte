@@ -1,37 +1,27 @@
 <script>
-	import { page } from "$app/stores";
-
 	export let text;
 	export let url;
+	export let type;
 	export let disabled;
-	export let id;
 
-	let classes;
-	let active;
+	let classes = "h-full py-2 px-5 flex justify-center items-center lowercase";
 
-	page.subscribe(value => {
-		active = value.url.pathname === url;
-		init();
-	});
+	switch (type) {
+		case "title":
+			classes +=
+				" text-xl font-bold text-white bg-amber-500 duration-300";
+			break;
 
-	function init() {
-		classes = "border-transparent active:shadow-inner text-center hover:border-neutral-600 active:border-neutral-600 border-opacity-50 border-2 rounded-full py-1 px-4 flex items-center justify-center h-10 duration-300";
-
-		if(id) {
-			url = $page.url.pathname + "#" + id;
-		}
-
-		if (active) {
-			classes += " bg-neutral-600 bg-opacity-30"
-		}
-
-		if (disabled) {
-			url = null;
-			classes += " cursor-not-allowed";
-		}
+		default:
+			classes +=
+				" hover:bg-orange-200 dark:hover:bg-orange-700 duration-300";
+			break;
 	}
 
-	init();
+	if (disabled) {
+		url = null;
+		classes += " cursor-not-allowed";
+	}
 </script>
 
 <a href={url} class={classes}>
