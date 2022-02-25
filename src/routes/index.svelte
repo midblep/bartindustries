@@ -1,15 +1,16 @@
 <script>
 	import Banner from "$lib/home/Banner.svelte";
 	import Card from "$lib/home/Card.svelte";
+	import Dash from "$lib/Dash.svelte";
 	import Form from "$lib/home/Form.svelte";
 </script>
 
 <svelte:head>
-	<title>Home | Bart Industries</title>
+	<title>Mid's Domain</title>
 </svelte:head>
 
 <main class="relative">
-	<section class="container py-20">
+	<!-- <section class="container py-20">
 		<Banner />
 	</section>
 
@@ -191,5 +192,5 @@
 		<div class="lg:w-1/3">
 			<Form />
 		</div>
-	</section>
+	</section> -->
 </main>

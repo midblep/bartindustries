@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-40"
+	class="z-40 py-5 bg-gradient-to-tr from-zinc-100 to-orange-100 text-black"
 >
 	<section class="container">
 		<Nav />

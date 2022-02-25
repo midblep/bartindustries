@@ -9,12 +9,26 @@
 	src: url('/fonts/BaronNeue-Black.otf');
 }
 
+@font-face {
+	font-family: 'BaronLight';
+	src: url('/fonts/BaronNeue-Regular.otf');
+}
+
 :root {
 	font-family: 'Roboto', sans-serif;
 }
 
 .baron {
 	font-family: 'Baron', sans-serif;
+}
+
+.baron-light {
+	font-family: 'BaronLight', sans-serif;
+}
+
+hr {
+	border-color: white;
+	border-width: 2px;
 }
 
 #svelte {
