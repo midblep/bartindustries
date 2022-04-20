@@ -20,7 +20,7 @@
 
 	if (disabled) {
 		url = null;
-		classes += " cursor-not-allowed";
+		classes += " cursor-not-allowed text-gray-400";
 	}
 </script>
 

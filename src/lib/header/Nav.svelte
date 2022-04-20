@@ -17,7 +17,6 @@
 		<Button disabled="true" url="/esu" text="📒 ESU" />
 		<Button disabled="true" url="/portfolio" text="🧰 works" />
 		<Button disabled="true" url="/furry" text="🐈‍⬛ Furry" />
-		<Button disabled="true" url="http://ad.localhost" text="🔞 AD Site" />
 		<span><ThemeSwitcher /></span>
 	</div>
 	<div class="flex lg:hidden h-14">

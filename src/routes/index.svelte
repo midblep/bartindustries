@@ -30,7 +30,6 @@
 
 	<section class="bg-gray-200 dark:bg-gray-800 -mt-1">
 		<div class="container px-5 flex flex-col gap-10 justify-center">
-			<h2 class="text-2xl font-bold italic">Places I'm a part of</h2>
 
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
@@ -126,10 +125,6 @@
 					</p>
 				</Card>
 			</div>
-
-			<br class="my-5"/>
-
-			<h2 class="text-2xl font-bold italic">Things I built</h2>
 
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
