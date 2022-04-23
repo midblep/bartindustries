@@ -13,7 +13,7 @@
 			<!-- <Button url="/" text="<img src='/bart.png' />" type="title" /> -->
 			<img src="/bart.png" alt="Logo" class="h-full px-5 py-3 transform hover:scale-95 duration-300" />
 		</a>
-		<div class="hidden lg:flex h-16 baron-light">
+		<div class="hidden lg:flex h-16">
 			<Button url="/" text="Home" />
 			<Button disabled="true" url="/portfolio" text="Portfolio" />
 			<Button disabled="true" url="/experience" text="Experience" />
