@@ -4,7 +4,7 @@
 	export let type;
 	export let disabled;
 
-	let classes = "h-full py-2 px-10 flex justify-center items-center lowercase group";
+	let classes = "h-full py-2 px-10 flex justify-center items-center uppercase group";
 
 	switch (type) {
 		case "title":
@@ -14,7 +14,7 @@
 
 		default:
 			classes +=
-				" hover:bg-white hover:bg-opacity-30 text-white font-bold text-lg duration-300";
+				" hover:bg-white hover:bg-opacity-20 text-white font-bold text-lg duration-300";
 			break;
 	}
 
