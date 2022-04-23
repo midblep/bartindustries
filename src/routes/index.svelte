@@ -9,11 +9,11 @@
 </svelte:head>
 
 <main class="relative">
-	<section class="container py-20">
+	<section class="container py-10">
 		<Banner />
 	</section>
 
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="-mt-20">
 		<path
 			class="block dark:hidden"
 			fill="rgba(229, 231, 235, 1)"
@@ -183,7 +183,7 @@
 	>
 		<img src="/contact.png" class="lg:w-1/3 h-full" alt="contact" />
 
-		<div class="lg:w-1/3">
+		<div class="lg:w-1/3" id="contact">
 			<Form />
 		</div>
 	</section>

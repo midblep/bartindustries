@@ -12,11 +12,19 @@
 		"/banner8.png",
 	];
 
-	const randomBannerPic = array[Math.floor(Math.random() * array.length)];
+	let randomBannerPic = array[Math.floor(Math.random() * array.length)];
+	randomBannerPic = "/banner.png";
 </script>
 
-<main class="flex gap-10 items-center justify-between px-6 lg:px-20">
-	<div class="flex flex-col gap-5 justify-center w-full">
+<main class="flex gap-5 items-center justify-between px-6 lg:px-20">
+	<div class="hidden lg:block h-full w-1/2">
+		<img
+			src={randomBannerPic}
+			alt="mid"
+		/>
+	</div>
+
+	<div class="flex flex-col gap-5 justify-center w-3/5">
 		<span>
 			<img src="/hello.png" alt="Hello!" class="h-20 popout" />
 		</span>
@@ -24,7 +32,7 @@
 		<span class="flex flex-wrap gap-2 items-end">
 			<h2 class="text-4xl font-extrabold">I'm Midnight,</h2>
 			<span class="text-3xl font-extralight">
-				i like to make things on the interwebs
+				i like to make things on the web
 			</span>
 		</span>
 
@@ -32,20 +40,15 @@
 
 		<span class="my-2">
 			<p class="text-gray-800 dark:text-gray-300 lg:w-3/4">
-				Bart Industries is a collection of my works, projects and
-				ambitions <br /> including my furry characters, stories and other
-				things i feel like sharing online.
+				Bart Industries is a collection of everything I've done such as my projects, involvements and ambitions,
+				but also other things such as my furry side, stories and everything else I feel like sharing.
+				<br/><br/>
+				I am open for work opportunities,
+				If you want to reach out you can use one of the methods below or <a href="#contact" class="a">use the contact form</a>.
 			</p>
 		</span>
 
 		<Socials />
-	</div>
-
-	<div class="hidden lg:block float h-full w-2/3">
-		<img
-			src={randomBannerPic}
-			alt="mid"
-		/>
 	</div>
 </main>
 

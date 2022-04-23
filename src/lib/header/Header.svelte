@@ -3,9 +3,9 @@
 </script>
 
 <main
-	class="bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-40"
+	class="bg-gradient-to-l from-orange-500 to-amber-500 dark:bg-opacity-50 text-black dark:text-white z-40 overflow-hidden"
 >
-	<section class="container">
+	<section class="">
 		<Nav />
 	</section>
 </main>

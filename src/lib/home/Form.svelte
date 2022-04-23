@@ -20,7 +20,7 @@
 	</span>
 
 	<section
-		class="bg-gray-200 dark:bg-gray-800 p-10 rounded-xl shadow w-full flex flex-col gap-5"
+		class="bg-slate-400 bg-opacity-10 dark:bg-gray-800 p-10 rounded-xl shadow w-full flex flex-col gap-5"
 	>
 		<h3 class="text-xl font-bold">Quick compose email</h3>
 

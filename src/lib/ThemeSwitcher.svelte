@@ -3,7 +3,7 @@
 	import { getCookie } from "./helpers/cookies";
 
 	let classes =
-		"w-full h-full py-1 px-5 flex justify-center items-center hover:bg-orange-200 dark:hover:bg-orange-700 duration-300";
+		"h-full py-2 px-5 flex justify-center items-center group hover:bg-white hover:bg-opacity-30 text-white text-lg duration-300";
 
 	function switchTheme() {
 		if (document.documentElement.classList.contains("dark")) {
@@ -15,13 +15,13 @@
 
 	function setLight() {
 		document.documentElement.classList.remove("dark");
-		document.querySelector("#theme").innerHTML = "🌙";
+		document.querySelector("#theme").innerHTML = "Set to Dark";
 		document.cookie = "theme=light";
 	}
 
 	function setDark() {
 		document.documentElement.classList.add("dark");
-		document.querySelector("#theme").innerHTML = "☀️";
+		document.querySelector("#theme").innerHTML = "Set to Light";
 		document.cookie = "theme=dark";
 	}
 
@@ -38,5 +38,7 @@
 </script>
 
 <button type="none" class={classes} on:click={switchTheme} id="theme">
-	☀️ <span class="text-xs text-gray-400 px-2">/</span> 🌙
+	<span class="transform group-hover:scale-90 duration-300">
+		Dark / Light
+	</span>
 </button>

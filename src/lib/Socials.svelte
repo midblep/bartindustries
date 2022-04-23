@@ -2,7 +2,7 @@
 	import Social from "./footer/Social.svelte";
 </script>
 
-<span class="flex gap-10">
+<span class="flex gap-3">
 	<Social
 		url="https://twitter.com/midblep"
 		title="The Bird App"

@@ -10,8 +10,10 @@
 <a
 	href={url}
 	{title}
-	class="text-xs flex flex-col justify-center hover:scale-110 duration-150"
+	class="rounded-xl bg-opacity-10 bg-slate-400 hover:bg-orange-100 hover:scale-110 duration-150"
 >
-	<span class="text-4xl ">{icon}</span>
-	<span class="text-gray-600 dark:text-gray-300 font-light text-center">{text}</span>
+	<div class="aspect-square flex flex-col items-center justify-center p-5">
+		<span class="text-5xl ">{icon}</span>
+		<span class="text-gray-600 dark:text-gray-300 font-light text-base text-center">{text}</span>
+	</div>
 </a>

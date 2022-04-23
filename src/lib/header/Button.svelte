@@ -4,7 +4,7 @@
 	export let type;
 	export let disabled;
 
-	let classes = "h-full py-2 px-5 flex justify-center items-center lowercase";
+	let classes = "h-full py-2 px-10 flex justify-center items-center lowercase group";
 
 	switch (type) {
 		case "title":
@@ -14,16 +14,18 @@
 
 		default:
 			classes +=
-				" hover:bg-orange-200 dark:hover:bg-orange-700 duration-300";
+				" hover:bg-white hover:bg-opacity-30 text-white font-bold text-lg duration-300";
 			break;
 	}
 
 	if (disabled) {
 		url = null;
-		classes += " cursor-not-allowed text-gray-400";
+		classes += " cursor-not-allowed text-white opacity-50";
 	}
 </script>
 
 <a href={url} class={classes}>
-	{text}
+	<p class="transform group-hover:scale-110 duration-300">
+		{text}
+	</p>
 </a>
