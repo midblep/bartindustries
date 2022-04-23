@@ -1,8 +1,6 @@
 <script>
-import { browser } from "$app/env";
-
 	import Socials from "$lib/Socials.svelte";
-import { onMount } from "svelte";
+	import { onMount } from "svelte";
 
 	const array = [
 		"/banner1.png",
@@ -35,7 +33,13 @@ import { onMount } from "svelte";
 		"SvelteKit",
 		"Python",
 		"Java",
-		"JavaFX"
+		"JavaFX",
+		"NGINX",
+		"Docker",
+		"REST",
+		"GraphQL",
+		"TypeORM",
+		"Eloquent"
 	];
 
 	onMount(() => {
@@ -43,7 +47,7 @@ import { onMount } from "svelte";
 			let list = document.createElement('div');
 			list.classList.add('flex', 'gap-2');
 
-			for (let i = 0; i < 10; i++) {
+			for (let i = 0; i < 20; i++) {
 				const word = words[Math.floor(Math.random() * words.length)];
 				let element = document.createElement('span');
 				element.innerHTML = word;
@@ -101,10 +105,11 @@ import { onMount } from "svelte";
 
 <style>
 	.anim {
+		user-select: none;
 		opacity: 2%;
 		overflow: hidden;
 		animation: anim;
-		animation-duration: 120s;
+		animation-duration: 200s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 	}

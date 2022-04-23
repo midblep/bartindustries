@@ -5,7 +5,7 @@
 </script>
 
 <main
-	class="py-10 px-2 lg:px-10 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow"
+	class="py-10 px-2 lg:px-10 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-20"
 >
 	<section
 		class="container flex flex-col-reverse lg:flex-row justify-between gap-10"
