@@ -17,9 +17,9 @@
 	}
 </script>
 
-<div class="flex flex-col gap-2 w-full relative py-8 px-8 lg:px-12 lg:py-10 group hover:scale-105 hover:-translate-y-5 duration-300">
+<div class="flex flex-col gap-2 w-full relative py-8 px-8 lg:px-12 lg:py-10 group hover:-translate-y-1 duration-300">
 	<div
-		class="{skew} {color} absolute inset-0 z-0 w-full shadow-lg rounded-xl flex flex-col justify-end group-hover:shadow-2xl duration-300"
+		class="{skew} {color} absolute inset-0 z-0 w-full shadow-lg rounded-xl flex flex-col justify-end group-hover:shadow-xl duration-300"
 	>
 		{#if buttonText != null && buttonHref != null}
 			<a

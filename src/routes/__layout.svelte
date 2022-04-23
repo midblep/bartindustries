@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-	<Construction />
+	<!-- <Construction /> -->
 
 	<div class="min-h-screen">
 		<Header />

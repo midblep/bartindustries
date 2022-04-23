@@ -145,6 +145,50 @@
 						I developed this website in exchange for artistic goods.
 						It is hosted on Vercel and built on top of SvelteKit.
 						It features a fully mobile compatible design that catches your eye from the moment you visit the homepage.
+						Great detail went into making sure no part of the site is boring, such as giving buttons that extra pop and even making a little blurred leaf pattern for the background on pages that get very long.
+					</p>
+				</Card>
+
+				<Card
+					buttonHref="https://invesvpo.com"
+					buttonRedirect="_blank"
+					buttonText="🌐 Visit Website"
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						<img
+							src="/invesvpo.png"
+							class="h-10 -my-2"
+							alt="invesvpo"
+						/>
+						Invesvpo
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I made a website for a friend called Invesvpo, who wanted a place to show to people to redirect them to his social media, and also to tell them what kind of stuff he does.
+						It was created with the NextJS on React in 2021 by me entirely.
+					</p>
+				</Card>
+
+				<Card
+					buttonHref="https://trickthefox.com/"
+					buttonRedirect="_blank"
+					buttonText="🌐 Visit Website"
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						<img
+							src="/trick.png"
+							class="h-8 rounded-full"
+							alt="trick"
+						/>
+						Trick The Fox
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						Trick The Fox was made with NextJS using React in 2021. It had several updates over time later on and features some nice secrets.
+						It connects to an Airtable database to store simple data such as gallery entries, which can then be managed by the client with Airtable's easy spreadsheet-like interface.
+						Hosted with Vercel, this package is completely free to run and maintain thanks to Airtable's free tier and its only cost are that of the domain.
 					</p>
 				</Card>
 
@@ -153,7 +197,7 @@
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
 					>
-						More here soon...
+						More soon...
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
 						I am still working on this website, and adding my previous works to this as I go. I have done many more things than this though!

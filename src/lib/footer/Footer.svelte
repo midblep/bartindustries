@@ -11,12 +11,12 @@
 		class="container flex flex-col-reverse lg:flex-row justify-between gap-10"
 	>
 		<div class="flex flex-col gap-3">
-			<h4 class="font-sm font-bold">Bart Industries</h4>
+			<h4 class="text-xl font-bold baron-light">Bart Industries</h4>
 			<hr />
-			<p class="text-xs">Copyright 2022 Mid</p>
+			<p class="text-xs">Copyright 2022 Mid // Midblep. All rights reserved.</p>
 		</div>
 
-		<div class="flex flex-col gap-5 lg:items-end">
+		<!-- <div class="flex flex-col gap-5 lg:items-end">
 			<Socials />
 			<div class="text-amber-500 flex gap-2 items-center font-bold">
 				<span class="text-xs">Theme:</span>
@@ -24,6 +24,6 @@
 					><ThemeSwitcher /></span
 				>
 			</div>
-		</div>
+		</div> -->
 	</section>
 </main>

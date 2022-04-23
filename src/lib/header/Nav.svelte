@@ -15,8 +15,9 @@
 		</a>
 		<div class="hidden lg:flex h-16 baron-light">
 			<Button url="/" text="Home" />
+			<Button disabled="true" url="/portfolio" text="Portfolio" />
+			<Button disabled="true" url="/experience" text="Experience" />
 			<Button disabled="true" url="/esu" text="ESU" />
-			<Button disabled="true" url="/portfolio" text="works" />
 			<Button disabled="true" url="/furry" text="Furry" />
 		</div>
 	</div>
@@ -26,8 +27,9 @@
 	<div class="flex lg:hidden h-16">
 		<Dropdown text="🍔">
 			<Button url="/" text="Home" />
+			<Button disabled="true" url="/portfolio" text="Portfolio" />
+			<Button disabled="true" url="/experience" text="Experience" />
 			<Button disabled="true" url="/esu" text="ESU" />
-			<Button disabled="true" url="/portfolio" text="works" />
 			<Button disabled="true" url="/furry" text="Furry" />
 			<ThemeSwitcher />
 		</Dropdown>
