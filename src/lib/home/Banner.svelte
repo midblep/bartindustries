@@ -39,11 +39,11 @@ import { onMount } from "svelte";
 	];
 
 	onMount(() => {
-		for(let j = 0; j < 12; j++) {
+		for(let j = 0; j < 10; j++) {
 			let list = document.createElement('div');
-			list.classList.add('flex', 'gap-5');
+			list.classList.add('flex', 'gap-2');
 
-			for (let i = 0; i < 20; i++) {
+			for (let i = 0; i < 10; i++) {
 				const word = words[Math.floor(Math.random() * words.length)];
 				let element = document.createElement('span');
 				element.innerHTML = word;
@@ -60,8 +60,8 @@ import { onMount } from "svelte";
 </script>
 
 <main class="flex gap-5 items-center pt-5 pb-60 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
-	<div class="absolute inset-0 w-full h-full flex flex-col items-center gap-2 justify-center font-bold anim" id="lists">
-	</div>
+	<div class="absolute inset-0 w-full h-full flex flex-col items-center gap-1 justify-center font-bold anim text-xs" id="lists"></div>
+
 	<div class="container flex gap-5 items-center pt-5 pb-20 justify-between px-6 lg:px-20">
 		<div class="hidden lg:block h-full w-1/2 z-10">
 			<img
@@ -104,17 +104,17 @@ import { onMount } from "svelte";
 		opacity: 2%;
 		overflow: hidden;
 		animation: anim;
-		animation-duration: 60s;
+		animation-duration: 120s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 	}
 
 	@keyframes anim {
 		0% {
-			transform: scale(5) translate(100px, -100px) rotate(-45deg);
+			transform: scale(10) translate(100px, -100px) rotate(-45deg);
 		}
 		100% {
-			transform: scale(5) translate(-100px, 100px) rotate(-45deg);
+			transform: scale(10) translate(-100px, 100px) rotate(-45deg);
 		}
 	}
 	.popout {
