@@ -39,7 +39,15 @@
 		"REST",
 		"GraphQL",
 		"TypeORM",
-		"Eloquent"
+		"Eloquent",
+		"Express",
+		"Linux",
+		"Composer",
+		"AlpineJS",
+		"Blade",
+		"JSX",
+		"Pug",
+		"Wordpress"
 	];
 
 	onMount(() => {
