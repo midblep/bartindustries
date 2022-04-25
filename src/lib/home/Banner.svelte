@@ -68,7 +68,7 @@
 	});
 
 	let randomBannerPic = array[Math.floor(Math.random() * array.length)];
-	randomBannerPic = "/banner.png";
+	randomBannerPic = "/homepage/banner.png";
 </script>
 
 <main class="flex gap-5 items-center pt-5 pb-60 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
@@ -99,7 +99,7 @@
 			<span class="my-2">
 				<p class="text-gray-800 dark:text-gray-300 lg:w-3/4">
 					Bart Industries is a collection of everything I've done such as my projects, involvements and ambitions,
-					but also other things such as my furry side, stories and everything else I feel like sharing.
+					but also other things such as my furry side, stories, socials, blogposts and everything else I feel like sharing.
 					<br/><br/>
 					I am open for opportunities,
 					if you want to reach out you can use one of the methods below or <a href="#contact" class="a">the contact form</a>.
@@ -109,12 +109,9 @@
 			<Socials />
 		</div>
 
-		<div class="hidden lg:flex 3xl:hidden absolute left-0 bottom-0 w-full justify-center mb-40 z-50 text-8xl float scale-x-110 text-blue-600">
-			🠗
-			<div class="absolute inset-0 flex justify-center -mt-5 font-bold text-black dark:text-white text-lg">
-				See What I've Made
-			</div>
-		</div>
+		<span class="flex absolute left-0 bottom-0 w-full justify-center mb-40 z-50 text-8xl float text-blue-600">
+			<img src="/downarrow.png" class="w-10" />
+		</span>
 	</div>
 </main>
 
@@ -180,15 +177,15 @@
 	@keyframes float {
 		0% {
 			padding-top: 0px;
-			padding-bottom: 20px;
+			padding-bottom: 30px;
 		}
 		50% {
 			padding-top: 10px;
-			padding-bottom: 10px;
+			padding-bottom: 20px;
 		}
 		100% {
 			padding-top: 0px;
-			padding-bottom: 20px;
+			padding-bottom: 30px;
 		}
 	}
 </style>

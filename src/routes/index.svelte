@@ -28,7 +28,7 @@
 		</svg>
 	</div>
 
-	<section class="bg-gray-200 dark:bg-gray-800 z-20">
+	<section class="bg-gray-200 pt-10 dark:bg-gray-800 z-20" id="works">
 		<div class="container px-5 flex flex-col gap-10 justify-center">
 			<div class="flex flex-col gap-5">
 				<h2 class="font-bold text-4xl">I do a lot of things</h2>
@@ -43,7 +43,6 @@
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
-					color="bg-gradient-to-br from-blue-300 to-blue-400 dark:bg-gradient-to-br dark:from-blue-700 dark:to-blue-900"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -55,29 +54,27 @@
 						/> Puppy Pride
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I was the sole developer of the new Puppy Pride social
-						network over the course of 2021, and continuing on to
-						this day. The whole site was built from the ground up
+						I was the developer of the new Puppy Pride social
+						network over the course of 2021, and continue to support and expand
+						it to this day. The site was built from the ground up
 						using the TALL stack in PHP.
 						<br /><br />
-						The network sports a whole array of social features including
-						blogging, picture albums, statuses, extensive user profiles,
-						events, customizable groups with roles and custom pages,
+						The site sports a whole array of social features including
+						blogging, picture albums, statuses, user profiles, forums,
+						events, groups with roles and custom pages, location data,
 						instant messaging, various networking tools like friending
 						and blocking, notifications through channels like push and
-						mail, live feed, subscriptions and views, extensive comment
-						sections, discussions, and much more.
+						mail, live feed, subscriptions and viewcounts, comment
+						sections, likes and followers, and much more.
 						<br /><br />
 						The project is nearing completion and will be released soon.
-						Puppy Pride is the world's leading pup play community and
-						has tens of thousands of members across the globe.
+						You may find a beta release public at <a class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
 					</p>
 				</Card>
 
 				<Card
 					buttonHref="https://discord.gg/ygw4DNnKvt"
 					buttonText="🚪 Join the Discord"
-					color="bg-gradient-to-br from-orange-300 to-orange-400 dark:bg-gradient-to-br dark:from-orange-700 dark:to-orange-900"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -127,9 +124,6 @@
 						construction of any type, be it a webapp or simple portfolio.
 						We focus on efficiency in communication and satisfaction
 						of the end result.
-						<br /><br />
-						We are also expanding into the SaaS business with our own Cloud Storage solution built on top
-						of Nextcloud and a communication platform in the works called Flame.
 					</p>
 				</Card>
 			</div>
@@ -143,7 +137,7 @@
 				</p>
 			</div>
 
-			<div class="grid grid-cols-1 lg:grid-cols-4 gap-10 justify-between">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
 					buttonHref="https://sivkyne.xyz"
 					buttonRedirect="_blank"
@@ -187,6 +181,27 @@
 					</p>
 				</Card>
 
+				<span class="row-span-3">
+					<Card
+					>
+						<h3
+							class="text-xl font-bold inline-flex items-center gap-3"
+						>
+							🙋
+							Want your own?
+						</h3>
+						<p class="text-sm text-gray-800 dark:text-gray-100">
+							My focus is on making people ''wow'' when they open your site with a design that is something truly unique and represents you. <br/><br/>
+							Anything is possible! Your site can have your socials, a blog, an email contact form, a gallery, and anything else.
+							In some cases a site's upkeep can be entirely free forever, too! <br/><br/>
+							I am open to requests so if you want to explore the possibilities of having your own website and what one can do for you, please feel free to <a class="a" href="#contact">contact me</a>.
+							<br/><br/>
+							If you are a larger business, have complicated needs or desire a more formal agreement please <a class="a" href="https://dubbelnull.com" target="_blank">contact me via my company DubbelNull</a>.
+						</p>
+						<img src="/banner4.png" class="w-full -mb-10"/>
+					</Card>
+				</span>
+
 				<Card
 					buttonHref="https://trickthefox.com/"
 					buttonRedirect="_blank"
@@ -214,15 +229,12 @@
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
 					>
-						🙋
-						Want your own?
+						Upcoming: Sona Factory
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						My focus is on making people ''wow'' when they open the site and design something truly unique that represents you and your style.
-						Smaller websites can feature a range of things such as your socials, blog, contact form, CMS pages, gallery, and much more. In certain cases, their upkeep can be entirely free forever!
-						I am open to requests so if you want to explore the possibilities of having your own website and what one can do for you, please feel free to <a class="a" href="#contact">contact me</a>.
-						<br/><br/>
-						If you are a larger business, have complicated needs or desire a more formal agreement please contact me via my company DubbelNull.
+						I am currently working on developing a portfolio site called Sona Factory,
+						featuring an open folder directory containing arts and works, a gallery and contact form,
+						and unique page designs for various characters displayed on the site called fursonas.
 					</p>
 				</Card>
 			</div>
