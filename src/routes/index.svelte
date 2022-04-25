@@ -266,7 +266,8 @@
 
 		<img src="/homepage/fullbody.png" class="lg:w-1/3 h-full z-10" alt="contact" />
 
-		<div class="absolute inset-0 w-full h-full opacity-50 bg-contain bg-no-repeat bg-center" style="background-image: url('homepage/blob2.svg')"></div>
+		<div class="absolute inset-0 w-full h-full opacity-80 bg-contain bg-no-repeat bg-center block dark:hidden" style="background-image: url('homepage/blob2-light.svg')"></div>
+		<div class="absolute inset-0 w-full h-full opacity-20 bg-contain bg-no-repeat bg-center hidden dark:block" style="background-image: url('homepage/blob2-dark.svg')"></div>
 		<!-- <div class="absolute right-0 top-0 bottom-0 w-1/2 h-full opacity-5 bg-contain bg-no-repeat" style="background-image: url('homepage/fullbody.png')"></div> -->
 	</section>
 </main>
