@@ -14,15 +14,12 @@
 	}
 </script>
 
-<main class="flex flex-col gap-5">
-	<span class="p-5 flex justify-center">
-		<Socials />
-	</span>
+<main class="flex flex-col gap-10">
+	<img src="/homepage/contact.png" class="w-1/2" />
 
 	<section
-		class="bg-slate-400 bg-opacity-10 dark:bg-gray-800 p-10 rounded-xl shadow w-full flex flex-col gap-5"
+		class="bg-slate-200 dark:bg-gray-800 p-10 rounded-xl shadow w-full flex flex-col gap-5"
 	>
-		<h3 class="text-xl font-bold">Quick compose email</h3>
 
 		<form
 			class="flex flex-col gap-5"
@@ -45,7 +42,7 @@
 					id="email"
 					name="email"
 					type="text"
-					class="text-lg py-1 px-2 rounded-lg shadow dark:bg-gray-600"
+					class="py-1 px-2 rounded-lg shadow dark:bg-gray-600"
 					bind:value={email}
 				/>
 			</div>
@@ -57,7 +54,7 @@
 				<textarea
 					id="message"
 					name="message"
-					class="text-lg py-1 px-2 rounded-lg shadow dark:bg-gray-600"
+					class="py-1 px-2 rounded-lg shadow dark:bg-gray-600"
 					bind:value={message}
 					rows="5"
 				/>
@@ -68,7 +65,7 @@
                     <button
                         type="submit"
                         on:click={send}
-                        class="bg-white dark:bg-black py-2 px-3 rounded-lg font-bold shadow button"
+                        class="bg-blue-600 py-2 px-3 rounded-lg font-bold text-white shadow button"
                         >Send</button
                     >
                 {:else}
@@ -89,6 +86,8 @@
 			{/if}
 		</form>
 	</section>
+
+	<Socials />
 </main>
 
 <style>

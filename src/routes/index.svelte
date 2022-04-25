@@ -191,7 +191,7 @@
 							Want your own?
 						</h3>
 						<p class="text-sm text-gray-800 dark:text-gray-100">
-							My focus is on making people ''wow'' when they open your site with a design that is something truly unique and represents you. <br/><br/>
+							My focus is on making people ''wow'' when they open your site with a design that is something truly unique and representing of you and your brand. <br/><br/>
 							Anything is possible! Your site can have your socials, a blog, an email contact form, a gallery, and anything else.
 							In some cases a site's upkeep can be entirely free forever, too! <br/><br/>
 							I am open to requests so if you want to explore the possibilities of having your own website and what one can do for you, please feel free to <a class="a" href="#contact">contact me</a>.
@@ -257,12 +257,16 @@
 	</svg>
 
 	<section
-		class="container px-5 lg:px-0 pb-20 flex flex-col lg:flex-row gap-10 justify-between items-center lg:items-start"
+		class="relative container px-5 lg:px-0 mb-20 flex flex-col lg:flex-row gap-10 h-full justify-center items-center"
+		id="contact"
 	>
-		<img src="/contactblue.png" class="lg:w-1/3 h-full" alt="contact" />
-
-		<div class="lg:w-1/3" id="contact">
+		<div class="lg:w-1/3 z-10">
 			<Form />
 		</div>
+
+		<img src="/homepage/fullbody.png" class="lg:w-1/3 h-full z-10" alt="contact" />
+
+		<div class="absolute inset-0 w-full h-full opacity-50 bg-contain bg-no-repeat bg-center" style="background-image: url('homepage/blob2.svg')"></div>
+		<!-- <div class="absolute right-0 top-0 bottom-0 w-1/2 h-full opacity-5 bg-contain bg-no-repeat" style="background-image: url('homepage/fullbody.png')"></div> -->
 	</section>
 </main>
