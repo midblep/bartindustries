@@ -28,8 +28,16 @@
 		</svg>
 	</div>
 
-	<section class="bg-gray-200 dark:bg-gray-800 pt-20 z-20">
+	<section class="bg-gray-200 dark:bg-gray-800 z-20">
 		<div class="container px-5 flex flex-col gap-10 justify-center">
+			<div class="flex flex-col gap-5">
+				<h2 class="font-bold text-4xl">I do a lot of things</h2>
+				<p>
+					Like any aspiring developer my ambitions are great, and so I tend to be part of a lot of places.
+					<br/>
+					Below are some of the things I do and develop for, resulting in experience with a range of technologies and people.
+				</p>
+			</div>
 
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
@@ -126,7 +134,16 @@
 				</Card>
 			</div>
 
-			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
+			<hr class="my-10 opacity-10" />
+
+			<div class="flex flex-col gap-5">
+				<h2 class="font-bold text-4xl">I make stunning pages that fit</h2>
+				<p>
+					I love to make personalized websites for small creators and businesses that truly show their personality to the world with unique design.
+				</p>
+			</div>
+
+			<div class="grid grid-cols-1 lg:grid-cols-4 gap-10 justify-between">
 				<Card
 					buttonHref="https://sivkyne.xyz"
 					buttonRedirect="_blank"
@@ -197,10 +214,15 @@
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
 					>
-						More soon...
+						🙋
+						Want your own?
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I am still working on this website, and adding my previous works to this as I go. I have done many more things than this though!
+						My focus is on making people ''wow'' when they open the site and design something truly unique that represents you and your style.
+						Smaller websites can feature a range of things such as your socials, blog, contact form, CMS pages, gallery, and much more. In certain cases, their upkeep can be entirely free forever!
+						I am open to requests so if you want to explore the possibilities of having your own website and what one can do for you, please feel free to <a class="a" href="#contact">contact me</a>.
+						<br/><br/>
+						If you are a larger business, have complicated needs or desire a more formal agreement please contact me via my company DubbelNull.
 					</p>
 				</Card>
 			</div>

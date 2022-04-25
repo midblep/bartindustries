@@ -90,7 +90,7 @@
 			<span class="flex flex-wrap gap-2 items-end">
 				<h2 class="text-4xl font-extrabold">I'm Midnight,</h2>
 				<span class="text-3xl font-extralight">
-					i like to make things on the web
+					I like to make things on the web
 				</span>
 			</span>
 
@@ -101,12 +101,19 @@
 					Bart Industries is a collection of everything I've done such as my projects, involvements and ambitions,
 					but also other things such as my furry side, stories and everything else I feel like sharing.
 					<br/><br/>
-					I am open for work opportunities,
-					If you want to reach out you can use one of the methods below or <a href="#contact" class="a">use the contact form</a>.
+					I am open for opportunities,
+					if you want to reach out you can use one of the methods below or <a href="#contact" class="a">the contact form</a>.
 				</p>
 			</span>
 
 			<Socials />
+		</div>
+
+		<div class="hidden lg:flex 3xl:hidden absolute left-0 bottom-0 w-full justify-center mb-40 z-50 text-8xl float scale-x-110 text-blue-600">
+			🠗
+			<div class="absolute inset-0 flex justify-center -mt-5 font-bold text-black dark:text-white text-lg">
+				See What I've Made
+			</div>
 		</div>
 	</div>
 </main>
@@ -117,7 +124,7 @@
 		opacity: 2%;
 		overflow: hidden;
 		animation: anim;
-		animation-duration: 200s;
+		animation-duration: 120s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 	}
@@ -165,7 +172,7 @@
 
 	.float {
 		animation: float;
-		animation-duration: 3s;
+		animation-duration: 2s;
 		animation-iteration-count: infinite;
 		animation-timing-function: ease-in-out;
 	}
@@ -173,15 +180,15 @@
 	@keyframes float {
 		0% {
 			padding-top: 0px;
-			padding-bottom: 10px;
+			padding-bottom: 20px;
 		}
 		50% {
 			padding-top: 10px;
-			padding-bottom: 0px;
+			padding-bottom: 10px;
 		}
 		100% {
 			padding-top: 0px;
-			padding-bottom: 10px;
+			padding-bottom: 20px;
 		}
 	}
 </style>
