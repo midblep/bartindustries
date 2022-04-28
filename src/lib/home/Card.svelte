@@ -31,6 +31,6 @@
 	{/if}
 
 	{#if disabled}
-		<span class="absolute inset-0 flex justify-center items-center -rotate-45 text-red-500 font-bold text-6xl group-hover:-translate-y-1 duration-300">UNFINISHED</span>
+		<span class="absolute inset-0 flex justify-center text-center items-center text-white -rotate-45 font-bold text-6xl group-hover:-translate-y-1 duration-300 select-none">UNFINISHED PROJECT</span>
 	{/if}
 </div>
