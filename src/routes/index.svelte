@@ -43,6 +43,7 @@
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
+					disabled="true"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"

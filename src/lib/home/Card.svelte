@@ -2,16 +2,23 @@
 	export let buttonText;
 	export let buttonRedirect = "";
 	export let buttonHref;
+	export let disabled;
+
+	let classes = "z-10 flex flex-col group relative";
+
+	if(disabled) {
+		classes += " opacity-50";
+	}
 </script>
 
-<div class="z-10 flex flex-col group">
+<div class={classes}>
 	<span class="h-4 group-hover:-translate-y-1 bg-blue-600 rounded-t-xl duration-300"></span>
 
 	<div class="flex-grow flex flex-col gap-2 w-full relative p-10 group-hover:-translate-y-1 duration-300 bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-800 dark:to-gray-700">
 		<slot />
 	</div>
 
-	{#if buttonText != null && buttonHref != null}
+	{#if buttonText != null && buttonHref != null && !disabled}
 		<a
 			href={buttonHref}
 			target={buttonRedirect}
@@ -21,5 +28,9 @@
 		</a>
 	{:else}
 		<span class="h-4 bg-opacity-50 group-hover:-translate-y-1 bg-white dark:bg-gray-900 rounded-b-xl duration-300"></span>
+	{/if}
+
+	{#if disabled}
+		<span class="absolute inset-0 flex justify-center items-center -rotate-45 text-red-500 font-bold text-6xl group-hover:-translate-y-1 duration-300">UNFINISHED</span>
 	{/if}
 </div>
