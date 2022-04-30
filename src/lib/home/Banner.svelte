@@ -32,6 +32,8 @@
 		"Svelte",
 		"SvelteKit",
 		"Python",
+		"Django",
+		"Vue",
 		"Java",
 		"JavaFX",
 		"NGINX",
