@@ -61,6 +61,7 @@
 				const word = words[Math.floor(Math.random() * words.length)];
 				let element = document.createElement('span');
 				element.innerHTML = word;
+				element.classList.add("text-9xl", "p-10");
 
 				list.appendChild(element);
 			}
@@ -73,8 +74,9 @@
 	randomBannerPic = "/homepage/banner.png";
 </script>
 
-<main class="flex gap-5 items-center pt-5 pb-60 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
-	<div class="absolute inset-0 w-full h-full flex flex-col items-center gap-1 justify-center font-bold anim text-xs" id="lists"></div>
+<main class="flex flex-col lg:flex-row gap-5 items-center pt-5 pb-60 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
+	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim" id="lists">
+	</div>
 
 	<div class="container flex gap-5 items-center pt-5 pb-20 justify-between px-6 lg:px-20">
 		<div class="hidden lg:block h-full w-1/2 z-10">
@@ -84,7 +86,7 @@
 			/>
 		</div>
 
-		<div class="flex flex-col gap-5 justify-center w-3/5 z-10">
+		<div class="flex flex-col gap-5 justify-center lg:w-3/5 z-10">
 			<span>
 				<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
 			</span>
@@ -121,19 +123,18 @@
 	.anim {
 		user-select: none;
 		opacity: 2%;
-		overflow: hidden;
 		animation: anim;
-		animation-duration: 120s;
+		animation-duration: 200s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 	}
 
 	@keyframes anim {
 		0% {
-			transform: scale(10) translate(100px, -100px) rotate(-45deg);
+			transform: translate(100%, -100%) rotate(-30deg);
 		}
 		100% {
-			transform: scale(10) translate(-100px, 100px) rotate(-45deg);
+			transform: translate(-100%, 100%) rotate(-30deg);
 		}
 	}
 	.popout {

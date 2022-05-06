@@ -27,13 +27,15 @@
 }
 
 .dark hr {
-	border-color: white;
-	border-width: 2px;
+	border: unset;
+	background-color: white;
+	height: 2px;
 }
 
 hr {
-	border-color: black;
-	border-width: 2px;
+	border: unset;
+	background-color: black;
+	height: 2px;
 }
 
 #svelte {

@@ -1,7 +1,10 @@
 <script>
+	import NavButton from "./NavButton.svelte";
+
 	export let text;
 	export let type;
 
+	let dropdown;
 	let classes = "h-full px-5 flex justify-center items-center";
 
 	switch (type) {
@@ -16,24 +19,24 @@
 			break;
 	}
 
-	function openMenu() {
-		let dropdown = document.querySelector("#dropdown");
-		console.log(dropdown);
-		dropdown.classList.toggle("block");
+	function toggle() {
+		dropdown.classList.toggle("flex");
 		dropdown.classList.toggle("hidden");
+		console.log(dropdown);
 	}
 </script>
 
-<main class="relative">
-	<!-- <MenuIcon /> -->
-	<button on:click={openMenu} type="none" class={classes} id="trigger">
+<main>
+	<button on:click={toggle} type="none" class={classes} id="trigger">
 		{text}
 	</button>
 
 	<div
-		class="absolute w-screen right-0 bg-white dark:bg-black hidden z-50"
-		id="dropdown"
+		class="fixed flex-col w-screen h-screen inset-0 bg-blue-600 hidden z-50"
+		bind:this={dropdown}
 	>
+		<NavButton text="Close Menu" on:click={toggle} />
+		<hr class="bg-white" />
 		<slot />
 	</div>
 </main>

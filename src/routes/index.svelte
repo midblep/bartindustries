@@ -11,7 +11,7 @@
 <main>
 	<Banner />
 
-	<div class="relative h-80 -mt-80 overflow-hidden">
+	<div class="relative h-56 lg:h-80 -mt-80 overflow-hidden">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute inset-0 h-96 w-full scale-x-150">
 			<path
 				class="block dark:hidden"
@@ -43,7 +43,7 @@
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
-					disabled="true"
+					disabled={true}
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -258,17 +258,16 @@
 	</svg>
 
 	<section
-		class="relative container px-5 lg:px-0 mb-20 flex flex-col lg:flex-row gap-10 h-full justify-center items-center"
+		class="relative container overflow-hidden px-5 lg:px-0 mb-20 flex flex-col lg:flex-row gap-10 h-full justify-center items-center"
 		id="contact"
 	>
 		<div class="lg:w-1/3 z-10">
 			<Form />
 		</div>
 
-		<img src="/homepage/fullbody.png" class="lg:w-1/3 h-full z-10" alt="contact" />
+		<img src="/homepage/fullbody.png" class="lg:block hidden lg:w-1/3 h-full z-10" alt="contact" />
 
-		<div class="absolute inset-0 w-full h-full opacity-80 bg-contain bg-no-repeat bg-center block dark:hidden" style="background-image: url('homepage/blob2-light.svg')"></div>
-		<div class="absolute inset-0 w-full h-full opacity-20 bg-contain bg-no-repeat bg-center hidden dark:block" style="background-image: url('homepage/blob2-dark.svg')"></div>
-		<!-- <div class="absolute right-0 top-0 bottom-0 w-1/2 h-full opacity-5 bg-contain bg-no-repeat" style="background-image: url('homepage/fullbody.png')"></div> -->
+		<div class="absolute inset-0 w-full h-full opacity-80 bg-contain bg-no-repeat bg-center dark:hidden lg:block hidden" style="background-image: url('homepage/blob2-light.svg')"></div>
+		<div class="absolute inset-0 w-full h-full opacity-20 bg-contain bg-no-repeat bg-center hidden dark:block lg:block" style="background-image: url('homepage/blob2-dark.svg')"></div>
 	</section>
 </main>

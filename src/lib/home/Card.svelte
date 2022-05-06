@@ -1,10 +1,10 @@
 <script>
-	export let buttonText;
+	export let buttonText = "";
 	export let buttonRedirect = "";
-	export let buttonHref;
-	export let disabled;
+	export let buttonHref = "";
+	export let disabled = false;
 
-	let classes = "z-10 flex flex-col group relative";
+	let classes = "z-10 flex flex-col group relative overflow-hidden";
 
 	if(disabled) {
 		classes += " opacity-50";
@@ -31,6 +31,6 @@
 	{/if}
 
 	{#if disabled}
-		<span class="absolute inset-0 flex justify-center text-center items-center text-white -rotate-45 font-bold text-6xl group-hover:-translate-y-1 duration-300 select-none">UNFINISHED PROJECT</span>
+		<span class="absolute top-0 bottom-0 flex justify-center text-center items-center text-black dark:text-white -rotate-45 font-bold text-6xl group-hover:-translate-y-1 duration-300 select-none">UNFINISHED PROJECT</span>
 	{/if}
 </div>
