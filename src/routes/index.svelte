@@ -43,7 +43,6 @@
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
-					disabled={true}
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
@@ -69,7 +68,7 @@
 						sections, likes and followers, and much more.
 						<br /><br />
 						The project is nearing completion and will be released soon.
-						You may find a beta release public at <a class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
+						You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
 					</p>
 				</Card>
 
@@ -141,7 +140,6 @@
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
 				<Card
 					buttonHref="https://sivkyne.xyz"
-					buttonRedirect="_blank"
 					buttonText="🌐 Visit Website"
 				>
 					<h3
@@ -163,7 +161,6 @@
 
 				<Card
 					buttonHref="https://invesvpo.com"
-					buttonRedirect="_blank"
 					buttonText="🌐 Visit Website"
 				>
 					<h3
@@ -205,7 +202,6 @@
 
 				<Card
 					buttonHref="https://trickthefox.com/"
-					buttonRedirect="_blank"
 					buttonText="🌐 Visit Website"
 				>
 					<h3
