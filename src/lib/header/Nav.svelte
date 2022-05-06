@@ -1,5 +1,4 @@
 <script>
-	// @ts-nocheck
 	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
 
 	import NavButton from './NavButton.svelte';
@@ -17,10 +16,10 @@
 		</a>
 		<div class="hidden lg:flex h-16">
 			<NavButton url="/" text="Home" />
-			<NavButton disabled="true" url="/blog" text="Blog" />
-			<NavButton disabled="true" url="/portfolio" text="Portfolio" />
-			<NavButton disabled="true" url="/esu" text="ESU" />
-			<NavButton disabled="true" url="/furry" text="Furry" />
+			<NavButton disabled={true} url="/blog" text="Blog" />
+			<NavButton disabled={true} url="/portfolio" text="Portfolio" />
+			<NavButton disabled={true} url="/esu" text="ESU" />
+			<NavButton disabled={true} url="/furry" text="Furry" />
 		</div>
 	</div>
 	<div class="hidden lg:flex h-16">
@@ -29,10 +28,10 @@
 	<div class="flex lg:hidden h-16">
 		<NavDropdown text="🍔">
 			<NavButton url="/" text="Home" />
-			<NavButton disabled="true" url="/blog" text="Blog" />
-			<NavButton disabled="true" url="/portfolio" text="Portfolio" />
-			<NavButton disabled="true" url="/esu" text="ESU" />
-			<NavButton disabled="true" url="/furry" text="Furry" />
+			<NavButton disabled={true} url="/blog" text="Blog" />
+			<NavButton disabled={true} url="/portfolio" text="Portfolio" />
+			<NavButton disabled={true} url="/esu" text="ESU" />
+			<NavButton disabled={true} url="/furry" text="Furry" />
 			<hr class="bg-white" />
 			<ThemeSwitcher />
 		</NavDropdown>

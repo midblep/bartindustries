@@ -1,8 +1,8 @@
 <script>
 	import NavButton from "./NavButton.svelte";
 
-	export let text;
-	export let type;
+	export let text = "";
+	export let type = "";
 
 	let dropdown;
 	let classes = "h-full px-5 flex justify-center items-center";

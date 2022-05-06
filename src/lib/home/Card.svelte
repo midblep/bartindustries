@@ -1,7 +1,7 @@
 <script>
 	export let buttonText = "";
-	export let buttonRedirect = "";
-	export let buttonHref = "";
+	export let buttonRedirect = null;
+	export let buttonHref = null;
 	export let disabled = false;
 
 	let classes = "z-10 flex flex-col group relative overflow-hidden";
