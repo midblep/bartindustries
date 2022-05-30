@@ -8,10 +8,10 @@
 	<title>Home | Bart Industries</title>
 </svelte:head>
 
-<main>
+<main class="overflow-x-hidden">
 	<Banner />
 
-	<div class="relative h-56 lg:h-80 -mt-80 overflow-hidden">
+	<div class="relative h-56 lg:h-80 -mt-80 overflow-hidden scale-x-150">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute inset-0 h-96 w-full scale-x-150">
 			<path
 				class="block dark:hidden"
