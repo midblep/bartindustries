@@ -15,7 +15,7 @@
 </script>
 
 <main class="flex flex-col gap-10">
-	<img src="/homepage/contact.png" class="w-1/2" />
+	<img src="/homepage/contact.png" class="w-1/2" alt="fullbody of mid" />
 
 	<section
 		class="bg-slate-200 dark:bg-gray-800 p-10 rounded-xl shadow w-full flex flex-col gap-5"

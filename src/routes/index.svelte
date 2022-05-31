@@ -2,6 +2,7 @@
 	import Banner from "$lib/home/Banner.svelte";
 	import Card from "$lib/home/Card.svelte";
 	import Form from "$lib/home/Form.svelte";
+import Sona from "$lib/home/Sona.svelte";
 </script>
 
 <svelte:head>
@@ -254,7 +255,7 @@
 	</svg>
 
 	<section
-		class="relative container overflow-hidden px-5 lg:px-0 mb-20 flex flex-col lg:flex-row gap-10 h-full justify-center items-center"
+		class="relative container overflow-hidden px-5 lg:px-0 flex flex-col lg:flex-row gap-10 h-full justify-center items-center"
 		id="contact"
 	>
 		<div class="lg:w-1/3 z-10">
@@ -265,5 +266,32 @@
 
 		<div class="absolute inset-0 w-full h-full opacity-80 bg-contain bg-no-repeat bg-center dark:hidden lg:block hidden" style="background-image: url('homepage/blob2-light.svg')"></div>
 		<div class="absolute inset-0 w-full h-full opacity-20 bg-contain bg-no-repeat bg-center hidden dark:block lg:block" style="background-image: url('homepage/blob2-dark.svg')"></div>
+	</section>
+
+	<div class="relative h-56 lg:h-80 overflow-hidden scale-x-150 rotate-180 -mb-80 mt-40 z-30">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute inset-0 h-96 w-full scale-x-150">
+			<path
+				class="block dark:hidden"
+				fill="rgb(243 244 246)"
+				fill-opacity="1"
+				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+			/>
+			<path
+				class="hidden dark:block"
+				fill="rgb(17 24 39)"
+				fill-opacity="1"
+				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+			/>
+		</svg>
+	</div>
+
+	<section class="bg-gray-200 dark:bg-gray-800 relative" id="works">
+		<div class="inset-0 absolute flex justify-end overflow-hidden">
+			<img src="/homepage/sona/back.png" class="-mr-80 h-full w-auto" alt='background' />
+		</div>
+		<div class="inset-0 absolute bg-gradient-to-r dark:from-black dark:via-black from-white via-white"></div>
+		<div class="container px-5 flex pb-40 flex-col gap-10 justify-center pt-80">
+			<Sona/>
+		</div>
 	</section>
 </main>
