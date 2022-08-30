@@ -1,9 +1,11 @@
 <script>
-	import Socials from "$lib/Socials.svelte";
+	import Sona from "$lib/home/Sona.svelte";
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
-<main />
+<main class="">
+	<Sona/>
+</main>

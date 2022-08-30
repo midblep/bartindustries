@@ -1,41 +1,33 @@
-<script>
-
-</script>
-
-<main class="relative grid grid-cols-4 w-full gap-10">
-	<!-- <section class="flex justify-center items-center">
-		<div>
-			<img src="/homepage/sona/190REG2.png" alt="fullbody of mid" />
-		</div>
-	</section> -->
-	<section class="flex flex-col col-span-2 gap-10 items-center justify-between italic">
-		<img src="/homepage/sona/midtitle.png" class="w-40" alt="fullbody of mid" />
-		<h4 class="w-3/4 text-center">
-			Mid <sup>(aka Midnight)</sup> is my fursona <sup>(furry persona)</sup>. He is a fictional character that I use and represent myself with.
-			He is a cat twice as tall as you with black fur, blue hair and a sparkly tail, but can be seen as many forms and species including feral ones.
-			<br/><br/>
-			Some noticable traits are that he has an unusually large tail and whiskers. He also loves coffee, as any good Software Engineer should.
-		</h4>
-
-		<div class="flex flex-col gap-5">
-			<div class="grid grid-cols-3 gap-5">
-				<img src="/homepage/sona/pink.png" class="rounded-xl shadow-xl aspect-square" alt="sona symbol" />
-				<img src="/homepage/sona/blue.png" class="rounded-xl shadow-xl aspect-square" alt="sona symbol" />
-				<img src="/homepage/sona/hotdog.jpeg" class="rounded-xl shadow-xl aspect-square object-cover" alt="sona symbol" />
+<main class="flex flex-col gap-20 h-screen">
+	<section class="relative w-full h-full">
+		<!-- <div class="absolute inset-0 blur-xl overflow-hidden">
+			<img src="/furry/Background.png" class="w-full scale-110" alt="background" />
+		</div> -->
+		<article class="absolute inset-0 flex container mx-auto py-20 flex-col col-span-2 gap-10 items-center italic">
+			<div class="flex items-center gap-10">
+				<img src="/furry/MidFingers.jpg" class="rounded-full h-40 shadow-xl aspect-square" alt='background' />
+				<span>
+					<img src="/homepage/sona/midtitle.png" class="w-40" alt="fullbody of mid" />
+				</span>
 			</div>
-			<div class="grid grid-cols-5 gap-5">
-				<img src="/homepage/sona/midblep_2-2_sivkyne.png" class="rounded-xl shadow-xl aspect-square object-contain bg-black bg-opacity-50" alt="sona symbol" />
-				<img src="/homepage/sona/midblep_3.png" class="rounded-xl shadow-xl aspect-square bg-black bg-opacity-50" alt="sona symbol" />
-				<img src="/homepage/sona/midblep_7 (1).png" class="rounded-xl shadow-xl aspect-square bg-black bg-opacity-50" alt="sona symbol" />
-				<img src="/homepage/sona/midblep_2-3_sivkyne.png" class="rounded-xl shadow-xl aspect-square object-contain bg-black bg-opacity-50" alt="sona symbol" />
-				<img src="/homepage/sona/midblep_2-6_sivkyne.png" class="rounded-xl shadow-xl aspect-square bg-black bg-opacity-50" alt="sona symbol" />
+			<h4 class="w-1/2 text-center font-normal">
+				Mid <sup>(aka Midnight)</sup> is my primary fursona. He is a fictional character that I use and represent myself with online.
+				If you are wondering what a furry or fursona is, go check <a href="https://www.whatisfurry.org/" target="blank" class="text-blue-600 dark:text-blue-300 hover:underline">whatisfurry.org</a>.
+				<br/><br/>
+				Mid is a cat with black fur and blue hair that stands twice as tall as the people around him.
+				Some noticable traits are his unusually large whiskers, the white spot on his chest, and his fluffy tail. He also loves coffee, as any good programmer should.
+				<br/><br/>
+				A library of arts of Mid and other characters will be added to explore some time soon.
+			</h4>
+
+			<div class="flex justify-center w-full flex-col gap-5">
+				<div class="w-1/2 mx-auto grid grid-cols-4 gap-5">
+					<img src="/homepage/sona/midblep_2-2_sivkyne.png" class="rounded-xl aspect-square object-contain" alt="sona symbol" />
+					<img src="/homepage/sona/midblep_3.png" class="rounded-xl aspect-square" alt="sona symbol" />
+					<img src="/homepage/sona/midblep_7 (1).png" class="rounded-xl aspect-square" alt="sona symbol" />
+					<img src="/homepage/sona/midblep_2-6_sivkyne.png" class="rounded-xl aspect-square" alt="sona symbol" />
+				</div>
 			</div>
-		</div>
+		</article>
 	</section>
-
-	<!-- <section class="flex justify-center items-center">
-		<div>
-			<img src="/homepage/sona/190REG1.png" alt="fullbody of mid" />
-		</div>
-	</section> -->
 </main>
