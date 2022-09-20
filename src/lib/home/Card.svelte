@@ -9,7 +9,7 @@
 <div class={classes}>
 	<span class="h-4 group-hover:-translate-y-1 bg-blue-600 rounded-t-xl duration-300"></span>
 
-	<div class="flex-grow flex flex-col gap-2 w-full relative p-10 group-hover:-translate-y-1 duration-300 bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-800 dark:to-gray-700">
+	<div class="flex-grow flex flex-col gap-2 w-full relative p-10 group-hover:-translate-y-1 duration-300 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700">
 		<slot />
 	</div>
 

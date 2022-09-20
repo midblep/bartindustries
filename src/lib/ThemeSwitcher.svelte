@@ -2,8 +2,7 @@
 	import { onMount } from "svelte";
 	import { getCookie } from "./helpers/cookies";
 
-	let classes =
-		"h-full py-2 px-5 flex justify-center items-center group hover:bg-white hover:bg-opacity-30 text-white text-lg duration-300";
+	let classes = "h-full py-2 px-10 text-white flex justify-center items-center uppercase group hover:bg-white hover:bg-opacity-20 font-bold text-lg duration-300";
 
 	function switchTheme() {
 		if (document.documentElement.classList.contains("dark")) {
@@ -15,13 +14,13 @@
 
 	function setLight() {
 		document.documentElement.classList.remove("dark");
-		document.querySelector("#theme").innerHTML = "Set to Dark";
+		document.querySelector("#theme").innerHTML = "☀️";
 		document.cookie = "theme=light";
 	}
 
 	function setDark() {
 		document.documentElement.classList.add("dark");
-		document.querySelector("#theme").innerHTML = "Set to Light";
+		document.querySelector("#theme").innerHTML = "🌙";
 		document.cookie = "theme=dark";
 	}
 

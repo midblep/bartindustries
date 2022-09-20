@@ -1,29 +1,34 @@
 <script>
+	import Form from "$lib/home/Form.svelte";
 	import Socials from "$lib/Socials.svelte";
 	import ThemeSwitcher from "$lib/ThemeSwitcher.svelte";
 	import Social from "./Social.svelte";
 </script>
 
-<main
-	class="py-10 px-2 lg:px-10 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-20"
+<footer
+	class="py-20 px-2 lg:px-10 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white shadow z-20 flex flex-col gap-10"
 >
+	<section
+		class="container relative overflow-hidden px-5 lg:px-0 flex flex-col lg:flex-row gap-10 h-full justify-between"
+		id="contact"
+	>
+		<div class="absolute top-0 -mt-40" id="contact"></div>
+
+		<div class="flex gap-10 w-full">
+			<Form />
+		</div>
+
+		<img src="/homepage/fullbody.png" class="lg:block hidden lg:h-[500px] z-10" alt="contact" />
+	</section>
+
+	<hr class="container" />
+
 	<section
 		class="container flex flex-col-reverse lg:flex-row justify-between gap-10"
 	>
 		<div class="flex flex-col gap-3">
 			<h4 class="text-xl font-bold baron-light">Bart Industries</h4>
-			<hr />
 			<p class="text-xs">Copyright 2022 Mid // Midblep. All rights reserved.</p>
 		</div>
-
-		<!-- <div class="flex flex-col gap-5 lg:items-end">
-			<Socials />
-			<div class="text-amber-500 flex gap-2 items-center font-bold">
-				<span class="text-xs">Theme:</span>
-				<span class="bg-gray-100 dark:bg-gray-800"
-					><ThemeSwitcher /></span
-				>
-			</div>
-		</div> -->
 	</section>
-</main>
+</footer>

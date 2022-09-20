@@ -9,38 +9,49 @@ import Sona from "$lib/home/Sona.svelte";
 	<title>Home | Bart Industries</title>
 </svelte:head>
 
-<main class="overflow-x-hidden">
+<main class="overflow-x-hidden flex flex-col gap-20">
 	<Banner />
 
-	<div class="relative h-56 lg:h-80 -mt-80 overflow-hidden scale-x-150">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute inset-0 h-96 w-full scale-x-150">
-			<path
-				class="block dark:hidden"
-				fill="rgba(229, 231, 235, 1)"
-				fill-opacity="1"
-				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-			/>
-			<path
-				class="hidden dark:block"
-				fill="rgba(31, 41, 55, 1)"
-				fill-opacity="1"
-				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-			/>
-		</svg>
-	</div>
+	<section class="bg-gray-200 pb-40 -mt-20 dark:bg-gray-800 z-20 relative">
+		<div class="absolute top-0 -mt-40" id="blog"></div>
+		<div class="container px-5 flex flex-col gap-10 justify-center">
+			Latest posts
+		</div>
+	</section>
 
-	<section class="bg-gray-200 pt-10 dark:bg-gray-800 z-20" id="works">
+	<section class="pb-20 z-20 relative">
+		<div class="absolute top-0 -mt-40" id="portfolio"></div>
 		<div class="container px-5 flex flex-col gap-10 justify-center">
 			<div class="flex flex-col gap-5">
 				<h2 class="font-bold text-4xl">I do a lot of things</h2>
-				<p>
-					Like any aspiring developer my ambitions are great, and so I tend to be part of a lot of places.
-					<br/>
-					Below are some of the things I do and develop for, resulting in experience with a range of technologies and people.
+				<p class="text-lg">
+					Below are some of the things I work on and currently occupy the majority of my time.
 				</p>
 			</div>
 
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between">
+				<Card
+					buttonHref="https://flamesoftware.net/"
+					buttonText="🔥 Visit early website"
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						<img
+							src="/logo.png"
+							class="h-8"
+							alt="flame"
+						/> Flame Software
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						Flame Software is a Software-as-a-Service company that is developing a new communications app
+						that intends to revolutionize the way we talk and socialize online.
+						Our mission is to make the net more connected, more privacy focused, and more healthy for your mind.
+						We are currently in our early development stage, where I work as the CTO to lay down the groundworks
+						for this new app, which will be built using a combination of languages like Rust and TypeScript.
+					</p>
+				</Card>
+
 				<Card
 					buttonHref="https://puppypride.social"
 					buttonText="🌐 Visit Puppy Pride"
@@ -55,85 +66,23 @@ import Sona from "$lib/home/Sona.svelte";
 						/> Puppy Pride
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I was the developer of the new Puppy Pride social
-						network over the course of 2021, and continue to support and expand
+						I am the core developer of the new Puppy Pride social
+						network since January 2021, and continue to support and expand
 						it to this day. The site was built from the ground up
-						using the TALL stack in PHP.
+						using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
+						and gave me a lot of experience working with not just PHP and every field inside Laravel,
+						but also a very large array of different kinds of features and business processes at each step of development.
 						<br /><br />
-						The site sports a whole array of social features including
-						blogging, picture albums, statuses, user profiles, forums,
-						events, groups with roles and custom pages, location data,
-						instant messaging, various networking tools like friending
-						and blocking, notifications through channels like push and
-						mail, live feed, subscriptions and viewcounts, comment
-						sections, likes and followers, and much more.
-						<br /><br />
-						The project is nearing completion and will be released soon.
+						Puppy Pride is an adult themed England based social network for people into petplay.
+						The project is nearing its completion and will be released soon.
 						You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
-					</p>
-				</Card>
-
-				<Card
-					buttonHref="https://discord.gg/ygw4DNnKvt"
-					buttonText="🚪 Join the Discord"
-				>
-					<h3
-						class="text-xl font-bold inline-flex items-center gap-3"
-					>
-						<img
-							src="/moonlitden.png"
-							class="h-8"
-							alt="moonlitden"
-						/> The Moonlit Den
-					</h3>
-					<p class="text-sm text-gray-800 dark:text-gray-100">
-						Successor to the wildly popular Wumpus' Universe, a
-						cornerstone of Discord's early fanatic community, The
-						Moonlit Den is a small piece of what it once was. Today,
-						it continues to do much of the same it always did,
-						becoming more sophisticated and professional as it's
-						main sponsor DubbelNull improves.
-						<br /><br />
-						Moonlit Den is a generalistic Discord community aimed at
-						being a friendly place to make your home online. We run various
-						gameservers, have game nights together, and overall just
-						like to chat about whatever.
-					</p>
-				</Card>
-
-				<Card
-					buttonHref="https://dubbelnull.com"
-					buttonText="➡️ Go to DubbelNull.com"
-				>
-					<h3
-						class="text-xl font-bold inline-flex items-center gap-3"
-					>
-						<img
-							src="/dubbelnull.png"
-							class="h-10 -my-2"
-							alt="dubbelnull"
-						/> DubbelNull
-					</h3>
-					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I am the founder and CTO of DubbelNull, and do most of
-						the programming and technological work there today. We
-						run our own server architecture and sponsor several
-						communities to do what they want, such as run their
-						gameservers, websites, scripts and services.
-						<br /><br />
-						DubbelNull currently offers specialized website design and
-						construction of any type, be it a webapp or simple portfolio.
-						We focus on efficiency in communication and satisfaction
-						of the end result.
 					</p>
 				</Card>
 			</div>
 
-			<hr class="my-10 opacity-10" />
-
-			<div class="flex flex-col gap-5">
+			<div class="flex flex-col gap-5 pt-10">
 				<h2 class="font-bold text-4xl">I make stunning pages that fit</h2>
-				<p>
+				<p class="text-lg">
 					I love to make personalized websites for small creators and businesses that truly show their personality to the world with unique design.
 				</p>
 			</div>
@@ -223,45 +172,34 @@ import Sona from "$lib/home/Sona.svelte";
 				</Card>
 
 				<Card
+					buttonHref="https://dubbelnull.com/showcase"
+					buttonText="➡️ View DubbelNull showcase"
 				>
 					<h3
 						class="text-xl font-bold inline-flex items-center gap-3"
 					>
-						Upcoming: Sona Factory
+						<img
+							src="/dubbelnull.png"
+							class="h-10 -my-1 -ml-1"
+							alt="dubbelnull"
+						/> More at DubbelNull
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I am currently working on developing a portfolio site called Sona Factory,
-						featuring an open folder directory containing arts and works, a gallery and contact form,
-						and unique page designs for various characters displayed on the site called fursonas.
+						I am the Lead Developer at DubbelNull and do most of
+						the programming and technological work there today. DubbelNull
+						primarily designs, creates and hosts websites for clients, but we also
+						maintain and operate our own servers. We focus on efficiency in communication and satisfaction
+						of the end result.
+						You can find several other examples of past happy clients on our website's showcase page.
 					</p>
 				</Card>
 			</div>
 		</div>
 	</section>
 
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-		<path
-			class="block dark:hidden"
-			fill="rgba(229, 231, 235, 1)"
-			fill-opacity="1"
-			d="M0,320L34.3,288C68.6,256,137,192,206,186.7C274.3,181,343,235,411,229.3C480,224,549,160,617,128C685.7,96,754,96,823,112C891.4,128,960,160,1029,170.7C1097.1,181,1166,171,1234,160C1302.9,149,1371,139,1406,133.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-		/>
-		<path
-			class="hidden dark:block"
-			fill="rgba(31, 41, 55, 1)"
-			fill-opacity="1"
-			d="M0,320L34.3,288C68.6,256,137,192,206,186.7C274.3,181,343,235,411,229.3C480,224,549,160,617,128C685.7,96,754,96,823,112C891.4,128,960,160,1029,170.7C1097.1,181,1166,171,1234,160C1302.9,149,1371,139,1406,133.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-		/>
-	</svg>
+	<hr class="container my-10 opacity-10" />
 
-	<section
-		class="relative container overflow-hidden px-5 lg:px-0 flex mb-40 flex-col lg:flex-row gap-10 h-full justify-center items-center"
-		id="contact"
-	>
-		<div class="lg:w-1/3 z-10">
-			<Form />
-		</div>
-
-		<img src="/homepage/fullbody.png" class="lg:block hidden lg:w-1/3 h-full z-10" alt="contact" />
+	<section class="mb-40">
+		<Sona/>
 	</section>
 </main>

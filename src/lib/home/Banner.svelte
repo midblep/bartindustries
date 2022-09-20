@@ -49,7 +49,10 @@
 		"Blade",
 		"JSX",
 		"Pug",
-		"Wordpress"
+		"Wordpress",
+		"Vercel",
+		"Netlify",
+		"AWS S3"
 	];
 
 	onMount(() => {
@@ -74,41 +77,44 @@
 	randomBannerPic = "/homepage/banner.png";
 </script>
 
-<main class="flex flex-col lg:flex-row gap-5 items-center pt-5 pb-60 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
+<main class="flex flex-col lg:flex-row gap-5 items-center pt-5 pb-52 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
 	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim" id="lists">
 	</div>
 
-	<div class="container flex gap-5 items-center pt-5 pb-20 justify-between px-6 lg:px-20">
-		<div class="hidden lg:block h-full w-1/2 z-10">
+	<div class="flex lg:mx-20 gap-10 items-center pt-5 pb-96 px-6 lg:px-20">
+		<div class="hidden lg:block h-full w-1/3 z-10">
 			<img
 				src={randomBannerPic}
 				alt="mid"
 			/>
 		</div>
 
-		<div class="flex flex-col gap-5 justify-center lg:w-3/5 z-10">
+		<div class="flex flex-col gap-10 justify-center lg:w-4/12 z-10">
 			<span>
 				<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
 			</span>
 
 			<span class="flex flex-wrap gap-2 items-end">
-				<h2 class="text-4xl font-extrabold">I'm Midnight,</h2>
+				<h2 class="text-4xl font-extrabold relative">I'm Midnight,</h2>
 				<span class="text-3xl font-extralight">
-					I like to make things on the web
+					and I like to make things on the web
 				</span>
 			</span>
 
-			<hr class="w-1/3 my-2" />
+			<hr class="w-1/4" />
 
-			<span class="my-2">
-				<p class="text-gray-800 dark:text-gray-300 lg:w-3/4">
-					Bart Industries is a collection of everything I've done such as my projects, involvements and ambitions,
-					but also other things such as my furry side, stories, socials, blogposts and everything else I feel like sharing.
-					<br/><br/>
-					I am open for opportunities,
-					if you want to reach out you can use one of the methods below or <a href="#contact" class="a">the contact form</a>.
-				</p>
-			</span>
+			<p class="text-gray-800 dark:text-gray-300 text-lg">
+				Bart Industries is an online collection of me such as my socials, work experiences,
+				past-time projects, artworks and hobbies, random blogposts, fursonas and anything else I feel proud enough of to share.
+				<br/><br/>
+				For my skills and experiences I implore you to visit my <a href="#portfolio" class="a">portfolio section</a>, but
+				I am always excited to explore other technologies and have new experiences.
+				<br/><br/>
+				I am open to new opportunities and am always eager to work,
+				you can reach out using one of the methods below or <a href="#contact" class="a">the contact form</a>.
+			</p>
+
+			<hr class="w-1/4" />
 
 			<Socials />
 		</div>
@@ -116,6 +122,23 @@
 		<span class="flex absolute left-0 bottom-0 w-full justify-center mb-40 z-50 text-8xl float text-blue-600">
 			<img src="/downarrow.png" class="w-10" />
 		</span>
+	</div>
+
+	<div class="w-screen absolute bottom-0 left-0">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path
+				class="block dark:hidden"
+				fill="rgba(229, 231, 235, 1)"
+				fill-opacity="1"
+				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+			/>
+			<path
+				class="hidden dark:block"
+				fill="rgba(31, 41, 55, 1)"
+				fill-opacity="1"
+				d="M0,64L34.3,85.3C68.6,107,137,149,206,165.3C274.3,181,343,171,411,160C480,149,549,139,617,133.3C685.7,128,754,128,823,154.7C891.4,181,960,235,1029,240C1097.1,245,1166,203,1234,160C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+			/>
+		</svg>
 	</div>
 </main>
 
