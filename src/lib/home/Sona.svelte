@@ -1,7 +1,7 @@
 <main class="container flex flex-col gap-20 py-20 relative">
 	<div class="absolute top-0 -mt-20" id="furry"></div>
 
-	<section class="w-full h-full flex justify-between gap-20">
+	<section class="w-full h-full flex flex-col lg:flex-row px-5 lg:px-0 justify-between gap-10 lg:gap-20">
 		<!-- <div class="absolute inset-0 blur-xl overflow-hidden">
 			<img src="/furry/Background.png" class="w-full scale-110" alt="background" />
 		</div> -->
@@ -21,7 +21,7 @@
 		</article>
 
 		<section class="w-full h-full flex flex-col gap-5 text-center">
-			<img src="/VRChat_1920x1080_2022-06-12_00-59-32.363.png" class="rounded-xl shadow-xl hover:-rotate-2 hover:scale-105 duration-300"/>
+			<img src="/VRChat_1920x1080_2022-06-12_00-59-32.363.png" class="rounded-xl shadow-xl hover:-rotate-1 hover:scale-105 duration-300"/>
 			<p class="text-sm text-zinc-700 dark:text-zinc-300">Picture from the SocialVR game VRChat showing the 3D model of Mid.</p>
 		</section>
 	</section>

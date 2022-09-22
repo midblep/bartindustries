@@ -12,10 +12,11 @@ import Sona from "$lib/home/Sona.svelte";
 <main class="overflow-x-hidden flex flex-col gap-20">
 	<Banner />
 
-	<section class="bg-gray-200 pb-40 -mt-20 dark:bg-gray-800 z-20 relative">
+	<section class="pb-40 -mt-20 z-20 relative bg-gray-200 dark:bg-gray-800">
 		<div class="absolute top-0 -mt-40" id="blog"></div>
 		<div class="container px-5 flex flex-col gap-10 justify-center">
-			Latest posts
+			<h2 class="text-2xl font-bold">🚧 Blog under construction 🏗️</h2>
+			<p>No posts available...</p>
 		</div>
 	</section>
 
@@ -47,6 +48,7 @@ import Sona from "$lib/home/Sona.svelte";
 						Flame Software is a Software-as-a-Service company that is developing a new communications app
 						that intends to revolutionize the way we talk and socialize online.
 						Our mission is to make the net more connected, more privacy focused, and more healthy for your mind.
+						<br/><br/>
 						We are currently in our early development stage, where I work as the CTO to lay down the groundworks
 						for this new app, which will be built using a combination of languages like Rust and TypeScript.
 					</p>
@@ -76,6 +78,26 @@ import Sona from "$lib/home/Sona.svelte";
 						Puppy Pride is an adult themed England based social network for people into petplay.
 						The project is nearing its completion and will be released soon.
 						You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
+					</p>
+				</Card>
+
+				<Card
+					buttonHref="https://saxion.nl"
+					buttonText="🎓 Open Website"
+				>
+					<h3
+						class="text-xl font-bold inline-flex items-center gap-3"
+					>
+						<img
+							src="/saxion.png"
+							class="h-8 rounded-full"
+							alt="puppypride"
+						/> Saxion University
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I am a year 3 student at the Saxion University of Applied Sciences in The Netherlands doing majoring in Software Engineering, which takes a lot of my weekly time.
+						<br/><br/>
+						Even though the university has taught me much about the business life and how to professionally work in teams, nearly all my programming knowledge is self taught at home.
 					</p>
 				</Card>
 			</div>

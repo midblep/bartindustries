@@ -52,19 +52,19 @@
 		"Wordpress",
 		"Vercel",
 		"Netlify",
-		"AWS S3"
+		"AWS S3",
 	];
 
 	onMount(() => {
 		for(let j = 0; j < 20; j++) {
 			let list = document.createElement('div');
-			list.classList.add('flex', 'gap-2');
+			list.classList.add('flex', "gap-2");
 
 			for (let i = 0; i < 20; i++) {
 				const word = words[Math.floor(Math.random() * words.length)];
 				let element = document.createElement('span');
 				element.innerHTML = word;
-				element.classList.add("text-9xl", "p-10");
+				element.classList.add("text-9xl", "p-10", "whitespace-nowrap");
 
 				list.appendChild(element);
 			}
@@ -77,25 +77,25 @@
 	randomBannerPic = "/homepage/banner.png";
 </script>
 
-<main class="flex flex-col lg:flex-row gap-5 items-center pt-5 pb-52 justify-between px-6 lg:px-20 relative z-0 overflow-hidden">
+<main class="flex flex-col lg:flex-row gap-5 items-center pt-5 pb-52 justify-between px-6 lg:px-20 relative z-0 overflow-hidden lg:h-screen">
 	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim" id="lists">
 	</div>
 
-	<div class="flex lg:mx-20 gap-10 items-center pt-5 pb-96 px-6 lg:px-20">
-		<div class="hidden lg:block h-full w-1/3 z-10">
+	<div class="flex h-full pt-10 gap-20 px-5 lg:px-0">
+		<div class="hidden lg:block h-full lg:w-1/3 z-10">
 			<img
 				src={randomBannerPic}
 				alt="mid"
 			/>
 		</div>
 
-		<div class="flex flex-col gap-10 justify-center lg:w-4/12 z-10">
+		<div class="flex flex-col h-full gap-10 lg:w-1/3 lg:min-w-[900px] z-10">
 			<span>
 				<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
 			</span>
 
 			<span class="flex flex-wrap gap-2 items-end">
-				<h2 class="text-4xl font-extrabold relative">I'm Midnight,</h2>
+				<h2 class="text-4xl font-extrabold">I'm Midnight,</h2>
 				<span class="text-3xl font-extralight">
 					and I like to make things on the web
 				</span>
@@ -103,28 +103,30 @@
 
 			<hr class="w-1/4" />
 
-			<p class="text-gray-800 dark:text-gray-300 text-lg">
-				Bart Industries is an online collection of me such as my socials, work experiences,
+			<p class="text-gray-800 dark:text-gray-300 text-lg max-w-[900px]">
+				Bart Industries is my public digital home. A collection of my socials, work experiences,
 				past-time projects, artworks and hobbies, random blogposts, fursonas and anything else I feel proud enough of to share.
 				<br/><br/>
-				For my skills and experiences I implore you to visit my <a href="#portfolio" class="a">portfolio section</a>, but
-				I am always excited to explore other technologies and have new experiences.
+				For my skills and experiences I implore you to visit my <a href="#portfolio" class="a">portfolio section</a>,
+				I am always excited to explore new technologies and opportunities.
 				<br/><br/>
-				I am open to new opportunities and am always eager to work,
-				you can reach out using one of the methods below or <a href="#contact" class="a">the contact form</a>.
+				If you are interested in my work or want to contact me
+				you can reach out via one of my socials below or send me an email via the <a href="#contact" class="a">contact form</a>.
 			</p>
 
 			<hr class="w-1/4" />
 
-			<Socials />
+			<div class="max-w-[700px]">
+				<Socials type="default" />
+			</div>
 		</div>
-
-		<span class="flex absolute left-0 bottom-0 w-full justify-center mb-40 z-50 text-8xl float text-blue-600">
-			<img src="/downarrow.png" class="w-10" />
-		</span>
 	</div>
 
-	<div class="w-screen absolute bottom-0 left-0">
+	<span class="hidden lg:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
+		<img src="/downarrow.png" class="w-10" />
+	</span>
+
+	<div class="w-screen absolute bottom-0 left-0 lg:-mb-20">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path
 				class="block dark:hidden"

@@ -17,7 +17,7 @@
 <main class="flex flex-col gap-10 w-full">
 	<img src="/homepage/contact.png" class="w-60 mb-2" alt="fullbody of mid" />
 
-	<article class="flex gap-10">
+	<article class="flex flex-col lg:flex-row gap-5 lg:gap-10">
 		<section
 			class="bg-slate-300 bg-opacity-50 dark:bg-slate-800 p-10 rounded-xl shadow w-full flex flex-col gap-5 lg:w-1/3"
 		>
@@ -88,7 +88,7 @@
 			</form>
 		</section>
 
-		<div class="w-1/3"><Socials text={true} /></div>
+		<div class="lg:w-1/3"><Socials type="grid" /></div>
 	</article>
 </main>
 
