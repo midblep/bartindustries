@@ -17,11 +17,11 @@
 		<a
 			href={buttonHref}
 			target={buttonRedirect}
-			class="rounded-b-xl bg-white dark:bg-gray-900 bg-opacity-50 p-5 group-hover:-translate-y-1 hover:bg-opacity-100 dark:hover:bg-blue-600 hover:bg-blue-200 duration-300 text-base lg:text-lg font-bold z-40"
+			class="rounded-b-xl bg-white dark:bg-gray-800 bg-opacity-50 p-5 group-hover:-translate-y-1 hover:bg-opacity-100 dark:hover:bg-blue-600 hover:bg-blue-200 duration-300 text-base lg:text-lg font-bold z-40"
 		>
 			<span class="px-5">{buttonText}</span>
 		</a>
 	{:else}
-		<span class="h-4 bg-opacity-50 group-hover:-translate-y-1 bg-white dark:bg-gray-900 rounded-b-xl duration-300"></span>
+		<span class="h-4 bg-opacity-50 group-hover:-translate-y-1 bg-white dark:bg-gray-800 rounded-b-xl duration-300"></span>
 	{/if}
 </div>

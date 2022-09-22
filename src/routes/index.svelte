@@ -95,7 +95,7 @@ import Sona from "$lib/home/Sona.svelte";
 						/> Saxion University
 					</h3>
 					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I am a year 3 student at the Saxion University of Applied Sciences in The Netherlands doing majoring in Software Engineering, which takes a lot of my weekly time.
+						I am a year 3 student at the Saxion University of Applied Sciences in The Netherlands majoring in Software Engineering. The study keeps me plenty busy, but now I am combining the study with a Minor Entrepeneurship to build a SaaS product at my new company Flame Software.
 						<br/><br/>
 						Even though the university has taught me much about the business life and how to professionally work in teams, nearly all my programming knowledge is self taught at home.
 					</p>
