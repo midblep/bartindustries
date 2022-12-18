@@ -9,5 +9,43 @@
 	</head>
 	<body>
 		<div>%svelte.body%</div>
+		<script>
+			let getCookie = (cname) => {
+				let name = cname + "=";
+				let decodedCookie = decodeURIComponent(document.cookie);
+				let ca = decodedCookie.split(";");
+				for (let i = 0; i < ca.length; i++) {
+					let c = ca[i];
+					while (c.charAt(0) == " ") {
+						c = c.substring(1);
+					}
+					if (c.indexOf(name) == 0) {
+						return c.substring(name.length, c.length);
+					}
+				}
+				return "";
+			};
+
+			function setLight() {
+				document.documentElement.classList.remove("dark");
+				document.querySelector("#theme").innerHTML = "☀️";
+				document.cookie = "theme=light";
+			}
+
+			function setDark() {
+				document.documentElement.classList.add("dark");
+				document.querySelector("#theme").innerHTML = "🌙";
+				document.cookie = "theme=dark";
+			}
+
+			let theme = getCookie("theme");
+
+			if (!theme) {
+				document.cookie = "theme=light";
+			} else {
+				if (theme == "light") setLight();
+				if (theme == "dark") setDark();
+			}
+		</script>
 	</body>
 </html>

@@ -4,10 +4,11 @@ module.exports = {
 	theme: {
 		container: {
 			center: true,
+			padding: '2rem',
 			screens: {
 				sm: '100%',
 				md: '100%',
-				lg: '1000px',
+				lg: '100%',
 				xl: '1500px',
 				'2xl': '1500px',
 				'3xl': '1500px'
@@ -22,5 +23,5 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/container-queries')]
 };

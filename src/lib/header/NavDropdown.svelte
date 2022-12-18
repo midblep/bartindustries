@@ -32,7 +32,7 @@
 	</button>
 
 	<div
-		class="fixed flex-col w-screen h-screen inset-0 bg-blue-600 hidden z-50"
+		class="fixed flex-col w-screen h-screen inset-0 bg-gradient-to-br from-blue-700 to-blue-900 hidden z-50"
 		bind:this={dropdown}
 	>
 		<NavButton text="Close Menu" on:click={toggle} />

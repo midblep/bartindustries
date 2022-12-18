@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 @font-face {
+	font-family: 'Calderious';
+	src: url('/fonts/CALDERIOUS.ttf');
+}
+
+@font-face {
 	font-family: 'Baron';
 	src: url('/fonts/BaronNeue-Black.otf');
 }
@@ -12,6 +17,10 @@
 @font-face {
 	font-family: 'BaronLight';
 	src: url('/fonts/BaronNeue-Regular.otf');
+}
+
+.calderious {
+	font-family: 'Calderious', sans-serif;
 }
 
 :root {

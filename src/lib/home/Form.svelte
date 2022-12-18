@@ -17,9 +17,9 @@
 <main class="flex flex-col gap-10 w-full">
 	<img src="/homepage/contact.png" class="w-60 mb-2" alt="fullbody of mid" />
 
-	<article class="flex flex-col lg:flex-row gap-5 lg:gap-10">
+	<article class="flex flex-col gap-5 lg:gap-10">
 		<section
-			class="bg-slate-300 bg-opacity-50 dark:bg-slate-800 p-10 rounded-xl shadow w-full flex flex-col gap-5 lg:w-1/3"
+			class="bg-slate-300 bg-opacity-50 dark:bg-slate-800 p-10 rounded-xl shadow flex flex-col gap-5 flex-grow"
 		>
 
 			<form
@@ -57,7 +57,7 @@
 						name="message"
 						class="py-1 px-2 rounded-lg shadow dark:bg-gray-600"
 						bind:value={message}
-						rows="5"
+						rows="10"
 					/>
 				</div>
 
@@ -66,7 +66,7 @@
 						<button
 							type="submit"
 							on:click={send}
-							class="bg-blue-600 py-2 px-3 rounded-lg font-bold text-white shadow button"
+							class="bg-gradient-to-r from-blue-700 to-blue-900 py-2 px-3 rounded-lg font-bold text-white shadow button"
 							>Send</button
 						>
 					{:else}
@@ -88,7 +88,7 @@
 			</form>
 		</section>
 
-		<div class="lg:w-1/3"><Socials type="grid" /></div>
+		<Socials/>
 	</article>
 </main>
 
