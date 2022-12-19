@@ -193,7 +193,7 @@
                         </div>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
-                        Beyond practical knowledge, I also am a teamplayer. I love discovering new ways and technologies and like to share ideas and find new solutions to problems together.
+                        Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
                         <br/><br/>
                         In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
                     </p>
@@ -246,7 +246,7 @@
                             Skills
                         </div>
                     </h3>
-                    <p class="text-lg text-gray-800 dark:text-gray-100">
+                    <p class="ttext-gray-800 dark:text-gray-100">
                         It's a constantly growing list...
                     </p>
                     <div id="scroll-container" class="flex gap-1 w-full justify-between text-center text-sm">
@@ -266,7 +266,7 @@
                             {/each}
                         </div>
                     </div>
-                    <p class="text-lg text-gray-800 dark:text-gray-100">
+                    <p class="text-gray-800 dark:text-gray-100">
                         But I can work with anything, and love to try out new things and technologies!
                     </p>
                 </Card>
