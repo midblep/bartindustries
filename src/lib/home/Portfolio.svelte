@@ -7,9 +7,9 @@
     <div class="absolute top-0 -mt-40" id="portfolio"></div>
     <div class="@container container px-5 flex flex-col gap-10 justify-center">
         <div class="flex flex-col gap-5">
-            <h2 class="font-bold text-4xl">I do a lot of things</h2>
+            <h2 class="font-bold text-4xl">Portfolio</h2>
             <p class="text-lg">
-                Below are some of the things I currently keep myself busy with and links to places I worked on.
+                Explore some of my past works, experiences, skills and jobs
             </p>
         </div>
 
@@ -19,13 +19,16 @@
                 buttonText="🔥 Visit early website"
             >
                 <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
+                    class="text-xl font-bold inline-flex items-center gap-3 justify-between"
                 >
-                    <img
-                        src="/logo.png"
-                        class="h-8"
-                        alt="flame"
-                    /> Flame Software
+                    <div class="inline-flex gap-3">
+                        <img
+                            src="/logo.png"
+                            class="h-8"
+                            alt="flame"
+                        /> Flame Software
+                    </div>
+                    <span class="text-sm font-light">2022 and ongoing</span>
                 </h3>
                 <p class="text-sm text-gray-800 dark:text-gray-100">
                     Flame Software is a Software-as-a-Service company that is developing a new communications app
@@ -37,45 +40,60 @@
                 </p>
             </Card>
 
-            <Card
-                buttonHref="https://puppypride.social"
-                buttonText="🌐 Visit Puppy Pride"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
+            <span class="col-span-2 row-span-1 @container">
+                <Card
+                    buttonHref="https://puppypride.social"
+                    buttonText="🌐 Visit Puppy Pride"
                 >
-                    <img
-                        src="/puppypride.png"
-                        class="h-8"
-                        alt="puppypride"
-                    /> Puppy Pride
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I am the core developer of the new Puppy Pride social
-                    network since January 2021, and continue to support and expand
-                    it to this day. The site was built from the ground up
-                    using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
-                    and gave me a lot of experience working with not just PHP and every field inside Laravel,
-                    but also a very large array of different kinds of features and business processes at each step of development.
-                    <br /><br />
-                    Puppy Pride is an adult themed England based social network for people into petplay.
-                    The project is nearing its completion and will be released soon.
-                    You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
-                </p>
-            </Card>
+                    <div class="grid @xl:grid-cols-2 grid-cols-1 gap-5">
+                        <span>
+                            <h3
+                                class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                            >
+                                <div class="inline-flex gap-3">
+                                    <img
+                                        src="/puppypride.png"
+                                        class="h-8"
+                                        alt="puppypride"
+                                    /> Puppy Pride
+                                </div>
+                                <span class="text-sm font-light">2021 and ongoing</span>
+                            </h3>
+                            <p class="text-sm text-gray-800 dark:text-gray-100">
+                                I am the core developer of the new Puppy Pride social
+                                network since January 2021, and continue to support and expand
+                                it to this day. The site was built from the ground up
+                                using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
+                                and gave me a lot of experience working with not just PHP and every field inside Laravel,
+                                but also a very large array of different kinds of features and business processes at each step of development.
+                                <br /><br />
+                                Puppy Pride is an adult themed England based social network for people into petplay.
+                                The project is nearing its completion and will be released soon.
+                                You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
+                            </p>
+                        </span>
+                        <span class="flex items-center">
+                            <img src="/homepage/pp.png" alt="puppypride profile page" />
+                        </span>
+                    </div>
+                </Card>
+            </span>
 
             <Card
                 buttonHref="https://saxion.nl"
                 buttonText="🎓 Open Website"
             >
                 <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
+                    class="text-xl font-bold inline-flex items-center gap-3 justify-between"
                 >
-                    <img
-                        src="/saxion.png"
-                        class="h-8 rounded-full"
-                        alt="puppypride"
-                    /> Saxion University
+                    <div class="inline-flex gap-3">
+                        <img
+                            src="/saxion.png"
+                            class="h-8 rounded-full"
+                            alt="puppypride"
+                        /> Saxion University
+                    </div>
+                    <span class="text-sm font-light">2020 to 2024</span>
                 </h3>
                 <p class="text-sm text-gray-800 dark:text-gray-100">
                     I am a year 3 student at the Saxion University of Applied Sciences in The Netherlands majoring in Software Engineering. The study keeps me plenty busy, but now I am combining the study with a Minor Entrepeneurship to build a SaaS product at my new company Flame Software.
@@ -84,21 +102,22 @@
                 </p>
             </Card>
 
-            <span></span>
-
             <span class="col-span-1 row-span-1">
                 <Card
                     buttonHref="https://dubbelnull.com/showcase"
                     buttonText="➡️ View DubbelNull showcase"
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3"
+                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
                     >
-                        <img
-                            src="/dubbelnull.png"
-                            class="h-10 -my-1 -ml-1"
-                            alt="dubbelnull"
-                        /> More websites at DubbelNull
+                        <div class="inline-flex gap-3">
+                            <img
+                                src="/dubbelnull.png"
+                                class="h-10 -my-1 -ml-1"
+                                alt="dubbelnull"
+                            /> DubbelNull
+                        </div>
+                        <span class="text-sm font-light">2020 and ongoing</span>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         DubbelNull is a family business that does internet based development for small and medium sized companies,
@@ -112,17 +131,78 @@
                 <Card
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3"
+                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
                     >
-                        🧑‍💻
-                        Player Stats
+                        <div class="inline-flex gap-3">
+                            🧑‍💻
+                            Player Stats
+                        </div>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         Beyond practical knowledge, I also am a teamplayer. I love discovering new ways and technologies and like to share ideas and find new solutions to problems together.
                         <br/><br/>
                         In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
                     </p>
-                    <img src="/banner4.png" class="w-full -mb-10"/>
+                    <img src="/banner4.png" class="w-full -mb-10" alt="mid"/>
+                </Card>
+            </span>
+
+            <span class="col-span-1 row-span-2">
+                <Card
+                >
+                    <h3
+                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                    >
+                        <div class="inline-flex gap-3">
+                            🏢
+                            Internships
+                        </div>
+                    </h3>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="flex justify-between items-end"><b class="text-lg">Witteveen+Bos</b><p class="text-sm">2022</p></span>
+                        <p class="text-sm">Witteveen+Bos is a major worldwide agricultural software company. During my internship me and my team developed a generic authentication system in Django that would be used as a customized plug-in template for new projects at the company.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="flex justify-between items-end"><b class="text-lg">AgroVision</b><p class="text-sm">2021</p></span>
+                        <p class="text-sm">AgroVision is a Dutch software company for farmers. During my internship I worked on an app that generates reports about CO2 usage on farms and informs the farmer on how to reduce thecir emmissions.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="flex justify-between items-end"><b class="text-lg">SuiteSeven</b><p class="text-sm">2019</p></span>
+                        <p class="text-sm">SuitSeven is a local webdevelopment studio. During my internship I worked on the design for a client's website.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="flex justify-between items-end"><b class="text-lg">Profity</b><p class="text-sm">2018</p></span>
+                        <p class="text-sm">Profity is a software ccompany creating ERP suites for the Dutch steel industry. During my internship I learned the dynamics of a team and the different processes involved in software development.</p>
+                    </div>
+                </Card>
+            </span>
+
+            <span class="col-span-1 row-span-2">
+                <Card
+                    buttonHref="https://dubbelnull.com/showcase"
+                    buttonText="➡️ View DubbelNull showcase"
+                >
+                    <h3
+                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                    >
+                        <div class="inline-flex gap-3">
+                            <img
+                                src="/dubbelnull.png"
+                                class="h-10 -my-1 -ml-1"
+                                alt="dubbelnull"
+                            /> Skills
+                        </div>
+                        <span class="text-sm font-light">2020 and ongoing</span>
+                    </h3>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">
+                        DubbelNull is a family business that does internet based development for small and medium sized companies,
+                        such as creating websites, manage hosting, advice and other similar things.
+                        I have made several websites for clients under this name, and you can find more of my works on the DubbelNull website.
+                    </p>
                 </Card>
             </span>
         </div>
