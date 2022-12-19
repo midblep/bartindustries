@@ -10,6 +10,10 @@
 	<body>
 		<div>%svelte.body%</div>
 		<script>
+			if (!("container" in document.documentElement.style)) {
+				import("https://unpkg.com/container-query-polyfill@^0.2.0");
+			}
+
 			let getCookie = (cname) => {
 				let name = cname + "=";
 				let decodedCookie = decodeURIComponent(document.cookie);

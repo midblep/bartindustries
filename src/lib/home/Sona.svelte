@@ -30,6 +30,16 @@
 				</div>
 
 				<div class="flex flex-col gap-2">
+					<span class="flex justify-between items-end"><b class="text-xl">Self taught</b><p class="text-sm">2016 and ongoing</p></span>
+					<p>Self taught</p>
+				</div>
+
+				<div class="flex flex-col gap-2">
+					<span class="flex justify-between items-end"><b class="text-xl">PuppyPride Developer</b><p class="text-sm">2020 and ongoing</p></span>
+					<p>Self taught</p>
+				</div>
+
+				<div class="flex flex-col gap-2">
 					<span class="flex justify-between items-end"><b class="text-xl">Internship Witteveen+Bos</b><p class="text-sm">2022</p></span>
 					<p>Witteveen+Bos is a major worldwide agricultural software company. During my internship me and my team developed a generic authentication system in Django that would be used as a customized plug-in template for new projects at the company.</p>
 				</div>

@@ -102,7 +102,7 @@
 	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim" id="lists">
 	</div>
 
-	<div class="flex h-full w-full @xl:p-20 gap-10 py-10 px-5 z-10">
+	<div class="flex h-full w-full @4xl:p-20 gap-10 py-10 px-5 z-10">
 		<img
 			src={randomBannerPic}
 			alt="mid"

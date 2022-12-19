@@ -9,7 +9,8 @@
 		"overcome your challenges",
 		"push yourself forward",
 		"dare to dare",
-		"go out there and live"
+		"go out there and live",
+		"stop using twitter"
 	];
 	let text = texts[0];
 
@@ -17,7 +18,7 @@
 		let i = 0;
 		text = texts[i % 7];
 		setInterval(() => {
-			text = texts[i % 7];
+			text = texts[i % texts.length];
 			i++;
 		}, 3000);
 	});
