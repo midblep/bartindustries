@@ -18,11 +18,11 @@
 		<a
 			href={buttonHref}
 			target={buttonRedirect}
-			class="rounded-b-xl bg-white dark:bg-black bg-opacity-50 py-3 px-5 group-hover:-translate-y-1 hover:bg-opacity-100 dark:hover:bg-blue-600 hover:bg-blue-200 duration-300 text-base lg:text-lg font-bold z-40"
+			class="rounded-b-xl bg-white dark:bg-black py-3 px-5 group-hover:-translate-y-1 hover:bg-opacity-100 dark:hover:bg-blue-600 hover:bg-blue-200 duration-300 text-base lg:text-lg font-bold z-40"
 		>
 			<span class="px-5">{buttonText}</span>
 		</a>
 	{:else}
-		<span class="h-4 bg-opacity-50 group-hover:-translate-y-1 bg-white dark:bg-black rounded-b-xl duration-300"></span>
+		<span class="h-5 group-hover:-translate-y-1 bg-white dark:bg-black rounded-b-xl duration-300 z-40"></span>
 	{/if}
 </div>

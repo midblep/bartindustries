@@ -15,8 +15,17 @@
 }
 
 @font-face {
+	font-family: 'WhitePigeon';
+	src: url('/fonts/WhitePigeon-BW6w5.ttf');
+}
+
+@font-face {
 	font-family: 'BaronLight';
 	src: url('/fonts/BaronNeue-Regular.otf');
+}
+
+.whitepigeon {
+	font-family: 'WhitePigeon', sans-serif;
 }
 
 .calderious {

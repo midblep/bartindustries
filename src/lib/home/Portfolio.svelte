@@ -9,7 +9,7 @@
         <div class="flex flex-col gap-5">
             <h2 class="font-bold text-4xl">I do a lot of things</h2>
             <p class="text-lg">
-                Below are some of the things I currently keep myself busy with.
+                Below are some of the things I currently keep myself busy with and links to places I worked on.
             </p>
         </div>
 
@@ -83,58 +83,32 @@
                     Even though the university has taught me much about the business life and how to professionally work in teams, nearly all my programming knowledge is self taught at home.
                 </p>
             </Card>
-        </div>
 
-        <div class="flex flex-col gap-5 pt-10">
-            <h2 class="font-bold text-4xl">Some of the stuff I made</h2>
-            <p class="text-lg">
-                Here is a nice collage of things I've done and made in the past that highlight some of my different areas of experience.
-            </p>
-        </div>
+            <span></span>
 
-        <div class="grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-10 justify-between">
-            <Card
-                buttonHref="https://sivkyne.xyz"
-                buttonText="🌐 Visit Website"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
+            <span class="col-span-1 row-span-1">
+                <Card
+                    buttonHref="https://dubbelnull.com/showcase"
+                    buttonText="➡️ View DubbelNull showcase"
                 >
-                    <img
-                        src="/sivkyne.png"
-                        class="h-8 rounded-full"
-                        alt="siv kyne"
-                    /> Siv Kyne
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I developed this website in exchange for artistic goods.
-                    It is hosted on Vercel and built on top of SvelteKit.
-                    It features a fully mobile compatible design that catches your eye from the moment you visit the homepage.
-                    Great detail went into making sure no part of the site is boring, such as giving buttons that extra pop and even making a little blurred leaf pattern for the background on pages that get very long.
-                </p>
-            </Card>
+                    <h3
+                        class="text-xl font-bold inline-flex items-center gap-3"
+                    >
+                        <img
+                            src="/dubbelnull.png"
+                            class="h-10 -my-1 -ml-1"
+                            alt="dubbelnull"
+                        /> More websites at DubbelNull
+                    </h3>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">
+                        DubbelNull is a family business that does internet based development for small and medium sized companies,
+                        such as creating websites, manage hosting, advice and other similar things.
+                        I have made several websites for clients under this name, and you can find more of my works on the DubbelNull website.
+                    </p>
+                </Card>
+            </span>
 
-            <Card
-                buttonHref="https://invesvpo.com"
-                buttonText="🌐 Visit Website"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
-                >
-                    <img
-                        src="/invesvpo.png"
-                        class="h-10 -my-2"
-                        alt="invesvpo"
-                    />
-                    Invesvpo
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I made a website for a friend called Invesvpo, who wanted a place to show to people to redirect them to his social media, and also to tell them what kind of stuff he does.
-                    It was created with the NextJS on React in 2021 by me entirely.
-                </p>
-            </Card>
-
-            <span class="row-span-3">
+            <span class="row-span-2">
                 <Card
                 >
                     <h3
@@ -151,50 +125,6 @@
                     <img src="/banner4.png" class="w-full -mb-10"/>
                 </Card>
             </span>
-
-            <Card
-                buttonHref="https://trickthefox.com/"
-                buttonText="🌐 Visit Website"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
-                >
-                    <img
-                        src="/trick.png"
-                        class="h-8 rounded-full"
-                        alt="trick"
-                    />
-                    Trick The Fox
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    Trick The Fox was made with NextJS using React in 2021. It had several updates over time later on and features some nice secrets.
-                    It connects to an Airtable database to store simple data such as gallery entries, which can then be managed by the client with Airtable's easy spreadsheet-like interface.
-                    Hosted with Vercel, this package is completely free to run and maintain thanks to Airtable's free tier and its only cost are that of the domain.
-                </p>
-            </Card>
-
-            <Card
-                buttonHref="https://dubbelnull.com/showcase"
-                buttonText="➡️ View DubbelNull showcase"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3"
-                >
-                    <img
-                        src="/dubbelnull.png"
-                        class="h-10 -my-1 -ml-1"
-                        alt="dubbelnull"
-                    /> More at DubbelNull
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I am the Lead Developer at DubbelNull and do most of
-                    the programming and technological work there today. DubbelNull
-                    primarily designs, creates and hosts websites for clients, but we also
-                    maintain and operate our own servers. We focus on efficiency in communication and satisfaction
-                    of the end result.
-                    You can find several other examples of past happy clients on our website's showcase page.
-                </p>
-            </Card>
         </div>
     </div>
 </section>

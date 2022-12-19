@@ -17,7 +17,7 @@
 		<div class="hidden lg:flex h-16">
 			<NavButton url="/" text="Home" />
 			<NavButton url="#portfolio" text="Portfolio" />
-			<NavButton url="#furry" text="Furry" />
+			<NavButton url="#about" text="About" />
 			<NavButton url="#vr" text="Virtual Reality" />
 			<NavButton url="#contact" text="Contact" />
 		</div>
@@ -29,7 +29,7 @@
 		<NavDropdown text="🍔">
 			<NavButton url="/" text="Home" />
 			<NavButton url="#portfolio" text="Portfolio" />
-			<NavButton url="#furry" text="Furry" />
+			<NavButton url="#about" text="About" />
 			<NavButton url="#vr" text="Virtual Reality" />
 			<NavButton url="#contact" text="Contact" />
 			<hr class="bg-white" />
