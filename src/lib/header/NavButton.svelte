@@ -34,6 +34,8 @@
 		if(url == "/") current = givenUrl == "/";
 		if(url != "/") current = givenUrl.includes(url);
 
+		current = false;
+
 		if(current == true) {
 			classes += " text-white bg-white bg-opacity-10";
 		} else {

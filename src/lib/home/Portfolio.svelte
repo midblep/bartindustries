@@ -67,42 +67,44 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-10 justify-between">
-            <Card
-                buttonHref="https://flamesoftware.net/"
-                buttonText="🔥 Visit early website"
-            >
-                <h3
-                    class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+        <div class="grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
+            <span>
+                <Card
+                    buttonHref="https://flamesoftware.net/"
+                    buttonText="🔥 Visit early website"
                 >
-                    <div class="inline-flex gap-3">
-                        <img
-                            src="/logo.png"
-                            class="h-8"
-                            alt="flame"
-                        /> Flame Software
-                    </div>
-                    <span class="text-sm font-light">2022 and ongoing</span>
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    Flame Software is a Software-as-a-Service company that is developing a new communications app
-                    that intends to revolutionize the way we talk and socialize online.
-                    Our mission is to make the net more connected, more privacy focused, and more healthy for your nmind.
-                    <br/><br/>
-                    We are currently in our early development stage, where I work as the CTO to lay down the groundworks
-                    for this new app, which will be built using a combination of languages like Rust and TypeScript.
-                </p>
-            </Card>
+                    <h3
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
+                    >
+                        <div class="inline-flex gap-3">
+                            <img
+                                src="/logo.png"
+                                class="h-8"
+                                alt="flame"
+                            /> Flame Software
+                        </div>
+                        <span class="text-sm font-light">2022 and ongoing</span>
+                    </h3>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">
+                        Flame Software is a Software-as-a-Service company that is developing a new communications app
+                        that intends to revolutionize the way we talk and socialize online.
+                        Our mission is to make the net more connected, more privacy focused, and more healthy for your nmind.
+                        <br/><br/>
+                        We are currently in our early development stage, where I work as the CTO to lay down the groundworks
+                        for this new app, which will be built using a combination of languages like Rust and TypeScript.
+                    </p>
+                </Card>
+            </span>
 
-            <span class="col-span-2 row-span-1 @container">
+            <span class="@2xl:col-span-2 row-span-1 @container">
                 <Card
                     buttonHref="https://puppypride.social"
                     buttonText="🌐 Visit Puppy Pride"
                 >
                     <div class="grid @xl:grid-cols-2 grid-cols-1 gap-5">
-                        <span>
+                        <span class="flex flex-col gap-5">
                             <h3
-                                class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                                class="text-xl flex-wrap font-bold inline-flex items-center gap-3 justify-between"
                             >
                                 <div class="inline-flex gap-3">
                                     <img
@@ -138,7 +140,7 @@
                 buttonText="🎓 Open Website"
             >
                 <h3
-                    class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                 >
                     <div class="inline-flex gap-3">
                         <img
@@ -156,13 +158,13 @@
                 </p>
             </Card>
 
-            <span class="col-span-1 row-span-1">
+            <span>
                 <Card
                     buttonHref="https://dubbelnull.com/showcase"
                     buttonText="➡️ View DubbelNull showcase"
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                     >
                         <div class="inline-flex gap-3">
                             <img
@@ -181,11 +183,11 @@
                 </Card>
             </span>
 
-            <span class="row-span-2">
+            <span class="@6xl:row-span-2">
                 <Card
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                     >
                         <div class="inline-flex gap-3">
                             🧑‍💻
@@ -201,11 +203,11 @@
                 </Card>
             </span>
 
-            <span class="col-span-1 row-span-2">
+            <span class="col-span-1 @6xl:row-span-2">
                 <Card
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                     >
                         <div class="inline-flex gap-3">
                             🏢
@@ -235,11 +237,11 @@
                 </Card>
             </span>
 
-            <span class="col-span-1 row-span-2">
+            <span class="col-span-1 @6xl:row-span-2">
                 <Card
                 >
                     <h3
-                        class="text-xl font-bold inline-flex items-center gap-3 justify-between"
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                     >
                         <div class="inline-flex gap-3">
                             ⚔️

@@ -11,22 +11,22 @@
 <main class="@container container flex flex-col gap-20 relative">
 	<div class="absolute top-0 -mt-40" id="about"></div>
 
-	<section class="grid grid-cols-4 px-5 gap-5">
-		<span class="col-span-2 p-5 flex flex-col gap-10">
-			<h3 class="whitepigeon text-blue-600 font-bold text-6xl">About me</h3>
+	<section class="grid grid-cols-1 @6xl:grid-cols-4 px-5 gap-5">
+		<div class="@6xl:col-span-2 p-5 flex flex-col gap-10">
+			<h3 class="whitepigeon text-blue-600 font-bold text-4xl @2xl:text-6xl">About me</h3>
 			<h4 class="font-normal text-lg">
 				Hello, I'm Pascal, but my internet name is Mid. Nice to have you here on my website! I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
 				If you want to know a little more about me, here are some details. :)
 			</h4>
-		</span>
+		</div>
 
-		<img src="/homepage/sona/blue.png" class="rounded-xl shadow-lg object-cover aspect-square" alt="fursona" />
+		<img src="/homepage/sona/blue.png" class="rounded-xl object-cover aspect-square" alt="fursona" />
 
-		<img src="/homepage/sona/MidFingers.jpg" class="rounded-xl shadow-lg object-cover aspect-square" alt="fursona"/>
+		<img src="/homepage/sona/MidFingers.jpg" class="rounded-xl object-cover aspect-square" alt="fursona"/>
 
-		<img src="/homepage/proxmox.png" class="rounded-xl shadow-lg col-span-2" alt="proxmox environment" />
+		<img src="/homepage/proxmox.png" class="rounded-xl @6xl:col-span-2" alt="proxmox environment" />
 
-		<span class="col-span-2 flex flex-col gap-2">
+		<span class="@6xl:col-span-2 flex flex-col gap-2">
 			<Card>
 				<b class="text-xl">Computer tech</b>
 				<p>
@@ -36,7 +36,7 @@
 			</Card>
 		</span>
 
-		<span class="row-span-2">
+		<span class="@6xl:row-span-2">
 			<Card>
 				<b class="text-xl">Furry fandom</b>
 
@@ -50,13 +50,13 @@
 			</Card>
 		</span>
 
-		<img src="/homepage/sona/martin.png" class="rounded-xl shadow-lg object-cover aspect-square" alt="fursona" />
+		<img src="/homepage/sona/martin.png" class="rounded-xl object-cover aspect-square" alt="fursona" />
 
-		<img src="/homepage/sona/vr.png" class="col-span-2 row-span-2 rounded-xl shadow-lg object-cover aspect-square" alt="fursona" />
+		<img src="/homepage/sona/vr.png" class="@6xl:col-span-2 @6xl:row-span-2 rounded-xl object-cover aspect-square" alt="fursona" />
 
-		<img src="/homepage/sona/oldmid.png" class="rounded-xl shadow-lg object-cover aspect-square" alt="fursona" />
+		<img src="/homepage/sona/oldmid.png" class="rounded-xl object-cover aspect-square" alt="fursona" />
 
-		<img src="/homepage/drone.jpeg" class="rounded-xl shadow-lg object-cover aspect-[3/2] col-span-3 row-span-2" alt="drone shot" />
+		<img src="/homepage/drone.jpeg" class="rounded-xl object-cover aspect-[3/2] @6xl:col-span-3 @6xl:row-span-2" alt="drone shot" />
 
 		<Card>
 			<b class="text-xl">Drones</b>

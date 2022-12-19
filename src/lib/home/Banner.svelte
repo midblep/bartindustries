@@ -70,6 +70,12 @@
 		"Midnight"
 	];
 
+	function calculateAge(birthday) { // birthday is a date
+		var ageDifMs = Date.now() - birthday;
+		var ageDate = new Date(ageDifMs); // miliseconds from epoch
+		return Math.abs(ageDate.getUTCFullYear() - 1970);
+	}
+
 	onMount(() => {
 		for(let j = 0; j < 20; j++) {
 			let list = document.createElement('div');
@@ -109,20 +115,21 @@
 			class="h-[80vh] w-auto @xl:block hidden z-10"
 		/>
 
-		<div class="flex flex-col py-20 h-full gap-20 z-10">
+		<div class="flex flex-col py-20 h-full gap-10 z-10">
 			<div class="flex flex-col gap-10">
 				<span>
 					<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
 				</span>
 
-				<span class="flex flex-wrap gap-2 items-end">
-					<h2 class="text-4xl font-extrabold">I'm</h2>
-					<span class="flex items-center">
-						{#key name}
-							<h2 class="text-4xl font-extrabold" in:scale>{name}</h2>
-						{/key}
-						<h2 class="text-4xl font-extrabold">,</h2>
-					</span>
+				<span class="flex flex-col gap-2 justify-end">
+					<h2 class="text-4xl flex gap-2 font-extrabold">I'm
+						<span class="flex items-center">
+							{#key name}
+								<span in:scale>{name}</span>
+							{/key}
+							<h2 class="text-4xl font-extrabold">,</h2>
+						</span>
+					</h2>
 					<span class="text-3xl font-extralight">
 						and I like to make things on the web
 					</span>
@@ -130,14 +137,15 @@
 			</div>
 
 			<p class="text-gray-800 dark:text-gray-300 text-lg max-w-[900px]">
-				I go by many names, which is why I named this place Bart Industries. It is my public digital home, a collection of my socials, work experiences,
-				past-time projects, artworks, hobbies, random blogposts, fursonas and anything else I feel I wanna share with the world.
+				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
 				<br/><br/>
-				For my skills and experiences I implore you to visit my <a href="#portfolio" class="a">portfolio section</a>,
-				I am always excited to explore new technologies and opportunities.
+				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel I wanna share with the world.
 				<br/><br/>
-				If you are interested in my work or want to contact me
-				you can reach out via one of my socials below or send me an email via the <a href="#contact" class="a">contact form</a>.
+				To know more about me you can visit the <a href="#about" class="a">about section</a>.
+				<br/>
+				For some of my skills and experiences you can visit my <a href="#portfolio" class="a">portfolio section</a>.
+				<br/>
+				If you want to contact me you can reach out via one of my socials below or <a href="mailto:pascalvanginkel@outlook.com" class="a">send me an email</a>.
 			</p>
 
 			<Socials type="default" />

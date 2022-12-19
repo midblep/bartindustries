@@ -6,15 +6,15 @@
 	<div class="absolute top-0 -mt-40" id="vr"></div>
 
 	<section class="w-full h-full flex flex-col px-5 justify-between gap-10 lg:gap-20">
-		<h2 class="calderious text-8xl text-blue-600">Virtual Reality</h2>
+		<h2 class="calderious text-6xl text-center @2xl:text-left @2xl:text-8xl text-blue-600">Virtual Reality</h2>
 
-		<article class="grid grid-cols-1 @lg:grid-cols-4 gap-5">
+		<article class="grid grid-cols-1 @6xl:grid-cols-4 gap-5">
 
-			<img src="/homepage/vr/vr.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/2] w-full h-full @lg:col-span-1 @lg:row-span-2" alt="couch" />
+			<img src="/homepage/vr/vr.png" class="rounded-xl @lg:object-cover aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/fancy.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/fancy.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="@lg:object-cover @lg:aspect-[1/1] h-full w-full @lg:col-span-2 @lg:row-span-2">
+			<div class="@lg:object-cover aspect-[1/1] h-full w-full @6xl:col-span-2 @6xl:row-span-2">
 				<Card
 					center={true}
 				>
@@ -34,19 +34,19 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/mad.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/mad.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/couch.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[3/2] w-full h-full @lg:col-span-3 @lg:row-span-2" alt="couch" />
+			<img src="/homepage/vr/couch.png" class="rounded-xl @lg:object-cover aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/doggo.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/doggo.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/bsaber.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/bsaber.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/misty.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/misty.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/lights.png" class="rounded-xl shadow-lg @lg:object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/lights.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="object-cover @lg:aspect-[2/1] h-full w-full @lg:col-span-2 @lg:row-span-1">
+			<div class="object-cover aspect-[2/1] h-full w-full @6xl:col-span-2">
 				<Card
 					center={true}
 				>
@@ -62,11 +62,11 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/furality.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/furality.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/fun.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[3/2] w-full h-full @lg:col-span-3 @lg:row-span-2" alt="couch" />
+			<img src="/homepage/vr/fun.png" class="rounded-xl object-cover aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
 
-			<div class="object-cover @lg:aspect-[1/1] h-full w-full @lg:col-span-1 @lg:row-span-1">
+			<div class="object-cover aspect-[1/1] h-full w-full">
 				<Card
 					center={true}
 				>
@@ -77,25 +77,25 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/meet.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[2/1] w-full h-full @lg:col-span-2 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/meet.png" class="rounded-xl object-cover aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
-			<img src="/homepage/vr/party.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/party.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/guitar.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/2] w-full h-full @lg:col-span-1 @lg:row-span-2" alt="couch" />
+			<img src="/homepage/vr/guitar.png" class="rounded-xl object-cover aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/sly.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/sly.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/dog.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-2 @lg:row-span-2" alt="couch" />
+			<img src="/homepage/vr/dog.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full @6xl:col-span-2 @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/dj.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full @lg:col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/dj.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="rounded-xl object-cover @lg:aspect-[2/1] w-full h-full col-span-2 @lg:row-span-1"></div>
+			<div class="rounded-xl object-cover aspect-[1/1] w-full h-full @6xl:block hidden"></div>
 
-			<img src="/homepage/vr/table.png" class="rounded-xl shadow-lg object-cover @lg:aspect-[2/1] w-full h-full col-span-2 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/table.png" class="rounded-xl object-cover aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
-			<div class="rounded-xl object-cover @lg:aspect-[1/1] w-full h-full col-span-1 @lg:row-span-1"></div>
+			<div class="rounded-xl object-cover aspect-[1/1] w-full h-full @6xl:block hidden"></div>
 
-			<img src="/homepage/vr/what.jpg" class="rounded-xl shadow-lg object-cover @lg:aspect-[1/1] w-full h-full col-span-1 @lg:row-span-1" alt="couch" />
+			<img src="/homepage/vr/what.jpg" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
 
 		</article>
 	</section>
