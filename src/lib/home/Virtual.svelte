@@ -20,7 +20,7 @@
 				>
 					<h3 class="font-bold text-2xl">I love Virtual Reality ❤</h3>
 					<p>
-						I believe the Metaverse is alrady here, and it's been here for years. The reason people haven't realized is because the thing companies sell us is not what the metaverse is actually about:
+						I believe the Metaverse is already here, and it's been here for years. The reason people haven't realized is because the thing companies sell us is not what the metaverse is actually about:
 						<br/><br/>
 						<i class="text-lg">
 						VR is a world of the free where anything is possible. Entire cities erected from a few button clicks. Friendships and communities built on creativity and compassion.
