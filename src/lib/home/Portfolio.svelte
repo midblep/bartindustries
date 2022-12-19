@@ -2,6 +2,60 @@
 
 	import Card from "./Card.svelte";
 
+    const words1 = [
+		"JavaScript",
+		"TypeScript",
+		"MySQL",
+		"Laravel",
+		"PHP",
+		"Livewire",
+		"NestJS",
+		"NodeJS",
+		"Unity",
+		"Substance Painter",
+		"Blender",
+		"PostgreSQL",
+		"TailwindCSS",
+		"Redis",
+		"Svelte",
+	];
+
+    const words2 = [
+		"Svelte",
+		"SvelteKit",
+		"Python",
+		"Django",
+		"Vue",
+		"Java",
+		"JavaFX",
+		"NGINX",
+		"Docker",
+		"REST",
+		"GraphQL",
+		"TypeORM",
+		"Eloquent",
+		"Express",
+		"Linux",
+		"Composer",
+	];
+
+    const words3 = [
+		"Composer",
+		"AlpineJS",
+		"Blade",
+		"JSX",
+		"Pug",
+		"Wordpress",
+		"Vercel",
+		"Netlify",
+		"AWS S3",
+		"Backblaze",
+        "Bootstrap",
+		"Fontawesome",
+		"Sass",
+		"Webpack",
+	];
+
 </script>
 <section class="pb-20 z-20 relative">
     <div class="absolute top-0 -mt-40" id="portfolio"></div>
@@ -183,25 +237,37 @@
 
             <span class="col-span-1 row-span-2">
                 <Card
-                    buttonHref="https://dubbelnull.com/showcase"
-                    buttonText="➡️ View DubbelNull showcase"
                 >
                     <h3
                         class="text-xl font-bold inline-flex items-center gap-3 justify-between"
                     >
                         <div class="inline-flex gap-3">
-                            <img
-                                src="/dubbelnull.png"
-                                class="h-10 -my-1 -ml-1"
-                                alt="dubbelnull"
-                            /> Skills
+                            ⚔️
+                            Skills
                         </div>
-                        <span class="text-sm font-light">2020 and ongoing</span>
                     </h3>
-                    <p class="text-sm text-gray-800 dark:text-gray-100">
-                        DubbelNull is a family business that does internet based development for small and medium sized companies,
-                        such as creating websites, manage hosting, advice and other similar things.
-                        I have made several websites for clients under this name, and you can find more of my works on the DubbelNull website.
+                    <p class="text-lg text-gray-800 dark:text-gray-100">
+                        It's a constantly growing list...
+                    </p>
+                    <div id="scroll-container" class="flex gap-1 w-full justify-between text-center text-sm">
+                        <div class="inline-flex flex-col gap-1">
+                            {#each words1 as word}
+                                <p>{word}</p>
+                            {/each}
+                        </div>
+                        <div class="inline-flex flex-col gap-1">
+                            {#each words2 as word}
+                                <p>{word}</p>
+                            {/each}
+                        </div>
+                        <div class="inline-flex flex-col gap-1">
+                            {#each words3 as word}
+                                <p>{word}</p>
+                            {/each}
+                        </div>
+                    </div>
+                    <p class="text-lg text-gray-800 dark:text-gray-100">
+                        But I can work with anything, and love to try out new things and technologies!
                     </p>
                 </Card>
             </span>
