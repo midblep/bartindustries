@@ -140,7 +140,7 @@
 				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
 				Be it making a website, building a computer, or designing a new protocol, I love making things with tech!
 				<br/><br/>
-				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel I wanna share with the world.
+				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel like sharing with the world.
 				<br/><br/>
 				To know more about me you can visit the <a href="#about" class="a">about section</a>.
 				<br/>

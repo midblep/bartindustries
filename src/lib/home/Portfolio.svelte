@@ -89,7 +89,7 @@
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         Flame Software is a Software-as-a-Service company that is developing a new communications app
                         that intends to revolutionize the way we talk and socialize online.
-                        Our mission is to make the net more connected, more privacy focused, and more healthy for your nmind.
+                        Our mission is to make the net more connected, more privacy focused, and more healthy for your mental wellbeing.
                         <br/><br/>
                         We are currently in our early development stage, where I work as the CTO to lay down the groundworks
                         for this new app, which will be built using a combination of languages like Rust and TypeScript.
