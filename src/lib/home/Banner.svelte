@@ -104,8 +104,8 @@
 	randomBannerPic = "/homepage/banner.png";
 </script>
 
-<main class="relative overflow-hidden lg:h-screen @container">
-	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim" id="lists">
+<main class="relative overflow-hidden min-h-screen @container">
+	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim opacity-5 dark:opacity-5" id="lists">
 	</div>
 
 	<div class="flex h-full w-full @4xl:p-20 gap-10 py-10 px-5 z-10">
@@ -121,7 +121,7 @@
 					<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
 				</span>
 
-				<span class="flex flex-col gap-2 justify-end">
+				<span class="flex gap-2 flex-wrap items-end">
 					<h2 class="text-4xl flex gap-2 font-extrabold">I'm
 						<span class="flex items-center">
 							{#key name}
@@ -131,13 +131,14 @@
 						</span>
 					</h2>
 					<span class="text-3xl font-extralight">
-						and I like to make things on the web
+						and i really like to build things
 					</span>
 				</span>
 			</div>
 
 			<p class="text-gray-800 dark:text-gray-300 text-lg max-w-[900px]">
 				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
+				Be it making a website, building a computer, or designing a new protocol, I love making things with tech!
 				<br/><br/>
 				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel I wanna share with the world.
 				<br/><br/>
@@ -152,7 +153,7 @@
 		</div>
 	</div>
 
-	<span class="hidden @2xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
+	<span class="hidden @4xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
 		<img src="/downarrow.png" class="w-10" />
 	</span>
 </main>
@@ -160,7 +161,6 @@
 <style>
 	.anim {
 		user-select: none;
-		opacity: 2%;
 		animation: anim;
 		animation-duration: 200s;
 		animation-timing-function: linear;

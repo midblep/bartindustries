@@ -10,11 +10,11 @@
 
 		<article class="grid grid-cols-1 @6xl:grid-cols-4 gap-5">
 
-			<img src="/homepage/vr/vr.png" class="rounded-xl @lg:object-cover aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
+			<img src="/homepage/vr/vr.png" class="rounded-xl object-cover @6xl:aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/fancy.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/fancy.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="@lg:object-cover aspect-[1/1] h-full w-full @6xl:col-span-2 @6xl:row-span-2">
+			<div class="object-cover @6xl:aspect-[1/1] h-full w-full @6xl:col-span-2 @6xl:row-span-2">
 				<Card
 					center={true}
 				>
@@ -34,23 +34,23 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/mad.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/mad.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/couch.png" class="rounded-xl @lg:object-cover aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
+			<img src="/homepage/vr/couch.png" class="rounded-xl object-cover @6xl:aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/doggo.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/doggo.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/bsaber.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/bsaber.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/misty.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/misty.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/lights.png" class="rounded-xl @lg:object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/lights.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="object-cover aspect-[2/1] h-full w-full @6xl:col-span-2">
+			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2">
 				<Card
 					center={true}
 				>
-					<h3 class="font-bold text-2xl">Experience and skills</h3>
+					<h3 class="font-bold text-2xl">💪 Experience and skills</h3>
 					<p>
 						Because of my adventures in virtual reality I have gained knowledge surrounding things such as:
 						Game development (Unity), texturing (Substance Painter) and animating (Unity Animators).
@@ -62,11 +62,11 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/furality.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/furality.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/fun.png" class="rounded-xl object-cover aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
+			<img src="/homepage/vr/fun.png" class="rounded-xl object-cover @6xl:aspect-[3/2] w-full h-full @6xl:col-span-3 @6xl:row-span-2" alt="couch" />
 
-			<div class="object-cover aspect-[1/1] h-full w-full">
+			<div class="object-cover @6xl:aspect-[1/1] h-full w-full">
 				<Card
 					center={true}
 				>
@@ -77,25 +77,25 @@
 				</Card>
 			</div>
 
-			<img src="/homepage/vr/meet.png" class="rounded-xl object-cover aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
+			<img src="/homepage/vr/meet.png" class="rounded-xl object-cover @6xl:aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
-			<img src="/homepage/vr/party.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/party.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/guitar.png" class="rounded-xl object-cover aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
+			<img src="/homepage/vr/guitar.png" class="rounded-xl object-cover @6xl:aspect-[1/2] w-full h-full @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/sly.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/sly.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/dog.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full @6xl:col-span-2 @6xl:row-span-2" alt="couch" />
+			<img src="/homepage/vr/dog.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full @6xl:col-span-2 @6xl:row-span-2" alt="couch" />
 
-			<img src="/homepage/vr/dj.png" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/dj.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 			<div class="rounded-xl object-cover w-full h-full @6xl:col-span-2 @6xl:block hidden"></div>
 
-			<img src="/homepage/vr/table.png" class="rounded-xl object-cover aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
+			<img src="/homepage/vr/table.png" class="rounded-xl object-cover @6xl:aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
-			<div class="rounded-xl object-cover aspect-[1/1] w-full h-full @6xl:block hidden"></div>
+			<div class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full @6xl:block hidden"></div>
 
-			<img src="/homepage/vr/what.jpg" class="rounded-xl object-cover aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/what.jpg" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 		</article>
 	</section>

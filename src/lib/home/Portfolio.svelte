@@ -4,12 +4,12 @@
 
     const words1 = [
 		"JavaScript",
-		"TypeScript",
+		"<b>TypeScript</b>",
 		"MySQL",
-		"Laravel",
+		"<b>Laravel</b>",
 		"PHP",
 		"Livewire",
-		"NestJS",
+		"<b>NestJS</b>",
 		"NodeJS",
 		"Unity",
 		"Substance Painter",
@@ -17,12 +17,11 @@
 		"PostgreSQL",
 		"TailwindCSS",
 		"Redis",
-		"Svelte",
+		"<b>Svelte</b>",
 	];
 
     const words2 = [
-		"Svelte",
-		"SvelteKit",
+		"<b>SvelteKit</b>",
 		"Python",
 		"Django",
 		"Vue",
@@ -30,13 +29,14 @@
 		"JavaFX",
 		"NGINX",
 		"Docker",
-		"REST",
+		"<b>REST</b>",
 		"GraphQL",
 		"TypeORM",
-		"Eloquent",
+		"<b>Eloquent</b>",
 		"Express",
 		"Linux",
 		"Composer",
+        "Bash",
 	];
 
     const words3 = [
@@ -45,7 +45,7 @@
 		"Blade",
 		"JSX",
 		"Pug",
-		"Wordpress",
+		"<b>Wordpress</b>",
 		"Vercel",
 		"Netlify",
 		"AWS S3",
@@ -54,6 +54,7 @@
 		"Fontawesome",
 		"Sass",
 		"Webpack",
+        "<b>Linux</b>",
 	];
 
 </script>
@@ -249,28 +250,28 @@
                         </div>
                     </h3>
                     <p class="ttext-gray-800 dark:text-gray-100">
-                        It's a constantly growing list...
+                        I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of my most used things:
                     </p>
                     <div id="scroll-container" class="flex gap-1 w-full justify-between text-center text-sm">
                         <div class="inline-flex flex-col gap-1">
                             {#each words1 as word}
-                                <p>{word}</p>
+                                <p>{@html word}</p>
                             {/each}
                         </div>
                         <div class="inline-flex flex-col gap-1">
                             {#each words2 as word}
-                                <p>{word}</p>
+                                <p>{@html word}</p>
                             {/each}
                         </div>
                         <div class="inline-flex flex-col gap-1">
                             {#each words3 as word}
-                                <p>{word}</p>
+                                <p>{@html word}</p>
                             {/each}
                         </div>
                     </div>
-                    <p class="text-gray-800 dark:text-gray-100">
-                        But I can work with anything, and love to try out new things and technologies!
-                    </p>
+                    <i class="text-gray-800 dark:text-gray-100 text-sm">
+                        Specialties marked in bold.
+                    </i>
                 </Card>
             </span>
         </div>
