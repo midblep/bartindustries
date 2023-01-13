@@ -25,7 +25,7 @@
 		"Python",
 		"Django",
 		"Vue",
-		"Java",
+		"<b>Java</b>",
 		"JavaFX",
 		"NGINX",
 		"Docker",
@@ -34,7 +34,6 @@
 		"TypeORM",
 		"<b>Eloquent</b>",
 		"Express",
-		"Linux",
 		"Composer",
         "Bash",
 	];
