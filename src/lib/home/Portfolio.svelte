@@ -126,7 +126,7 @@
                                 <br/><br/>
                                 In the project I have gone through a large array of different kinds of features and business processes ranging from Dockerization to documentation and load testing to backup storage.
                                 <br /><br />
-                                <b>Warning:</b> Puppy Pride is an adult themed social network based for people into petplay based in England. Explicit imagry may be present.
+                                <b>Warning:</b> Puppy Pride is an adult themed social network for people into petplay based in England. Explicit imagry may be present.
                                 Due to the site's content, logging in is required to view the majority of its features.
                             </p>
                         </span>
