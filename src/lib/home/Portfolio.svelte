@@ -96,10 +96,10 @@
                 </Card>
             </span>
 
-            <span class="@2xl:col-span-2 row-span-1 @container">
+            <span class="@2xl:col-span-1 row-span-2 @container">
                 <Card
-                    buttonHref="https://puppypride.social"
-                    buttonText="🌐 Visit Puppy Pride"
+                    buttonHref="https://beta.puppypride.social"
+                    buttonText="🌐 Visit the Puppy Pride public beta"
                 >
                     <div class="grid @xl:grid-cols-2 grid-cols-1 gap-5">
                         <span class="flex flex-col gap-5">
@@ -118,14 +118,16 @@
                             <p class="text-sm text-gray-800 dark:text-gray-100">
                                 I am the core developer of the new Puppy Pride social
                                 network since January 2021, and continue to support and expand
-                                it to this day. The site was built from the ground up
+                                it to this day.
+                                <br/><br/>
+                                The site was built from the ground up
                                 using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
-                                and gave me a lot of experience working with not just PHP and every field inside Laravel,
-                                but also a very large array of different kinds of features and business processes at each step of development.
+                                and gave me a lot of experience working with not just PHP and every single feature within the Laravel framework and all of the ecosystem.
+                                <br/><br/>
+                                In the project I have gone through a large array of different kinds of features and business processes ranging from Dockerization to documentation and load testing to backup storage.
                                 <br /><br />
-                                Puppy Pride is an adult themed England based social network for people into petplay.
-                                The project is nearing its completion and will be released soon.
-                                You may find a beta release public at <a target="_blank" class="a" href="https://beta.puppypride.social">beta.puppypride.social</a>.
+                                <b>Warning:</b> Puppy Pride is an adult themed social network based for people into petplay based in England. Explicit imagry may be present.
+                                Due to the site's content, logging in is required to view the majority of its features.
                             </p>
                         </span>
                         <span class="flex items-center">
