@@ -12,16 +12,10 @@
 		text="Twitter"
 	/>
 	<Social
-		url="https://gitlab.com/midblep"
-		title="GitLab"
+		url="https://git.bartindustries.com/"
+		title="Git repositories"
 		icon="🦊"
-		text="GitLab"
-	/>
-	<Social
-		url="https://github.com/midblep"
-		title="Very new, mostly empty"
-		icon="🐙"
-		text="GitHub"
+		text="Git run on Forgejo"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
@@ -49,16 +43,10 @@
 		text="Twitter"
 	/>
 	<Social
-		url="https://gitlab.com/midblep"
-		title="GitLab"
+		url="https://git.bartindustries.com/"
+		title="Git repositories"
 		icon="🦊"
-		text="GitLab"
-	/>
-	<Social
-		url="https://github.com/midblep"
-		title="Very new, mostly empty"
-		icon="🐙"
-		text="GitHub"
+		text="Git run on Forgejo"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
@@ -87,20 +75,10 @@
 		align="left"
 	/>
 	<Social
-		url="https://gitlab.com/midblep"
-		title="GitLab"
+		url="https://git.bartindustries.com/"
+		title="Git repositories"
 		icon="🦊"
-		text="GitLab"
-		justify="start"
-		align="left"
-	/>
-	<Social
-		url="https://github.com/midblep"
-		title="Very new, mostly empty"
-		icon="🐙"
-		text="GitHub"
-		justify="start"
-		align="left"
+		text="Git run on Forgejo"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
