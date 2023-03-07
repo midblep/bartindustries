@@ -15,7 +15,7 @@
 		url="https://git.bartindustries.com/"
 		title="Git repositories"
 		icon="🦊"
-		text="Git run on Forgejo"
+		text="Git"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
@@ -46,7 +46,7 @@
 		url="https://git.bartindustries.com/"
 		title="Git repositories"
 		icon="🦊"
-		text="Git run on Forgejo"
+		text="Git"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
@@ -78,7 +78,7 @@
 		url="https://git.bartindustries.com/"
 		title="Git repositories"
 		icon="🦊"
-		text="Git run on Forgejo"
+		text="Git"
 	/>
 	<Social
 		url="https://discord.com/users/191525900880183296"
