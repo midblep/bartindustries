@@ -4,7 +4,7 @@
 	import Form from "$lib/home/Form.svelte";
 	import Portfolio from "$lib/home/Portfolio.svelte";
 	import Quote from "$lib/home/Quote.svelte";
-import Sona from "$lib/home/Sona.svelte";
+	import Sona from "$lib/home/Sona.svelte";
 	import Virtual from "$lib/home/Virtual.svelte";
 </script>
 

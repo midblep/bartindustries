@@ -16,6 +16,8 @@
 		"Blender",
 		"PostgreSQL",
 		"TailwindCSS",
+        "Rust",
+        "Blazor",
 		"Redis",
 		"<b>Svelte</b>",
 	];
@@ -26,16 +28,18 @@
 		"Django",
 		"Vue",
 		"<b>Java</b>",
+        "C#",
 		"JavaFX",
 		"NGINX",
 		"Docker",
+        "PayPal",
 		"<b>REST</b>",
 		"GraphQL",
 		"TypeORM",
 		"<b>Eloquent</b>",
 		"Express",
-		"Composer",
         "Bash",
+        ".NET"
 	];
 
     const words3 = [
@@ -46,12 +50,14 @@
 		"Pug",
 		"<b>Wordpress</b>",
 		"Vercel",
+        "SEO",
 		"Netlify",
 		"AWS S3",
 		"Backblaze",
         "Bootstrap",
 		"Fontawesome",
 		"Sass",
+        ".NET Core",
 		"Webpack",
         "<b>Linux</b>",
 	];
@@ -122,11 +128,11 @@
                                 <br/><br/>
                                 The site was built from the ground up
                                 using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
-                                and gave me a lot of experience working with not just PHP and every single feature within the Laravel framework and all of the ecosystem.
+                                and gave me a lot of experience working with PHP and every single feature within the Laravel framework and all of the ecosystem.
                                 <br/><br/>
-                                In the project I have gone through a large array of different kinds of features and business processes ranging from Dockerization to documentation and load testing to backup storage.
+                                In the project I have gone through a large array of different kinds of features and business processes ranging from Docker to PayPal and from load testing with NGINX to backup storage with S3.
                                 <br /><br />
-                                <b>Warning:</b> Puppy Pride is an adult themed social network for people into petplay based in England. Explicit imagry may be present.
+                                <b>Warning:</b> Puppy Pride is an adult themed social network for people into petplay based in England. Explicit imagery may be present.
                                 Due to the site's content, logging in is required to view the majority of its features.
                             </p>
                         </span>
@@ -216,6 +222,11 @@
                             Internships
                         </div>
                     </h3>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="flex justify-between items-end"><b class="text-lg">Agro IT</b><p class="text-sm">2023</p></span>
+                        <p class="text-sm">Agro IT is an agricultural software company in The Netherlands. In my 5 month long internship I developed a new modern web app that connected to their existing rVDM suites.</p>
+                    </div>
 
                     <div class="flex flex-col gap-2">
                         <span class="flex justify-between items-end"><b class="text-lg">Witteveen+Bos</b><p class="text-sm">2022</p></span>
