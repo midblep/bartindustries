@@ -1,5 +1,4 @@
 <script>
-	import Construction from "$lib/Construction.svelte";
 	import Footer from "$lib/footer/Footer.svelte";
 	import Header from "$lib/header/Header.svelte";
 
