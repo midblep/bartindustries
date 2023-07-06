@@ -3,14 +3,10 @@
 	import { slide } from "svelte/transition";
 
 	let texts = [
-		"keep on creating",
-		"work on what you love",
-		"be yourself for yourself",
-		"overcome your challenges",
-		"push yourself forward",
-		"dare to dare",
-		"go out there and live",
-		"stop using twitter"
+		"keep on creating, creativitiy is our humanity",
+		"work on what you love and the rest will come later",
+		"be yourself, for yourself",
+		"stand by yourself"
 	];
 	let text = texts[0];
 
@@ -20,7 +16,7 @@
 		setInterval(() => {
 			text = texts[i % texts.length];
 			i++;
-		}, 3000);
+		}, 5000);
 	});
 </script>
 

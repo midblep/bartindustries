@@ -115,7 +115,7 @@
 			class="h-[80vh] w-auto @xl:block hidden z-10"
 		/>
 
-		<div class="flex flex-col py-20 h-full gap-10 z-10">
+		<div class="flex flex-col py-10 h-full gap-10 z-10">
 			<div class="flex flex-col gap-10">
 				<span>
 					<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
@@ -153,9 +153,9 @@
 		</div>
 	</div>
 
-	<span class="hidden @4xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
+	<!-- <span class="hidden @4xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
 		<img src="/downarrow.png" class="w-10" />
-	</span>
+	</span> -->
 </main>
 
 <style>

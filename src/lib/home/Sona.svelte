@@ -20,7 +20,7 @@
 			</h4>
 		</div>
 
-		<img src="/homepage/sona/blue.png" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
+		<img src="/homepage/sona/pink.png" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
 
 		<img src="/homepage/sona/MidFingers.jpg" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona"/>
 
@@ -38,25 +38,23 @@
 			</Card>
 		</span>
 
-		<span class="@6xl:row-span-2">
+		<img src="/homepage/sona/martin.png" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
+
+		<img src="/homepage/sona/koffie.png" class="rounded-xl object-cover @6xl:aspect-square w-full" alt="fursona" />
+
+		<img src="/homepage/sona/vr.png" class="@6xl:col-span-2 @6xl:row-span-3 rounded-xl object-cover h-full" alt="fursona" />
+
+		<span class="@6xl:col-span-2">
 			<Card>
 				<b class="text-xl">🦊 Furry fandom</b>
 
 				<p>
-					Being a furry is an important hobby and a creative outlet for me.
-					<br/><br/>
-					Mid is my primary character out of the many that I have created over the years. He is a fictional anthropomorphic cat with black fur and blue hair and some unusually large whiskers. I use Mid to represent myself with online. On the right is also depicted Martin the Pine Marten, and on some pictures further down the website you'll find a few more sonas: Rexouium named Koffie and a protogen called Seffy.
-					<br/><br/>
-					I commission people to create artistic depictions of my characters to bring them to life, as seen on the images on this page.
+					Being a furry is an important hobby and a creative outlet for me. In the digital world I express myself as Mid, he is an anthropomorphic cat with black fur and blue hair and some unusually large whiskers, and he's my main character. You'll see Mid in some places on this website. There are also Martin the pine marten, Seffy the protogen, Koffie the rexouium and many more.
 				</p>
 			</Card>
 		</span>
 
-		<img src="/homepage/sona/martin.png" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
-
-		<img src="/homepage/sona/vr.png" class="@6xl:col-span-2 @6xl:row-span-2 rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
-
-		<img src="/homepage/sona/oldmid.png" class="rounded-xl object-cover @6xl:aspect-square" alt="fursona" />
+		<img src="/homepage/sona/car.jpeg" class="rounded-xl object-cover @6xl:aspect-[3/2] @6xl:col-span-2" alt="car image" />
 
 		<img src="/homepage/drone.jpeg" class="rounded-xl object-cover @6xl:aspect-[3/2] @6xl:col-span-3 @6xl:row-span-2" alt="drone shot" />
 

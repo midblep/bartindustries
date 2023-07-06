@@ -4,7 +4,7 @@
 </script>
 
 {#if type == "default"}
-<div class="@container grid @lg:grid-cols-5 grid-cols-1 flex-wrap gap-3">
+<div class="@container grid @lg:grid-cols-4 grid-cols-1 flex-wrap gap-3">
 	<Social
 		url="https://twitter.com/midblep"
 		title="The Bird App"

@@ -29,8 +29,6 @@
 		<Virtual/>
 	</section>
 
-	<hr class="container my-10 opacity-10" />
-
 	<section class="py-20 mb-40">
 		<Quote/>
 	</section>

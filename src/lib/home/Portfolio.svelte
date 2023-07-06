@@ -17,7 +17,7 @@
 		"PostgreSQL",
 		"TailwindCSS",
         "Rust",
-        "Blazor",
+        "<b>Blazor</b>",
 		"Redis",
 		"<b>Svelte</b>",
 	];
@@ -28,7 +28,7 @@
 		"Django",
 		"Vue",
 		"<b>Java</b>",
-        "C#",
+        "<b>C#</b>",
 		"JavaFX",
 		"NGINX",
 		"Docker",
@@ -143,6 +143,24 @@
                 </Card>
             </span>
 
+            <Card>
+                <h3
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
+                >
+                    <div class="inline-flex gap-3">
+                        <img
+                            src="/agroit.png"
+                            class="h-8"
+                            alt="puppypride"
+                        /> Agro IT
+                    </div>
+                    <span class="text-sm font-light">2023 and ongoing</span>
+                </h3>
+                <p class="text-sm text-gray-800 dark:text-gray-100">
+                    After an internship at Agro IT where I developed a new web-based client for their RVDM suite, the company liked my work so much that they hired me to finalise and ship it to customers. After that I am expected to continue modernising other parts and modules of their systems to the new website-based environments.
+                </p>
+            </Card>
+
             <Card
                 buttonHref="https://saxion.nl"
                 buttonText="🎓 Open Website"
@@ -191,101 +209,92 @@
                 </Card>
             </span>
 
-            <span class="@6xl:row-span-2">
-                <Card
+            <Card>
+                <h3
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                 >
-                    <h3
-                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-                    >
-                        <div class="inline-flex gap-3">
-                            🧑‍💻
-                            Player Stats
-                        </div>
-                    </h3>
-                    <p class="text-sm text-gray-800 dark:text-gray-100">
-                        Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
-                        <br/><br/>
-                        In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
-                    </p>
-                    <img src="/banner4.png" class="w-full -mb-10" alt="mid"/>
-                </Card>
-            </span>
+                    <div class="inline-flex gap-3">
+                        🧑‍💻
+                        Player Stats
+                    </div>
+                </h3>
+                <p class="text-sm text-gray-800 dark:text-gray-100">
+                    Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
+                    <br/><br/>
+                    In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
+                </p>
+                <img src="/banner4.png" class="w-full -mb-10" alt="mid"/>
+            </Card>
 
-            <span class="col-span-1 @6xl:row-span-2">
-                <Card
+            <Card>
+                <h3
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                 >
-                    <h3
-                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-                    >
-                        <div class="inline-flex gap-3">
-                            🏢
-                            Internships
-                        </div>
-                    </h3>
-
-                    <div class="flex flex-col gap-2">
-                        <span class="flex justify-between items-end"><b class="text-lg">Agro IT</b><p class="text-sm">2023</p></span>
-                        <p class="text-sm">Agro IT is an agricultural software company in The Netherlands. In my 5 month long internship I developed a new modern web app that connected to their existing rVDM suites.</p>
+                    <div class="inline-flex gap-3">
+                        🏢
+                        Internships
                     </div>
+                </h3>
 
-                    <div class="flex flex-col gap-2">
-                        <span class="flex justify-between items-end"><b class="text-lg">Witteveen+Bos</b><p class="text-sm">2022</p></span>
-                        <p class="text-sm">Witteveen+Bos is a major worldwide agricultural software company. During my internship me and my team developed a generic authentication system in Django that would be used as a customized plug-in template for new projects at the company.</p>
-                    </div>
+                <div class="flex flex-col gap-2">
+                    <span class="flex justify-between items-end"><b class="text-lg">Agro IT</b><p class="text-sm">2023</p></span>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">Agro IT is an agricultural software company in The Netherlands. In my 5 month long internship I developed a new modern web app that connected to their existing rVDM suites.</p>
+                </div>
 
-                    <div class="flex flex-col gap-2">
-                        <span class="flex justify-between items-end"><b class="text-lg">AgroVision</b><p class="text-sm">2021</p></span>
-                        <p class="text-sm">AgroVision is a Dutch software company for farmers. During my internship I worked on an app that generates reports about CO2 usage on farms and informs the farmer on how to reduce thecir emmissions.</p>
-                    </div>
+                <div class="flex flex-col gap-2">
+                    <span class="flex justify-between items-end"><b class="text-lg">Witteveen+Bos</b><p class="text-sm">2022</p></span>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">Witteveen+Bos is a major worldwide agricultural software company. During my internship me and my team developed a generic authentication system in Django that would be used as a customized plug-in template for new projects at the company.</p>
+                </div>
 
-                    <div class="flex flex-col gap-2">
-                        <span class="flex justify-between items-end"><b class="text-lg">SuiteSeven</b><p class="text-sm">2019</p></span>
-                        <p class="text-sm">SuitSeven is a local webdevelopment studio. During my internship I worked on the design for a client's website.</p>
-                    </div>
+                <div class="flex flex-col gap-2">
+                    <span class="flex justify-between items-end"><b class="text-lg">AgroVision</b><p class="text-sm">2021</p></span>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">AgroVision is a Dutch software company for farmers. During my internship I worked on an app that generates reports about CO2 usage on farms and informs the farmer on how to reduce thecir emmissions.</p>
+                </div>
 
-                    <div class="flex flex-col gap-2">
-                        <span class="flex justify-between items-end"><b class="text-lg">Profity</b><p class="text-sm">2018</p></span>
-                        <p class="text-sm">Profity is a software ccompany creating ERP suites for the Dutch steel industry. During my internship I learned the dynamics of a team and the different processes involved in software development.</p>
-                    </div>
-                </Card>
-            </span>
+                <div class="flex flex-col gap-2">
+                    <span class="flex justify-between items-end"><b class="text-lg">SuiteSeven</b><p class="text-sm">2019</p></span>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">SuitSeven is a local webdevelopment studio. During my internship I worked on the design for a client's website.</p>
+                </div>
 
-            <span class="col-span-1 @6xl:row-span-2">
-                <Card
+                <div class="flex flex-col gap-2">
+                    <span class="flex justify-between items-end"><b class="text-lg">Profity</b><p class="text-sm">2018</p></span>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">Profity is a software ccompany creating ERP suites for the Dutch steel industry. During my internship I learned the dynamics of a team and the different processes involved in software development.</p>
+                </div>
+            </Card>
+
+            <Card>
+                <h3
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                 >
-                    <h3
-                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-                    >
-                        <div class="inline-flex gap-3">
-                            ⚔️
-                            Skills
-                        </div>
-                    </h3>
-                    <p class="ttext-gray-800 dark:text-gray-100">
-                        I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of my most used things:
-                    </p>
-                    <div id="scroll-container" class="flex gap-1 w-full justify-between text-center text-sm">
-                        <div class="inline-flex flex-col gap-1">
-                            {#each words1 as word}
-                                <p>{@html word}</p>
-                            {/each}
-                        </div>
-                        <div class="inline-flex flex-col gap-1">
-                            {#each words2 as word}
-                                <p>{@html word}</p>
-                            {/each}
-                        </div>
-                        <div class="inline-flex flex-col gap-1">
-                            {#each words3 as word}
-                                <p>{@html word}</p>
-                            {/each}
-                        </div>
+                    <div class="inline-flex gap-3">
+                        ⚔️
+                        Skills
                     </div>
-                    <i class="text-gray-800 dark:text-gray-100 text-sm">
-                        Specialties marked in bold.
-                    </i>
-                </Card>
-            </span>
+                </h3>
+                <p class="text-sm text-gray-800 dark:text-gray-100">
+                    I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of my most used things:
+                </p>
+                <div id="scroll-container" class="flex gap-1 w-full justify-between text-center text-sm">
+                    <div class="inline-flex flex-col gap-1">
+                        {#each words1 as word}
+                            <p>{@html word}</p>
+                        {/each}
+                    </div>
+                    <div class="inline-flex flex-col gap-1">
+                        {#each words2 as word}
+                            <p>{@html word}</p>
+                        {/each}
+                    </div>
+                    <div class="inline-flex flex-col gap-1">
+                        {#each words3 as word}
+                            <p>{@html word}</p>
+                        {/each}
+                    </div>
+                </div>
+                <i class="text-gray-800 dark:text-gray-100 text-sm">
+                    Specialties marked in bold.
+                </i>
+            </Card>
         </div>
     </div>
 </section>

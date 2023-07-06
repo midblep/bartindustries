@@ -89,12 +89,6 @@
 
 			<img src="/homepage/vr/dj.png" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<div class="rounded-xl object-cover w-full h-full @6xl:col-span-2 @6xl:block hidden"></div>
-
-			<img src="/homepage/vr/table.png" class="rounded-xl object-cover @6xl:aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
-
-			<div class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full @6xl:block hidden"></div>
-
 			<img src="/homepage/vr/what.jpg" class="rounded-xl object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 		</article>
