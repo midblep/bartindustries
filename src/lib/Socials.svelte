@@ -4,12 +4,12 @@
 </script>
 
 {#if type == "default"}
-<div class="@container grid @lg:grid-cols-4 grid-cols-1 flex-wrap gap-3">
+<div class="@container grid @lg:grid-cols-5 grid-cols-1 flex-wrap gap-3">
 	<Social
-		url="https://twitter.com/midblep"
-		title="The Bird App"
-		icon="🐦"
-		text="Twitter"
+		url="https://mastodon.social/@midblep"
+		title="My profile on the fediverse!"
+		icon="🐘"
+		text="Mastodon"
 	/>
 	<Social
 		url="https://git.bartindustries.com/"
@@ -22,6 +22,12 @@
 		title="Mid#0001"
 		icon="💬"
 		text="Discord"
+	/>
+	<Social
+		url="https://t.me/midblep"
+		title="Midblep"
+		icon="🗨️"
+		text="Telegram"
 	/>
 	<Social
 		url="mailto:mrrmiddynight@gmail.com"
