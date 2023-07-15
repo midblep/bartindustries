@@ -104,8 +104,8 @@
 
             <span class="@2xl:col-span-1 row-span-2 @container">
                 <Card
-                    buttonHref="https://beta.puppypride.social"
-                    buttonText="🌐 Visit the Puppy Pride public beta"
+                    buttonHref="https://puppypride.social"
+                    buttonText="🌐 Visit the Puppy Pride social network"
                 >
                     <div class="grid @xl:grid-cols-2 grid-cols-1 gap-5">
                         <span class="flex flex-col gap-5">
@@ -157,7 +157,9 @@
                     <span class="text-sm font-light">2023 and ongoing</span>
                 </h3>
                 <p class="text-sm text-gray-800 dark:text-gray-100">
-                    After an internship at Agro IT where I developed a new web-based client for their RVDM suite, the company liked my work so much that they hired me to finalise and ship it to customers. After that I am expected to continue modernising other parts and modules of their systems to the new website-based environments.
+                    During my study's internship at Agro IT I developed a beautiful and user friendly web environment for their RVDM suite by connecting it to their newly made API and Identity Server.<br/><br/>
+                    The company liked what I had built, and wanted to expand upon it, so they hired me after the internship so I can transform the internship's prototype to something we can roll out and release to clients.<br/><br/>
+                    After that I am expected to build other modules of Agro IT's products into web environments so that their clients will eventually no longer need the older application-style programs.
                 </p>
             </Card>
 
