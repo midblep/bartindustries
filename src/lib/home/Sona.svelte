@@ -56,20 +56,17 @@
 
 		<img src="/homepage/sona/car.jpeg" class="rounded-xl object-cover @6xl:aspect-[3/2] @6xl:col-span-2" alt="car image" />
 
-		<img src="/homepage/drone.jpeg" class="rounded-xl object-cover @6xl:aspect-[3/2] @6xl:col-span-3 @6xl:row-span-2" alt="drone shot" />
+		<img src="/homepage/drone.jpeg" class="rounded-xl object-cover @6xl:aspect-[2/1] @6xl:col-span-2" alt="drone shot" />
 
 		<Card>
 			<b class="text-xl">🛩️ Drones</b>
 			<p>
 				I like to go out there and make drone videos and pictures with my DJI drones, enjoying nature outdoors and capturing its beauty.
+				<br/><br/>
+				More recently I've made some videos for Allroadevents.nl during a few offroading trips.
 			</p>
 		</Card>
 
-		<Card>
-			<b class="text-xl">🥽 Virtual Reality</b>
-			<p>
-				One of my biggest gaming passions is the world of VR, a place I've made my second home. More about that can be found in the <a href="#vr" class="a">Virtual Reality</a> section.
-			</p>
-		</Card>
+		<img src="/homepage/drone2.jpeg" class="rounded-xl h-full object-cover" alt="drone shot" />
 	</section>
 </main>

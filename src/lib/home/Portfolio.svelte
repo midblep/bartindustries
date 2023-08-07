@@ -63,14 +63,22 @@
 	];
 
 </script>
-<section class="pb-20 z-20 relative">
+<section class="relative">
     <div class="absolute top-0 -mt-40" id="portfolio"></div>
-    <div class="@container container px-5 flex flex-col gap-10 justify-center">
-        <div class="flex flex-col gap-5">
-            <h2 class="font-bold text-4xl">Portfolio</h2>
-            <p class="text-lg">
-                Explore some of my past works, experiences, skills and jobs
-            </p>
+    <div class="@container container px-5 flex flex-col gap-5 justify-center">
+        <div class="flex justify-between relative items-center bg-gradient-to-r from-blue-700 dark:from-blue-700 dark:to-gray-900 to-gray-100 p-5 rounded-xl text-white">
+            <div class="flex flex-col gap-1">
+                <h2 class="font-bold text-4xl lg:text-6xl">Portfolio</h2>
+                <p>
+                    A list of some of my most notable works, experiences, skills and jobs
+                </p>
+            </div>
+            <div class="absolute lg:flex hidden right-5 gap-5">
+                <img src="/homepage/sona/mid thinking.png" class="h-20 rounded-xl" alt="sticker" />
+                <img src="/homepage/sona/mid smug.png" class="h-20 rounded-xl" alt="sticker" />
+                <img src="/homepage/sona/mid blep.png" class="h-20 rounded-xl" alt="sticker" />
+                <img src="/homepage/sona/mid angry.png" class="h-20 rounded-xl" alt="sticker" />
+            </div>
         </div>
 
         <div class="grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
@@ -225,7 +233,7 @@
                     <br/><br/>
                     In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
                 </p>
-                <img src="/banner4.png" class="w-full -mb-10" alt="mid"/>
+                <img src="/banner4.png" class="w-full -mb-5" alt="mid"/>
             </Card>
 
             <Card>
@@ -240,7 +248,7 @@
 
                 <div class="flex flex-col gap-2">
                     <span class="flex justify-between items-end"><b class="text-lg">Agro IT</b><p class="text-sm">2023</p></span>
-                    <p class="text-sm text-gray-800 dark:text-gray-100">Agro IT is an agricultural software company in The Netherlands. In my 5 month long internship I developed a new modern web app that connected to their existing rVDM suites.</p>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">Agro IT is an agricultural software company in The Netherlands. In my 5 month long internship I developed a new modern web app that connected to their existing APIs and made it possible for customers to use their systems from anywhere.</p>
                 </div>
 
                 <div class="flex flex-col gap-2">

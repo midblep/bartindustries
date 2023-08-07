@@ -108,14 +108,14 @@
 	<div class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim opacity-5 dark:opacity-5" id="lists">
 	</div>
 
-	<div class="flex h-full w-full @4xl:p-20 gap-10 py-10 px-5 z-10">
+	<div class="flex h-full w-full @4xl:p-20 gap-20 p-5 z-10">
 		<img
 			src={randomBannerPic}
 			alt="mid"
 			class="h-[80vh] w-auto @xl:block hidden z-10"
 		/>
 
-		<div class="flex flex-col py-10 h-full gap-10 z-10">
+		<div class="flex flex-col py-5 h-full gap-10 z-10">
 			<div class="flex flex-col gap-10">
 				<span>
 					<img src="/helloblue.png" alt="Hello!" class="h-20 popout" />
@@ -137,14 +137,15 @@
 			</div>
 
 			<p class="text-gray-800 dark:text-gray-300 text-lg max-w-[900px]">
-				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
-				Be it making a website, building a computer, or designing a new protocol, I love making things with tech!
+				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I am an entrepeneur with the dream of creating the next generation of chatting freedom online with my company Flame Software.
 				<br/><br/>
 				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel like sharing with the world.
 				<br/><br/>
-				To know more about me you can visit the <a href="#about" class="a">about section</a>.
+				You can read some of the stuff I've written about at the <a href="#blog" class="a">blog section</a>.
 				<br/>
-				For some of my skills and experiences you can visit my <a href="#portfolio" class="a">portfolio section</a>.
+				You can read about some of my skills and experiences at the <a href="#portfolio" class="a">portfolio section</a>.
+				<br/>
+				For some more information about me as a person you can visit the <a href="#about" class="a">about section</a>.
 				<br/>
 				If you want to contact me you can reach out via one of my socials below or <a href="mailto:pascalvanginkel@outlook.com" class="a">send me an email</a>.
 			</p>
@@ -156,6 +157,9 @@
 	<!-- <span class="hidden @4xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
 		<img src="/downarrow.png" class="w-10" />
 	</span> -->
+
+	<svg class="dark:hidden block absolute left-0 bottom-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,176C672,192,768,192,864,213.3C960,235,1056,277,1152,266.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+	<svg class="hidden dark:block absolute left-0 bottom-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f2937" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,176C672,192,768,192,864,213.3C960,235,1056,277,1152,266.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </main>
 
 <style>

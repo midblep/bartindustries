@@ -7,49 +7,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 	</head>
-	<body>
+	<body
+		class="scrollbar scrollbar-thumb-white dark:scrollbar-thumb-black scrollbar-w-3 scrollbar-track-gray-300 dark:scrollbar-track-gray-700 scrollbar-thumb-rounded-full"
+	>
 		<div>%svelte.body%</div>
 		<a rel="me" href="https://mastodon.social/@midblep" class="hidden">Mastodon</a>
 		<script>
-			if (!("container" in document.documentElement.style)) {
-				import("https://unpkg.com/container-query-polyfill@^0.2.0");
+			if (!('container' in document.documentElement.style)) {
+				import('https://unpkg.com/container-query-polyfill@^0.2.0');
 			}
 
 			let getCookie = (cname) => {
-				let name = cname + "=";
+				let name = cname + '=';
 				let decodedCookie = decodeURIComponent(document.cookie);
-				let ca = decodedCookie.split(";");
+				let ca = decodedCookie.split(';');
 				for (let i = 0; i < ca.length; i++) {
 					let c = ca[i];
-					while (c.charAt(0) == " ") {
+					while (c.charAt(0) == ' ') {
 						c = c.substring(1);
 					}
 					if (c.indexOf(name) == 0) {
 						return c.substring(name.length, c.length);
 					}
 				}
-				return "";
+				return '';
 			};
 
 			function setLight() {
-				document.documentElement.classList.remove("dark");
-				document.querySelector("#theme").innerHTML = "☀️";
-				document.cookie = "theme=light";
+				document.documentElement.classList.remove('dark');
+				document.querySelector('#theme').innerHTML = '☀️';
+				document.cookie = 'theme=light';
 			}
 
 			function setDark() {
-				document.documentElement.classList.add("dark");
-				document.querySelector("#theme").innerHTML = "🌙";
-				document.cookie = "theme=dark";
+				document.documentElement.classList.add('dark');
+				document.querySelector('#theme').innerHTML = '🌙';
+				document.cookie = 'theme=dark';
 			}
 
-			let theme = getCookie("theme");
+			let theme = getCookie('theme');
 
 			if (!theme) {
-				document.cookie = "theme=light";
+				document.cookie = 'theme=light';
 			} else {
-				if (theme == "light") setLight();
-				if (theme == "dark") setDark();
+				if (theme == 'light') setLight();
+				if (theme == 'dark') setDark();
 			}
 		</script>
 	</body>

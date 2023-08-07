@@ -23,5 +23,9 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [require('@tailwindcss/container-queries')]
+	plugins: [
+		require('@tailwindcss/container-queries'),
+		require('tailwind-scrollbar')({ nocompatible: true }),
+		require('@tailwindcss/typography')
+	]
 };

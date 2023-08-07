@@ -29,7 +29,7 @@
 						<br/><br/>
 						And big tech takes those who already built the metaverse for fools, and sells us a future that is the same dull office space we're already dragging ourselves through in the real world.
 						<br/><br/>
-						So I joined these passionate and creative minds and started making my own worlds and communities, building a digital home for myself. The pictures here are some of the moments and places the world of VR has allowed me to create and witness.
+						So I joined these passionate and creative minds and started making my own worlds and communities, building a digital home for myself. The pictures here are some of the moments and places the world of VR has allowId me to create and witness.
 					</p>
 				</Card>
 			</div>
@@ -72,7 +72,7 @@
 				>
 					<h3 class="font-bold text-2xl">🌍 Worldwide</h3>
 					<p>
-						The world of VR is much larger than it seems. Some of the world's largest companies in entertainment already realize its potential. Each year millions from all over the world come together in events and conventions such as Furality to celebrate.
+						Despite the "Metaverse" seemingly failing, the world of VR is huge. Companies like Disney already take it seriously, and every year millions of people from all over the world come together in events to celebrate it.
 					</p>
 				</Card>
 			</div>

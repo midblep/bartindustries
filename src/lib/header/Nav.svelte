@@ -16,10 +16,11 @@
 		</a>
 		<div class="hidden lg:flex h-16">
 			<NavButton url="/" text="Home" />
-			<NavButton url="#portfolio" text="Portfolio" />
-			<NavButton url="#about" text="About" />
-			<NavButton url="#vr" text="Virtual Reality" />
-			<NavButton url="#contact" text="Contact" />
+			<NavButton url="/#blog" text="Blog" />
+			<NavButton url="/#portfolio" text="Portfolio" />
+			<NavButton url="/#about" text="About" />
+			<NavButton url="/#vr" text="Virtual Reality" />
+			<NavButton url="/#contact" text="Contact" />
 		</div>
 	</div>
 	<div class="hidden lg:flex h-16">
@@ -28,10 +29,11 @@
 	<div class="flex lg:hidden h-16">
 		<NavDropdown text="🍔">
 			<NavButton url="/" text="Home" />
-			<NavButton url="#portfolio" text="Portfolio" />
-			<NavButton url="#about" text="About" />
-			<NavButton url="#vr" text="Virtual Reality" />
-			<NavButton url="#contact" text="Contact" />
+			<NavButton url="/#blog" text="Blog" />
+			<NavButton url="/#portfolio" text="Portfolio" />
+			<NavButton url="/#about" text="About" />
+			<NavButton url="/#vr" text="Virtual Reality" />
+			<NavButton url="/#contact" text="Contact" />
 			<hr class="bg-white" />
 			<ThemeSwitcher />
 		</NavDropdown>
