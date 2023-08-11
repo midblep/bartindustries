@@ -2,7 +2,7 @@
 	import Post from "$lib/blog/Post.svelte";
 </script>
 
-<Post date="August 1st 2023" title="Releasing Puppy Pride: lessons about experience, Laravel, and deadlines" image="/blog/releasingpuppypride.png">
+<Post date="August 11th 2023" title="Releasing Puppy Pride: lessons about experience, Laravel, and deadlines" image="/blog/releasingpuppypride.png">
     <b class="text-lg">
         It has taken me a while to develop, actually over 2.5 years of solo fullstack development with zero experience, but I finally managed to release and deploy the new Puppy Pride social network. There have definitely been ups an downs, and in this post I'd like to touch a little on what it took to get here and the lessons I learned along the way.
     </b>
@@ -28,15 +28,22 @@
     </p>
 
     <p>
-        Speaking of requirements, the system didn't only have to be rewritten into a modern system within months by a junior, it also needed to be better and faster, naturally. How does a junior optimize a large system when not knowing what he's doing? He tries, and tries, and tries until it works, for 8 months long. The 2.5 years of development were mostly occupied by solving a few key problems:
+        Speaking of requirements, the system didn't only have to be rewritten into a modern system within months by a junior, it also needed to be better and faster, naturally. How does a junior optimize a large system when not knowing what he's doing? He tries, and tries, and tries until it works, for 8 months long. The 2.5 years of development were mostly occupied by solving a few key problems, and in hindsight the first year was just me learning the software and replacing it the years afterwards.
     </p>
-    <ul>
-        <li>Migrating old data to the new database: 6 months</li>
-        <li>Deploying securely (Docker, NGINX): 4 months</li>
-        <li>Load balancing and load time improvements: 8 months</li>
-    </ul>
 
     <p>
-        Right before launch I developed Pride Unbound*London's website using Laravel as well.....
+        It was pretty clear I wasn't cut out for the job, but the fact my employer didn't really have anyone else kept me on board. Eventually the website had all of its basic features, and we ran into the more difficult problems. Edge cases, complicated payment flows and bad flows, database backups, migrations, etc. I missed deadline after deadline for two key reasons: Not knowing the full scope and enormity of the task ahead, and being so overwhelmed that I procrastinated.
+    </p>
+
+    <p>
+        But as time went on and I got more confident in my skills, I started to hit deadlines and become more motivated. Some issues still made me want to pull my hair out for weeks on end, because I had no team there was nobody to ask other than the internet, but eventually I always got there. My pace was getting better as through just one massive project I started to memorise the ins and outs of the entire Laravel framework; Observers, migrations, seeders, factories, jobs, batches, queues, events, listeners, notifications, drivers, livewire, APIs, S3 storage, and more. Pretty much everything that you can do in Laravel was used by this project.
+    </p>
+
+    <p>
+        Right when the website was almost done and set to launch, my boss was running a pride event in London and needed a website system for managing it. The volunteer was not making good progress, so eventually I was asked to make it. It took me just 3 days to develope Pride Unbound*London's website using Laravel. It sported an entire user system with registration form, ticket payments, registration management, CMS custom pages, event calendar, limited event booking spots, and more. It motivated me greatly, because it was a showcase to see how far I had gotten with my Laravel knowledge during the development of Puppy Pride, and that I was now able to make complex systems thanks to all of the experience I've gained with the framework.
+    </p>
+
+    <p>
+        That was the last push I needed to work on the last things, after which a few weeks of bug fixing happened, and Puppy Pride was eventually launched succesfully. We observed the website for some weeks, and to our greatest surprise nothing caught fire. Now we've planned out the next year of additions we wanna build, and I can happily say the entire experience was a success. Despite being underqualified and taking way longer than first expected, I developed and delivered an entirely functioning social site to spec by myself. I consider it an experience like no other, giving me the ability to work on a complex project from start to finish. It gave me a lot of confidence in my skills, and being so proficient in PHP and Laravel will enable me to make complex website systems quickly in the future.
     </p>
 </Post>
