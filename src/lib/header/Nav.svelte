@@ -20,7 +20,7 @@
 			<NavButton url="/#portfolio" text="Portfolio" />
 			<NavButton url="/#about" text="About" />
 			<NavButton url="/#vr" text="VR" />
-			<NavButton url="/#furry" text="Furry" />
+			<!-- <NavButton url="/#furry" text="Furry" /> -->
 			<NavButton url="/#contact" text="Contact" />
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 			<NavButton url="/#portfolio" text="Portfolio" />
 			<NavButton url="/#about" text="About" />
 			<NavButton url="/#vr" text="VR" />
-			<NavButton url="/#furry" text="Furry" />
+			<!-- <NavButton url="/#furry" text="Furry" /> -->
 			<NavButton url="/#contact" text="Contact" />
 			<hr class="bg-white" />
 			<ThemeSwitcher />
