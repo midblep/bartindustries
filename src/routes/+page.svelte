@@ -23,10 +23,12 @@
 		<svg class="dark:hidden block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,69.3C384,64,480,128,576,133.3C672,139,768,85,864,101.3C960,117,1056,203,1152,234.7C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 	</section>
 
-	<div class="flex flex-col gap-40 pb-40">
-		<Portfolio/>
+	<div class="flex flex-col">
+		<div class="bg-top bg-contain bg-opacity-20" style="background-image: url('/portfolioblobs.svg');">
+			<Portfolio/>
+		</div>
 
-		<div class="flex flex-col">
+		<div class="flex flex-col pt-20 lg:pt-0">
 			<img class="dark:hidden block scale-150 lg:scale-100" src="/homepage/aboutwhite.svg" />
 			<img class="hidden dark:block scale-150 lg:scale-100" src="/homepage/aboutdark.svg" />
 
@@ -34,11 +36,11 @@
 				<Sona/>
 			</div>
 
-			<img class="dark:hidden block rotate-180 lg:-mt-10 scale-150 lg:scale-100" src="/homepage/aboutwhite.svg" />
-			<img class="hidden dark:block rotate-180 lg:-mt-10 scale-150 lg:scale-100" src="/homepage/aboutdark.svg" />
+			<img class="dark:hidden block rotate-180 lg:-mt-10 scale-150 lg:scale-100 dotsandlines bg-repeat-y bg-cover" src="/homepage/aboutwhite.svg" />
+			<img class="hidden dark:block rotate-180 lg:-mt-10 scale-150 lg:scale-100 dotsandlines bg-repeat-y bg-cover" src="/homepage/aboutdark.svg" />
 		</div>
 
-		<div class="bg-repeat-y bg-contain dotsandlines">
+		<div class="bg-repeat-y bg-contain dotsandlines py-40">
 			<Virtual/>
 		</div>
 

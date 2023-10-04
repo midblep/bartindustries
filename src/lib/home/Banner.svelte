@@ -136,7 +136,7 @@
 				</span>
 			</div>
 
-			<p class="text-gray-800 dark:text-gray-300 text-lg max-w-[900px]">
+			<p class="text-gray-800 dark:text-gray-300 lg:text-lg max-w-[900px]">
 				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I am an entrepeneur with the dream of creating the next generation of chatting freedom online with my company Flame Software.
 				<br/><br/>
 				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel like sharing with the world.

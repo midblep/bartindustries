@@ -10,7 +10,7 @@
             content: "It has taken me a while to develop, actually over 2.5 years of solo fullstack development with zero experience, but I finally managed to release and deploy the new Puppy Pride social network. There have definitely been ups an downs, and in this post I'd like to touch a little on what it took to get here and the lessons I learned along the way.",
             url: "/blog/releasing-puppy-pride",
             date: "August 11th 2023",
-            isNew: true,
+            isNew: false,
         },
         // {
         //     image: "/blog/thepowerofvr.png",
@@ -34,7 +34,7 @@
             content: "On the web...",
             url: "/blog/centering-a-div",
             date: "August 11th 2023",
-            isNew: true,
+            isNew: false,
         }
     ];
 
