@@ -25,7 +25,7 @@
 
 			<img src="/homepage/vr/doggo.png" class="skew-x-3 lg:-skew-x-3 object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
-			<img src="/homepage/vr/bsaber.png" class="skew-x-3 lg:-skew-x-3lg: lg:-ml-5 object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
+			<img src="/homepage/vr/bsaber.png" class="skew-x-3 lg:-skew-x-3 lg:-ml-5 object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 			<img src="/homepage/vr/meet.png" class="skew-x-3 lg:-ml-3 object-cover @6xl:aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
