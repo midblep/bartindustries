@@ -301,9 +301,6 @@
                         {/each}
                     </div>
                 </div>
-                <i class="text-gray-800 dark:text-gray-100 text-sm">
-                    Specialties marked in bold.
-                </i>
             </Card>
         </div>
     </div>

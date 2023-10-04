@@ -40,10 +40,11 @@
 
     onMount(() => {
         if(browser) {
-            const slider: HTMLElement = document.querySelector('.items');
+            const slider: HTMLElement = document.querySelector('.items-blog');
             let isDown = false;
             let startX;
             let scrollLeft;
+            let lastKnownScrollLeft;
 
             slider.addEventListener('mousedown', (e) => {
                 isDown = true;
@@ -68,8 +69,9 @@
                 console.log(walk);
             });
             slider.addEventListener('wheel', (evt) => {
-                evt.preventDefault();
                 slider.scrollLeft += evt.deltaY;
+                if(slider.scrollLeft != lastKnownScrollLeft) evt.preventDefault();
+                lastKnownScrollLeft = slider.scrollLeft;
             });
         }
     });
@@ -90,7 +92,7 @@
             {#if posts.length == 1}
                 <p class="p-10 text-sm opacity-50">No more posts to show...</p>
             {:else}
-                <div class="grid grid-flow-col grid-rows-2 grid-cols-[repeat(12, 400px)] w-full gap-5 overflow-x-scroll pb-5 scrollbar scrollbar-thumb-white dark:scrollbar-thumb-black scrollbar-h-3 scrollbar-track-transparent scrollbar-thumb-rounded-full items">
+                <div class="grid grid-flow-col grid-rows-2 grid-cols-[repeat(12, 400px)] w-full gap-5 overflow-x-scroll pb-5 scrollbar scrollbar-thumb-white dark:scrollbar-thumb-black scrollbar-h-3 scrollbar-track-transparent scrollbar-thumb-rounded-full items-blog">
                     {#each posts as post, key}
                         {#if key != 0}
                             <Preview url={post.url} title={post.title} date={post.date} image={post.image} featured={false} isNew={post.isNew} />
