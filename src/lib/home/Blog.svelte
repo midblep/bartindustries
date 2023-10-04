@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from "$app/env";
+	import { browser } from "$app/environment";
 	import Preview from "$lib/blog/Preview.svelte";
 	import { onMount } from "svelte";
 
