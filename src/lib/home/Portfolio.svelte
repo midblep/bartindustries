@@ -65,21 +65,8 @@
 </script>
 <section class="relative">
     <div class="absolute top-0 -mt-40" id="portfolio"></div>
-    <div class="@container container px-5 flex flex-col gap-5 justify-center">
-        <div class="flex justify-between relative items-center bg-gradient-to-r from-blue-700 dark:from-blue-700 dark:to-gray-900 to-gray-100 p-5 rounded-xl text-white">
-            <div class="flex flex-col gap-1">
-                <h2 class="font-bold text-4xl lg:text-6xl">Portfolio</h2>
-                <p>
-                    A list of some of my most notable works, experiences, skills and jobs
-                </p>
-            </div>
-            <div class="absolute lg:flex hidden right-5 gap-5">
-                <img src="/homepage/sona/mid thinking.png" class="h-20 rounded-xl" alt="sticker" />
-                <img src="/homepage/sona/mid smug.png" class="h-20 rounded-xl" alt="sticker" />
-                <img src="/homepage/sona/mid blep.png" class="h-20 rounded-xl" alt="sticker" />
-                <img src="/homepage/sona/mid angry.png" class="h-20 rounded-xl" alt="sticker" />
-            </div>
-        </div>
+    <div class="@container container px-5 flex flex-col gap-5 lg:gap-10 justify-center">
+        <h2 class="fira text-center font-bold text-4xl lg:text-8xl text-blue-500">Portfolio</h2>
 
         <div class="grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
             <span>

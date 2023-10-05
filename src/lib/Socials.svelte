@@ -3,7 +3,7 @@
 	export let type = "default";
 </script>
 
-<div class="@container grid grid-cols-2 @xl:grid-cols-3 @2xl:grid-cols-4 flex-wrap gap-3">
+<div class="@container grid grid-cols-2 @xl:grid-cols-3 @4xl:grid-cols-4 flex-wrap gap-3">
 	<Social
 		url="https://mastodon.social/@midblep"
 		title="My profile on the fediverse!"

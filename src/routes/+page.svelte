@@ -28,19 +28,20 @@
 			<Portfolio/>
 		</div>
 
-		<div class="flex flex-col pt-20 lg:pt-0">
+		<div class="flex flex-col pt-20">
 			<img class="dark:hidden block scale-150 lg:scale-100" src="/homepage/aboutwhite.svg" />
 			<img class="hidden dark:block scale-150 lg:scale-100" src="/homepage/aboutdark.svg" />
 
-			<div class="bg-gray-200 dark:bg-gray-800 py-20 lg:-mt-20">
+			<div class="bg-gray-200 dark:bg-gray-800 pt-20 lg:-mt-20">
 				<Sona/>
 			</div>
 
-			<img class="dark:hidden block rotate-180 lg:-mt-10 scale-150 lg:scale-100 dotsandlines bg-repeat-y bg-cover" src="/homepage/aboutwhite.svg" />
-			<img class="hidden dark:block rotate-180 lg:-mt-10 scale-150 lg:scale-100 dotsandlines bg-repeat-y bg-cover" src="/homepage/aboutdark.svg" />
+			<div class="dotsandlines">
+				<div class="h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
+			</div>
 		</div>
 
-		<div class="bg-repeat-y bg-contain dotsandlines py-40">
+		<div class="bg-repeat-y bg-contain dotsandlines pb-20">
 			<Virtual/>
 		</div>
 
