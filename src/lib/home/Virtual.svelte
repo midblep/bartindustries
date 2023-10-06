@@ -76,9 +76,9 @@
 			<img src="/homepage/vr/fancy.png" class="skew-x-3 object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2 flex flex-col gap-5 text-lg relative">
-				<div class="absolute inset-0 w-full h-full bg-white skew-x-3"></div>
+				<div class="absolute inset-0 w-full h-full bg-white dark:bg-black skew-x-3"></div>
 				<p class="absolute inset-0 w-full h-full lg:p-10">
-					VR is a world of the free where anything is possible. A place where entire cities can be erected from just a few button clicks. A place where friendships and communities are built on creativity and compassion. A place where anyone can be what they truly want to be without limitation. A place where freedom flourishes and humanity's light shines brighter than anywhere else.
+					VR is a world where anything is possible. A place where cities can be built with just a few button clicks. A place where friendships and communities are built on creativity and compassion. A place where anyone can be what they want to be without limitation. A place where freedom flourishes and humanity's light shines brighter than anywhere else.
 					<br/><br/>
 					Despite what the failures of big-tech's attemps at creating a metaverse may make you think, VR is a very real and very big world consisting of millions of creative individuals with plenty of proven business models.
 				</p>
@@ -95,7 +95,7 @@
 			<img src="/homepage/vr/meet.png" class="skew-x-3 lg:-ml-3 object-cover @6xl:aspect-[2/1] w-full h-full @6xl:col-span-2" alt="couch" />
 
 			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2 flex flex-col gap-5 text-lg lg:-ml-3 relative">
-				<div class="absolute inset-0 w-full h-full bg-white skew-x-3"></div>
+				<div class="absolute inset-0 w-full h-full bg-white dark:bg-black skew-x-3"></div>
 				<p class="absolute inset-0 w-full h-full lg:p-10">
 					Because of my adventures in virtual reality (and 3D printing) I have gained knowledge surrounding things such as game development, modelling and texturing. Most of the avatars shown in the pictures were hand-made by me.
 					<br/><br/>

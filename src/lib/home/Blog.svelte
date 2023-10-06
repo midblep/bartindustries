@@ -37,53 +37,15 @@
             isNew: false,
         }
     ];
-
-    onMount(() => {
-        if(browser) {
-            const slider: HTMLElement = document.querySelector('.items-blog');
-            let isDown = false;
-            let startX;
-            let scrollLeft;
-            let lastKnownScrollLeft;
-
-            slider.addEventListener('mousedown', (e) => {
-                isDown = true;
-                slider.classList.add('active');
-                startX = e.pageX - slider.offsetLeft;
-                scrollLeft = slider.scrollLeft;
-            });
-            slider.addEventListener('mouseleave', () => {
-                isDown = false;
-                slider.classList.remove('active');
-            });
-            slider.addEventListener('mouseup', () => {
-                isDown = false;
-                slider.classList.remove('active');
-            });
-            slider.addEventListener('mousemove', (e) => {
-                if(!isDown) return;
-                e.preventDefault();
-                const x = e.pageX - slider.offsetLeft;
-                const walk = (x - startX) * 1; //scroll-fast
-                slider.scrollLeft = scrollLeft - walk;
-                console.log(walk);
-            });
-            slider.addEventListener('wheel', (evt) => {
-                slider.scrollLeft += evt.deltaY;
-                if(slider.scrollLeft != lastKnownScrollLeft) evt.preventDefault();
-                lastKnownScrollLeft = slider.scrollLeft;
-            });
-        }
-    });
 </script>
 
 {#if posts.length > 0}
-    <section class="relative container flex flex-col gap-5 lg:gap-20">
+    <section class="relative container flex flex-col gap-5 lg:gap-20 py-20">
         <div class="absolute top-0 -mt-40" id="blog"></div>
 
         <h2 class="text-center w-full text-4xl lg:text-6xl tracking-[0.2em] lg:tracking-[1em] font-bold">&lt;-- BLOG --&gt;</h2>
 
-        <div class="flex flex-col lg:flex-row gap-5 overflow-visible">
+        <div class="flex flex-col lg:flex-row gap-5">
 
             <span>
                 <Preview url={posts[0].url} title={posts[0].title} preview={posts[0].content.substring(0, 255) + ( posts[0].content.length > 255 ? "..." : "")} date={posts[0].date} image={posts[0].image} featured={true} isNew={posts[0].isNew} />
@@ -92,7 +54,7 @@
             {#if posts.length == 1}
                 <p class="p-10 text-sm opacity-50">No more posts to show...</p>
             {:else}
-                <div class="grid grid-flow-col grid-rows-2 grid-cols-[repeat(12, 400px)] w-full gap-5 overflow-x-scroll pb-5 scrollbar scrollbar-thumb-white dark:scrollbar-thumb-black scrollbar-h-3 scrollbar-track-transparent scrollbar-thumb-rounded-full items-blog">
+                <div class="grid grid-flow-col grid-rows-2 grid-cols-3 w-full gap-5">
                     {#each posts as post, key}
                         {#if key != 0}
                             <Preview url={post.url} title={post.title} date={post.date} image={post.image} featured={false} isNew={post.isNew} />

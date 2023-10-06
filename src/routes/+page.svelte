@@ -14,39 +14,31 @@
 <main class="overflow-x-hidden flex flex-col">
 	<Banner />
 
-	<section class="flex flex-col">
-		<div class="bg-gray-200 dark:bg-gray-800 py-20">
-			<Blog/>
-		</div>
-
-		<svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f2937" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,69.3C384,64,480,128,576,133.3C672,139,768,85,864,101.3C960,117,1056,203,1152,234.7C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-		<svg class="dark:hidden block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,69.3C384,64,480,128,576,133.3C672,139,768,85,864,101.3C960,117,1056,203,1152,234.7C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-	</section>
-
-	<div class="flex flex-col">
-		<div class="bg-top bg-contain bg-opacity-20" style="background-image: url('/portfolioblobs.svg');">
-			<Portfolio/>
-		</div>
-
-		<div class="flex flex-col pt-20">
-			<img class="dark:hidden block scale-150 lg:scale-100" src="/homepage/aboutwhite.svg" />
-			<img class="hidden dark:block scale-150 lg:scale-100" src="/homepage/aboutdark.svg" />
-
-			<div class="bg-gray-200 dark:bg-gray-800 pt-20 lg:-mt-20">
-				<Sona/>
-			</div>
-
-			<div class="dotsandlines">
-				<div class="h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
-			</div>
-		</div>
-
-		<div class="bg-repeat-y bg-contain dotsandlines pb-20">
-			<Virtual/>
-		</div>
-
-		<!-- <hr class="container opacity-10 mx-auto w-1/2"/>
-
-		<Furry/> -->
+	<div class="bg-gray-200 dark:bg-gray-800">
+		<Blog/>
 	</div>
+
+	<img class="dark:hidden block scale-100" src="/homepage/topfadelight.svg" />
+    <img class="hidden dark:block scale-100" src="/homepage/topfadedark.svg" />
+
+	<div class="bg-[#3A53FF]">
+		<Portfolio/>
+	</div>
+
+	<img class="dark:hidden block scale-150 lg:scale-100 bg-[#3A53FF]" src="/homepage/aboutwhite.svg" />
+	<img class="hidden dark:block scale-150 lg:scale-100 bg-[#3A53FF]" src="/homepage/aboutdark.svg" />
+
+	<div class="bg-gray-200 dark:bg-gray-800 pt-20 lg:-mt-20">
+		<Sona/>
+	</div>
+
+	<div class="dotsandlines">
+		<div class="h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
+	</div>
+
+	<div class="bg-repeat-y bg-contain dotsandlines pb-20">
+		<Virtual/>
+	</div>
+
+	<!-- <Furry/> -->
 </main>
