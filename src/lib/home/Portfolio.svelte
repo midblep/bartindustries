@@ -92,7 +92,7 @@
                     buttonHref="https://puppypride.social"
                     buttonText="🌐 Visit the Puppy Pride social network"
                 >
-                    <div class="grid @xl:grid-cols-2 grid-cols-1 gap-5">
+                    <div class="flex flex-col gap-5">
                         <span class="flex flex-col gap-5">
                             <h3
                                 class="text-xl flex-wrap font-bold inline-flex items-center gap-3 justify-between"
@@ -107,15 +107,11 @@
                                 <span class="text-sm font-light">2021 and ongoing</span>
                             </h3>
                             <p class="text-sm text-gray-800 dark:text-gray-100">
-                                I am the core developer of the new Puppy Pride social
-                                network since January 2021, and continue to support and expand
-                                it to this day.
+                                I am the lead developer of Puppy Pride since January of 2021. I develop and maintain Puppy Pride's social network, servers and events.
                                 <br/><br/>
-                                The site was built from the ground up
-                                using the TALL stack in PHP (Tailwindcss, Alpine, Livewire and Laravel)
-                                and gave me a lot of experience working with PHP and every single feature within the Laravel framework and all of the ecosystem.
+                                The site was built from the ground up using the TALL (Laravel) stack and sports a large array of features such as blogging, albums, subscriptions, events, instant messaging, customizable profiles, feeds, groups and advanced group management, and so on.
                                 <br/><br/>
-                                In the project I have gone through a large array of different kinds of features and business processes ranging from Docker to PayPal and from load testing with NGINX to backup storage with S3.
+                                Furthermore I have gotten experience with a lot of real concepts such as advanced dockerization, deployment, load balancing, caching, server maintenance and more.
                                 <br /><br />
                                 <b>Warning:</b> Puppy Pride is an adult themed social network for people into petplay based in England. Explicit imagery may be present.
                                 Due to the site's content, logging in is required to view the majority of its features.
@@ -198,13 +194,13 @@
                     >
                         <div class="inline-flex gap-3">
                             🧑‍💻
-                            Player Stats
+                            Always open
                         </div>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
                         <br/><br/>
-                        In my study at Saxion I have done many projects, including ones for large companies such as AgroVision and Witteveen+Bos, where we worked in teams of people with different backgrounds to create a complete product.
+                        Most of my experiences listed have happened because people approached me with cool ideas. If you have something you need made and think we could provide value to each other, I would be glad to look at your opportunities.
                     </p>
                     <img src="/banner4.png" class="w-full -mb-5" alt="mid"/>
                 </Card>
@@ -244,7 +240,7 @@
                         </div>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
-                        I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of my most used things:
+                        I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of the things I am comfortable on and like working with:
                     </p>
                     <div id="scroll-container" class="flex flex-wrap gap-1 w-full text-center text-sm">
                         {#each words as word, key}
@@ -262,18 +258,26 @@
                 </Card>
             </span>
 
-            <Card>
-                <h3
-                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-                >
-                    <div class="inline-flex gap-3">
-                        🤝
-                        Always open
-                    </div>
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I am always on the look out for new opportunities. If you need something done and you think I can help you, don't fret to <a href="#contact" class="a">contact me</a>.
-                </p>
+            <Card
+                buttonHref="https://prideunbound.uk"
+                buttonText="📂 See archived 2023 Pride Unbound site"
+            >
+                <div class="flex flex-col">
+                    <h3
+                        class="inline-flex items-center gap-3 text-xl font-bold"
+                    >
+                        <img
+                            src="/prideunbound.png"
+                            class="h-16"
+                            alt="prideunbound"
+                        />
+                        Pride Unbound
+                    </h3>
+                    <p class="text-sm text-gray-800 dark:text-gray-100">
+                        Pride Unbound is a convention based in London ran by Puppy Pride. I create and maintain their software and server infrastructure.
+                        The website is custom made with Laravel and has a registration system, scheduling system, booking system and CMS pages system all managed by the event organisers through a dashboard.
+                    </p>
+                </div>
             </Card>
         </div>
     </div>
