@@ -65,7 +65,7 @@
         </div>
 
         <div class="container px-5 my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
-            <div class="absolute top-0" id="portfolio"></div>
+            <div class="absolute top-0 -mt-40" id="portfolio"></div>
 
             <Card>
                 <h3
