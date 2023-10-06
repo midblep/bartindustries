@@ -262,20 +262,22 @@
                 buttonHref="https://prideunbound.uk"
                 buttonText="📂 See archived 2023 Pride Unbound site"
             >
-                <div class="flex flex-col">
+                <div class="flex flex-col gap-5">
                     <h3
-                        class="inline-flex items-center gap-3 text-xl font-bold"
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
                     >
-                        <img
-                            src="/prideunbound.png"
-                            class="h-16"
-                            alt="prideunbound"
-                        />
-                        Pride Unbound
+                        <div class="inline-flex gap-3">
+                            <img
+                                src="/prideunbound.png"
+                                class="h-8 rounded-full"
+                                alt="prideunbound"
+                            /> Pride Unbound
+                        </div>
+                        <span class="text-sm font-light">2023 and ongoing</span>
                     </h3>
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         Pride Unbound is a convention based in London ran by Puppy Pride. I create and maintain their software and server infrastructure.
-                        The website is custom made with Laravel and has a registration system, scheduling system, booking system and CMS pages system all managed by the event organisers through a dashboard.
+                        The website is custom made with Laravel and has a registration system, payment system, scheduling system, booking system and CMS pages system all managed by the event organisers through a dashboard.
                     </p>
                 </div>
             </Card>
