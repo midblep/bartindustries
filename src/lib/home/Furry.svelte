@@ -30,7 +30,6 @@
                 const x = e.pageX - slider.offsetLeft;
                 const walk = (x - startX) * 1; //scroll-fast
                 slider.scrollLeft = scrollLeft - walk;
-                console.log(walk);
             });
             slider.addEventListener('wheel', (evt) => {
                 slider.scrollLeft += evt.deltaY;

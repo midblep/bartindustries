@@ -22,7 +22,6 @@
 	function toggle() {
 		dropdown.classList.toggle("flex");
 		dropdown.classList.toggle("hidden");
-		console.log(dropdown);
 	}
 </script>
 

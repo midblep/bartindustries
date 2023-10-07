@@ -6,7 +6,7 @@
 </script>
 
 <footer
-	class="@container py-20 px-2 @lg:px-10 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white z-20 flex flex-col gap-10"
+	class="@container py-20 bg-white dark:bg-black dark:bg-opacity-50 text-black dark:text-white z-20 flex flex-col gap-10"
 >
 	<div class="absolute top-0 -mt-40" id="contact"></div>
 

@@ -32,7 +32,7 @@
 	</div>
 
 	<div class="dotsandlines">
-		<div class="h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
+		<div class="h-[100px] lg:h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
 	</div>
 
 	<div class="bg-repeat-y bg-contain dotsandlines pb-20">

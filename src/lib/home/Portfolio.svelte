@@ -4,12 +4,12 @@
 
     const words = [
 		"JavaScript",
-		"<b>TypeScript</b>",
+		"<b class='text-blue-500'>TypeScript</b>",
 		"MySQL",
-		"<b>Laravel</b>",
+		"<b class='text-blue-500'>Laravel</b>",
 		"PHP",
 		"Livewire",
-		"<b>NestJS</b>",
+		"<b class='text-blue-500'>NestJS</b>",
 		"NodeJS",
 		"Unity",
 		"Substance Painter",
@@ -17,23 +17,23 @@
 		"PostgreSQL",
 		"TailwindCSS",
         "Rust",
-        "<b>Blazor</b>",
+        "<b class='text-blue-500'>Blazor</b>",
 		"Redis",
-		"<b>Svelte</b>",
-        "<b>SvelteKit</b>",
+		"<b class='text-blue-500'>Svelte</b>",
+        "<b class='text-blue-500'>SvelteKit</b>",
 		"Python",
 		"Django",
 		"Vue",
-		"<b>Java</b>",
-        "<b>C#</b>",
+		"<b class='text-blue-500'>Java</b>",
+        "<b class='text-blue-500'>C#</b>",
 		"JavaFX",
 		"NGINX",
 		"Docker",
         "PayPal API",
-		"<b>REST</b>",
+		"<b class='text-blue-500'>REST</b>",
 		"GraphQL",
 		"TypeORM",
-		"<b>Eloquent</b>",
+		"<b class='text-blue-500'>Eloquent</b>",
 		"Express",
         "Bash",
         ".NET",
@@ -42,7 +42,7 @@
 		"Blade",
 		"JSX",
 		"Pug",
-		"<b>Wordpress</b>",
+		"<b class='text-blue-500'>Wordpress</b>",
 		"Vercel",
         "SEO",
 		"Netlify",
@@ -53,7 +53,7 @@
 		"Sass",
         ".NET Core",
 		"Webpack",
-        "<b>Linux</b>",
+        "<b class='text-blue-500'>Linux</b>",
 	];
 </script>
 
@@ -64,7 +64,7 @@
             <p class="lg:text-lg">A collection of some of the projects and experiences I am most proud of</p>
         </div>
 
-        <div class="container px-5 my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
+        <div class="container my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
             <div class="absolute top-0 -mt-40" id="portfolio"></div>
 
             <Card>
@@ -206,30 +206,34 @@
                 </Card>
             </span>
 
-            <Card
-                buttonHref="https://saxion.nl"
-                buttonText="🎓 Open Website"
-            >
-                <h3
-                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-                >
-                    <div class="inline-flex gap-3">
+            <span class="@xl:row-span-3">
+                <Card>
+                    <h3
+                        class="text-xl font-bold flex-wrap inline-flex items-center gap-3"
+                    >
                         <img
-                            src="/saxion.png"
-                            class="h-8 rounded-full"
-                            alt="puppypride"
-                        /> Saxion University
+                            src="/homepage/esu.png"
+                            class="h-10 rounded-full bg-black p-1"
+                            alt="esu"
+                        /> Easter System Universe
+                    </h3>
+                    <div class="h-full flex flex-col">
+                        <p class="text-sm text-gray-800 dark:text-gray-100">
+                            For the past years I've worked on building and writing a universe of mysteries called ESU. It is now mature enough to release, with several dimensions and planets on which the natives speak their own unique languages.
+                            <br/><br/>
+                            The universe confronts you with anomalies and alien concepts familiar enough to relate with as they fight for survival in an ever more technological world.
+                            Worlds collide as it becomes ever more apparent that the puppeteers of the world might not be who you think they are, instigating a battle in which you must rely on hope to make it through.
+                            <br/><br/>
+                            The first written story titled "Luther's Throne" is planned to release soon and will be published on this website.
+                        </p>
                     </div>
-                    <span class="text-sm font-light">2020 to 2024</span>
-                </h3>
-                <p class="text-sm text-gray-800 dark:text-gray-100">
-                    I am a year 4 student at the Saxion University of Applied Sciences in The Netherlands majoring in Software Engineering and expected to graduate in 2024.
-                    During the study I've done numerous projects for real clients and worked in teams comprised of people with many different backgrounds.
-                    Most of my programming knowledge was self researched, but the study has connected me with companies and allowed me to work on real world products like my work at Agro IT.
-                </p>
-            </Card>
+                    <span class="flex items-center">
+                        <img src="/homepage/esubanner.png" alt="cover of act 1" />
+                    </span>
+                </Card>
+            </span>
 
-            <span class="@xl:col-span-2">
+            <span class="@xl:row-span-2">
                 <Card>
                     <h3
                         class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
@@ -242,7 +246,7 @@
                     <p class="text-sm text-gray-800 dark:text-gray-100">
                         I can work with anything and love to try out new things and technologies! I have a lot of common knowledge around computer software and hardware and can adapt to anything that may be needed, but here is a constantly growing list of some of the things I am comfortable on and like working with:
                     </p>
-                    <div id="scroll-container" class="flex flex-wrap gap-1 w-full text-center text-sm">
+                    <div id="scroll-container" class="flex flex-wrap gap-1 w-full text-center">
                         {#each words as word, key}
                             <p>
                                 {#if key == words.length - 2}
@@ -280,6 +284,29 @@
                         The website is custom made with Laravel and has a registration system, payment system, scheduling system, booking system and CMS pages system all managed by the event organisers through a dashboard.
                     </p>
                 </div>
+            </Card>
+
+            <Card
+                buttonHref="https://saxion.nl"
+                buttonText="🎓 Open Website"
+            >
+                <h3
+                    class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
+                >
+                    <div class="inline-flex gap-3">
+                        <img
+                            src="/saxion.png"
+                            class="h-8 rounded-full"
+                            alt="puppypride"
+                        /> Saxion University
+                    </div>
+                    <span class="text-sm font-light">2020 to 2024</span>
+                </h3>
+                <p class="text-sm text-gray-800 dark:text-gray-100">
+                    I am a year 4 student at the Saxion University of Applied Sciences in The Netherlands majoring in Software Engineering and expected to graduate in 2024.
+                    During the study I've done numerous projects for real clients and worked in teams comprised of people with many different backgrounds.
+                    Most of my programming knowledge was self researched, but the study has connected me with companies and allowed me to work on real world products like my work at Agro IT.
+                </p>
             </Card>
         </div>
     </div>

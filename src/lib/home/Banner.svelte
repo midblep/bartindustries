@@ -139,22 +139,21 @@
 			</div>
 
 			<p class="text-gray-800 dark:text-gray-300 lg:text-lg max-w-[800px]">
-				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I have an entrepreneurial spirit and own the webdevelopment studio called DubbelNull.
-				I am motivated by creating software that provides useful services to people which improves their lives.
+				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I have an entrepreneurial spirit and own a webdevelopment studio called DubbelNull.
+				I am motivated by creating reliable software that makes a difference and improves the lives of people through unique solutions.
 				<br/><br/>
 				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel like sharing with the world.
 				<br/><br/>
-				Feel free to have a poke around and learn about who I am and the things I've worked on.
-				If you want to contact me you can find my details <a href="#contact" class="a">here</a>.
+				Feel free to have a look around and learn about who I am and the things I've worked on.
 			</p>
 
 			<Socials type="default" />
+
+			<span class="hidden 2xl:flex justify-center text-8xl float text-blue-600">
+				<img src="/downarrow.png" class="w-10" />
+			</span>
 		</div>
 	</div>
-
-	<!-- <span class="hidden @4xl:flex absolute left-0 bottom-0 w-full justify-center mb-20 z-50 text-8xl float text-blue-600">
-		<img src="/downarrow.png" class="w-10" />
-	</span> -->
 
 	<svg class="dark:hidden block absolute left-0 bottom-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5e7eb" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,176C672,192,768,192,864,213.3C960,235,1056,277,1152,266.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 	<svg class="hidden dark:block absolute left-0 bottom-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f2937" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,176C672,192,768,192,864,213.3C960,235,1056,277,1152,266.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>

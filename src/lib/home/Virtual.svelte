@@ -1,7 +1,7 @@
 <main class="@container flex flex-col gap-20 relative">
 	<div class="absolute top-0 -mt-40" id="vr"></div>
 
-	<section class="w-full h-full flex flex-col px-5 justify-between gap-10 @lg:gap-20">
+	<section class="w-full h-full flex flex-col justify-between gap-10 @lg:gap-20">
 		<h2 class="lg:hidden block baron text-6xl text-center @2xl:text-left @2xl:text-8xl text-blue-600">Virtual Reality</h2>
 		<div class="flex-col hidden lg:flex baron text-2xl lg:text-4xl 2xl:text-5xl text-left text-blue-600 lg:-ml-80 xl:-ml-40 2xl:-ml-10">
 			<div class="flex gap-5 items-end">
@@ -77,7 +77,7 @@
 
 			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2 flex flex-col gap-5 2xl:text-lg relative">
 				<div class="absolute inset-0 w-full h-full bg-white dark:bg-black skew-x-3"></div>
-				<p class="absolute inset-0 w-full h-full lg:p-5 2xl:p-10">
+				<p class="w-full h-full p-5 2xl:p-10 z-10">
 					VR is a world where anything is possible. A place where cities can be built with just a few button clicks. A place where friendships and communities are built on creativity and compassion. A place where anyone can be what they want to be without limitation. A place where freedom flourishes and humanity's light shines brighter than anywhere else.
 					<br/><br/>
 					Despite what the failures of big-tech's attempts at creating a metaverse may make you think, VR is a very real and very big world consisting of millions of creative individuals with plenty of proven business models.
@@ -96,7 +96,7 @@
 
 			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2 flex flex-col gap-5 2xl:text-lg lg:-ml-3 relative">
 				<div class="absolute inset-0 w-full h-full bg-white dark:bg-black skew-x-3"></div>
-				<p class="absolute inset-0 w-full h-full lg:p-5 2xl:p-10">
+				<p class="w-full h-full p-5 2xl:p-10 z-10">
 					Because of my adventures in virtual reality I have gained knowledge surrounding things such as game development, modelling and texturing. Most of the avatars shown in the pictures were hand-made by me, and I have created many worlds and systems inside these VR platforms.
 					<br/><br/>
 					In my experience auxiliary skills, like in this case having knowledge of the inner workings of the software that makes these emerging technological markets possible, often come in handy even when working in a completely different field. They make you a more versatile person with a broader range of knowledge that'll help inspire and solve difficult problems with unique solutions.
