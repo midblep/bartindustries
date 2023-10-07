@@ -109,11 +109,13 @@
 	</div>
 
 	<div class="flex h-full w-full @4xl:p-20 gap-20 p-5 z-10">
-		<img
-			src={randomBannerPic}
-			alt="mid"
-			class="h-[80vh] w-auto @xl:block hidden z-10"
-		/>
+		<div class="flex items-start @7xl:block hidden">
+			<img
+				src={randomBannerPic}
+				alt="mid"
+				class="w-[40vw] z-10"
+			/>
+		</div>
 
 		<div class="flex flex-col py-5 h-full gap-10 z-10">
 			<div class="flex flex-col gap-10">
@@ -136,18 +138,14 @@
 				</span>
 			</div>
 
-			<p class="text-gray-800 dark:text-gray-300 lg:text-lg max-w-[900px]">
-				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I am an entrepeneur with the dream of creating the next generation of chatting freedom online with my company Flame Software.
+			<p class="text-gray-800 dark:text-gray-300 lg:text-lg max-w-[800px]">
+				I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands. I have an entrepreneurial spirit and own the webdevelopment studio called DubbelNull.
+				I am motivated by creating software that provides useful services to people which improves their lives.
 				<br/><br/>
 				Bart Industries is my public digital home. It's a collection of my socials, work experiences and past projects, artworks, hobbies and interests, fursonas and anything else I feel like sharing with the world.
 				<br/><br/>
-				You can read some of the stuff I've written about at the <a href="#blog" class="a">blog section</a>.
-				<br/>
-				You can read about some of my skills and experiences at the <a href="#portfolio" class="a">portfolio section</a>.
-				<br/>
-				For some more information about me as a person you can visit the <a href="#about" class="a">about section</a>.
-				<br/>
-				If you want to contact me you can reach out via one of my socials below or <a href="mailto:pascalvanginkel@outlook.com" class="a">send me an email</a>.
+				Feel free to have a poke around and learn about who I am and the things I've worked on.
+				If you want to contact me you can find my details <a href="#contact" class="a">here</a>.
 			</p>
 
 			<Socials type="default" />

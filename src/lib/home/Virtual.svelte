@@ -80,7 +80,7 @@
 				<p class="absolute inset-0 w-full h-full lg:p-10">
 					VR is a world where anything is possible. A place where cities can be built with just a few button clicks. A place where friendships and communities are built on creativity and compassion. A place where anyone can be what they want to be without limitation. A place where freedom flourishes and humanity's light shines brighter than anywhere else.
 					<br/><br/>
-					Despite what the failures of big-tech's attemps at creating a metaverse may make you think, VR is a very real and very big world consisting of millions of creative individuals with plenty of proven business models.
+					Despite what the failures of big-tech's attempts at creating a metaverse may make you think, VR is a very real and very big world consisting of millions of creative individuals with plenty of proven business models.
 				</p>
 			</div>
 
