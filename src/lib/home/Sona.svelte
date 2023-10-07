@@ -15,14 +15,14 @@
     </h3>
     <div class="grid lg:grid-cols-5 gap-5">
 		<div class="lg:col-span-3 flex flex-col gap-5">
-			<div class="flex flex-wrap gap-2 bg-black bg-opacity-5 dark:bg-opacity-50 p-5">
+			<div class="flex flex-wrap gap-2 bg-black bg-opacity-5 dark:bg-opacity-40 p-5">
 				<p class="font-bold">
 					Hey there! I'm Pascal, but my internet name is Mid. Nice to have you here on my website. I'm a {calculateAge(new Date("2001-10-30"))} year old programmer and tech enthusiast from The Netherlands.
 					If you wanna know a little more about me then here are some of the things I like to do. For my past experience and portfolio visit <a href="#portfolio" class="a">my portfolio section</a>.
 				</p>
 			</div>
 
-			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-60 border-4">
+			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4">
 				<span id="about-computers" class="absolute top-0 -mt-40"></span>
 
 				<h4 class="text-lg font-bold">🖥 Computers</h4>
@@ -37,7 +37,7 @@
 				<img src="/homepage/proxmox.png" alt="proxmox environment" />
 			</div>
 
-			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-60 border-4">
+			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4">
 				<span id="about-furry" class="absolute top-0 -mt-40"></span>
 
 				<h4 class="text-lg font-bold">🦊 Furry</h4>
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-60 border-4">
+			<div class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4">
 				<span id="about-drones" class="absolute top-0 -mt-40"></span>
 
 				<h4 class="text-lg font-bold">🛩️ Drones</h4>
@@ -72,7 +72,7 @@
 		</div>
 
 		<div class="lg:col-span-2 flex flex-col gap-5 overflow-x-hidden pt-10">
-			<div class="flex flex-col gap-1 text-sm p-5 border-black border-opacity-20 dark:border-opacity-60 border-dashed border-4">
+			<div class="flex flex-col gap-1 text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-dashed border-4">
 				<h4 class="-mt-12 lg:-mt-16 lg:text-lg bg-gray-200 dark:bg-gray-800 -mx-3 text-blue-500 overflow-x-hidden">
 					<b>////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</b><br/>
 					<b>//</b> user details<br/>

@@ -76,7 +76,7 @@
 			<img src="/homepage/vr/fancy.png" class="skew-x-3 object-cover @6xl:aspect-[1/1] w-full h-full" alt="couch" />
 
 			<div class="object-cover @6xl:aspect-[2/1] h-full w-full @6xl:col-span-2 flex flex-col gap-5 text-lg relative">
-				<div class="absolute inset-0 w-full h-full bg-white dark:bg-black skew-x-3"></div>
+				<div class="absolute inset-0 w-full h-full dark:bg-black skew-x-3"></div>
 				<p class="absolute inset-0 w-full h-full lg:p-10">
 					VR is a world where anything is possible. A place where cities can be built with just a few button clicks. A place where friendships and communities are built on creativity and compassion. A place where anyone can be what they want to be without limitation. A place where freedom flourishes and humanity's light shines brighter than anywhere else.
 					<br/><br/>

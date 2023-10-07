@@ -61,7 +61,7 @@
     <div class="@container flex flex-col justify-center">
         <div class="flex flex-col gap-2 whitepigeon text-white text-center bg-[#3A53FF]">
             <h2 class="font-bold text-4xl lg:text-8xl">Portfolio</h2>
-            <p class="lg:text-lg">A collection of some of my past and current projects and experiences</p>
+            <p class="lg:text-lg">A collection of some of the projects and experiences I am most proud of</p>
         </div>
 
         <div class="container px-5 my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between">
