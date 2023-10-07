@@ -40,7 +40,7 @@
 </script>
 
 {#if posts.length > 0}
-    <section class="relative container flex flex-col gap-5 lg:gap-20 py-20">
+    <section class="relative container flex flex-col gap-5 lg:gap-20 pt-20 lg:pb-20">
         <div class="absolute top-0 -mt-40" id="blog"></div>
 
         <h2 class="text-center w-full text-4xl lg:text-6xl tracking-[0.2em] lg:tracking-[1em] font-bold">&lt;-- BLOG --&gt;</h2>
@@ -54,7 +54,7 @@
             {#if posts.length == 1}
                 <p class="p-10 text-sm opacity-50">No more posts to show...</p>
             {:else}
-                <div class="grid grid-flow-col grid-rows-2 grid-cols-3 w-full gap-5">
+                <div class="grid grid-flow-col lg:grid-rows-2 grid-cols-1 lg:grid-cols-3 w-full gap-5">
                     {#each posts as post, key}
                         {#if key != 0}
                             <Preview url={post.url} title={post.title} date={post.date} image={post.image} featured={false} isNew={post.isNew} />

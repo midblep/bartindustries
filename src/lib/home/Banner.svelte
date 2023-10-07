@@ -109,7 +109,7 @@
 	</div>
 
 	<div class="flex h-full w-full @4xl:p-20 gap-20 p-5 z-10">
-		<div class="flex items-start @7xl:block hidden">
+		<div class="items-start @7xl:block hidden z-10">
 			<img
 				src={randomBannerPic}
 				alt="mid"

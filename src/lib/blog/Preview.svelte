@@ -23,7 +23,7 @@
         <sub class="text-xs">{date}</sub>
     </a>
 {:else}
-    <a href={url} class="flex flex-col gap-2 w-[300px] relative flex-none p-3 hover:bg-opacity-50 bg-opacity-0 dark:bg-opacity-0 hover:dark:bg-opacity-50 dark:bg-black bg-white duration-200 rounded-xl">
+    <a href={url} class="flex flex-col gap-2 w-full relative flex-none p-3 hover:bg-opacity-50 bg-opacity-0 dark:bg-opacity-0 hover:dark:bg-opacity-50 dark:bg-black bg-white duration-200 rounded-xl">
         {#if image.length > 0}
             <img src={image} class="rounded-lg w-full aspect-[2/1] object-cover" alt={title} />
         {/if}

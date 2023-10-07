@@ -20,7 +20,7 @@
 
 	<div class="bg-gray-200 dark:bg-gray-800" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-65.62,-22.99 C146.87,168.99 238.74,166.00 589.37,-22.99 L543.74,181.99 L0.00,150.00 Z" style="stroke: none; fill: rgb(58, 83, 255);"></path></svg></div>
 
-	<div class="bg-[#3A53FF] pt-20">
+	<div class="bg-[#3A53FF] lg:pt-20">
 		<Portfolio/>
 	</div>
 
