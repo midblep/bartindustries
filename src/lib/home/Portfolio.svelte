@@ -197,12 +197,14 @@
                             Always open
                         </div>
                     </h3>
-                    <p class="text-sm text-gray-800 dark:text-gray-100">
-                        Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
-                        <br/><br/>
-                        Most of my experiences listed have happened because people approached me with cool ideas. If you have something you need made and think we could provide value to each other, I would be glad to look at your opportunities.
-                    </p>
-                    <img src="/banner4.png" class="w-full -mb-5" alt="mid"/>
+                    <div class="h-full flex flex-col justify-between">
+                        <p class="text-sm text-gray-800 dark:text-gray-100">
+                            Beyond practical knowledge, I am also a teamplayer. I love discovering new ways and technologies that are proposed to me and like to share ideas and find new solutions to problems together.
+                            <br/><br/>
+                            Most of my experiences listed have happened because people approached me with cool ideas. If you have something you need made and think we could provide value to each other, I would be glad to look at your opportunities.
+                        </p>
+                        <img src="/banner4.png" class="w-full -mb-5" alt="mid"/>
+                    </div>
                 </Card>
             </span>
 
