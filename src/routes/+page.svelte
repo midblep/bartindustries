@@ -1,10 +1,10 @@
 <script>
-	import Banner from "$lib/home/Banner.svelte";
-	import Blog from "$lib/home/Blog.svelte";
-	import Portfolio from "$lib/home/Portfolio.svelte";
-	import Sona from "$lib/home/Sona.svelte";
-	import Virtual from "$lib/home/Virtual.svelte";
-	import Furry from "$lib/home/Furry.svelte";
+	import Banner from '$lib/home/Banner.svelte';
+	import Blog from '$lib/home/Blog.svelte';
+	import Portfolio from '$lib/home/Portfolio.svelte';
+	import Sona from '$lib/home/Sona.svelte';
+	import Virtual from '$lib/home/Virtual.svelte';
+	import Furry from '$lib/home/Furry.svelte';
 </script>
 
 <svelte:head>
@@ -14,29 +14,31 @@
 <main class="overflow-x-hidden flex flex-col">
 	<Banner />
 
-	<div class="bg-gray-200 dark:bg-gray-800">
-		<Blog/>
+	<div class="bg-gray-200 dark:bg-gray-800 pb-20">
+		<Blog />
 	</div>
 
-	<div class="bg-gray-200 dark:bg-gray-800" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-65.62,-22.99 C146.87,168.99 238.74,166.00 589.37,-22.99 L543.74,181.99 L0.00,150.00 Z" style="stroke: none; fill: rgb(58, 83, 255);"></path></svg></div>
+	<div
+		class="bg-gradient-to-b from-gray-200 via-gray-100 dark:via-gray-900 dark:from-gray-800 w-full"
+	>
+		<div class="bg-[#3A53FF] rounded-t-[50px] py-20 lg:mx-5 relative">
+			<div
+				class="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-top rounded-t-[50px]"
+				style="background-image: url('portfoliobackg.svg')"
+			/>
 
-	<div class="bg-[#3A53FF] lg:pt-20">
-		<Portfolio/>
+			<Portfolio />
+		</div>
 	</div>
 
-	<img class="dark:hidden block scale-150 lg:scale-100 bg-[#3A53FF]" src="/homepage/aboutwhite.svg" />
-	<img class="hidden dark:block scale-150 lg:scale-100 bg-[#3A53FF]" src="/homepage/aboutdark.svg" />
+	<img class="scale-150 lg:mx-5 lg:scale-100 -mt-[1px]" src="/homepage/steps.svg" />
 
-	<div class="bg-gray-200 dark:bg-gray-800 pt-20 lg:-mt-20">
-		<Sona/>
+	<div class="py-20">
+		<Sona />
 	</div>
 
-	<div class="dotsandlines">
-		<div class="h-[100px] lg:h-[400px] bg-gradient-to-b from-gray-200 dark:from-gray-800"></div>
-	</div>
-
-	<div class="bg-repeat-y bg-contain dotsandlines pb-20">
-		<Virtual/>
+	<div class="bg-repeat-y bg-contain dotsandlines py-20">
+		<Virtual />
 	</div>
 
 	<!-- <Furry/> -->
