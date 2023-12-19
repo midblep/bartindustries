@@ -1,6 +1,6 @@
 <script>
-	import Social from "./footer/Social.svelte";
-	export let type = "default";
+	import Social from './footer/Social.svelte';
+	export let type = 'default';
 </script>
 
 <div class="@container grid grid-cols-2 @xl:grid-cols-3 @4xl:grid-cols-4 flex-wrap gap-3">
@@ -16,36 +16,11 @@
 		icon="🐦"
 		text="Twitter (X)"
 	/>
-	<Social
-		url="https://git.bartindustries.com/"
-		title="Git repositories"
-		icon="🗃️"
-		text="Git"
-	/>
-	<Social
-		url="https://gitlab.com/midblep"
-		title="GitLab repositories"
-		icon="🦊"
-		text="GitLab"
-	/>
-	<Social
-		url="https://github.com/midblep"
-		title="GitHub repositories"
-		icon="🐙"
-		text="GitHub"
-	/>
-	<Social
-		url="https://discord.com/users/191525900880183296"
-		title="Mid#0001"
-		icon="💬"
-		text="Discord"
-	/>
-	<Social
-		url="https://t.me/midblep"
-		title="Midblep"
-		icon="🗨️"
-		text="Telegram"
-	/>
+	<Social url="https://git.bartindustries.com/" title="Git repositories" icon="🗃️" text="Git" />
+	<Social url="https://gitlab.com/midblep" title="GitLab repositories" icon="🦊" text="GitLab" />
+	<Social url="https://github.com/midblep" title="GitHub repositories" icon="🐙" text="GitHub" />
+	<Social url="https://discord.com/invite/FBUv2SXF" title="Midblep" icon="💬" text="Discord" />
+	<Social url="https://t.me/midblep" title="Midblep" icon="🗨️" text="Telegram" />
 	<Social
 		url="mailto:mrrmiddynight@gmail.com"
 		title="mrrmiddynight@gmail.com"
