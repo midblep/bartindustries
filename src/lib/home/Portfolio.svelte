@@ -243,37 +243,34 @@
 			</span>
 
 			<span class="@2xl:col-span-2">
-				<Card
-					buttonHref="https://furality.org/"
-					buttonImage="/fox.png"
-					buttonText="Visit furality.org"
-				>
+				<Card buttonHref="https://furality.org/" buttonText="🦊 Visit furality.org">
 					<div class="grid grid-cols-2 gap-10">
-						<div class="w-full">
+						<div class="w-full flex flex-col gap-5">
 							<h3
 								class="w-full text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
 							>
 								<div class="inline-flex gap-3">
-									<img src="/furality.png" class="h-10 -my-1 -ml-1" alt="dubbelnull" />
+									<img src="/fox.png" class="h-8" alt="furality" /> Furality
 								</div>
 								<span class="text-sm font-light">2023 and ongoing</span>
 							</h3>
 							<p class="text-sm text-gray-800 dark:text-gray-100">
-								Furality is a nonprofit event for the furry fandom held inside VRChat. It is the
-								largest furcon worldwide by attendees and uses proprietary technology in order to
-								run its events.
+								Furality is a nonprofit organisation that organises Furality Online Experience
+								(F.O.X.), the largest online furry convention in the world hosted inside VRChat.
 								<br /><br />
 								Since December 2023 I volunteer for Furality Inc. as a Backend Developer. I work together
 								with the rest of the DevOps Department to work on APIs and systems that use things such
 								as TypeScript, NestJS, Grafana, Prometheus, RabbitMQ, Authentik, C#, Unity, and more.
 								<br /><br />
-								I am mainly tasked with developing Furality's in-house OIDC system and expanding Unity
-								plugins and tooling.
+								I am mainly tasked with developing Furality's in-house OIDC system, and expanding Furality's
+								Unity plugins. But I also work on upgrading and scaling queue runners, updating existing
+								APIs that connect with Discord, Patreon, VRChat and others to run the convention itself,
+								and maintaining databases and infrastructure surrounding the systems.
 							</p>
 						</div>
 						<img
-							src="/furality-luma.png"
-							class="rounded-xl w-full"
+							src="/furalitypic.png"
+							class="rounded-xl w-full aspect-square object-cover"
 							alt="Picture of some people from the DevOps Team"
 						/>
 					</div>
