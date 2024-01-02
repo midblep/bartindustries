@@ -91,6 +91,43 @@
 					/>
 				</div>
 			</div>
+
+			<div
+				class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4"
+			>
+				<span id="about-coding" class="absolute top-0 -mt-40" />
+
+				<h4 class="text-lg font-bold">🖥️ Coding</h4>
+
+				<p>
+					I have an inherent distate to the endless tools, buildsteps and abstraction layers of the
+					modern world. Especially prelevant in fields like front-end webdevelopment. My philosophy
+					on the matter can not be explained better than by Emma Essex, creator of Halley Labs, who
+					wrote the following on their website:
+				</p>
+
+				<div class="bg-gray-200 p-5 flex gap-5">
+					<p class="text-6xl font-extrabold">"</p>
+					<blockquote cite="https://msx.horse/about.php">
+						as time has gone on, i have become fairly exhausted with the unnecesary bloat in all
+						things. my desire to better optimize, to work with fewer layers of abstraction, and so
+						on, continue to lead me back to a strong desire for utilitarian design. there is a
+						common misconception that stripping things to their roots robs them of personality, or
+						soul. this is naturally catastrophically untrue. it's just that when you get to that
+						point, the soul in all things is so bare that you have no choice but to really try to
+						understand it and interface with it. everything that goes on top is very cute and fun,
+						but attire is primarily cultural shorthand. as a people, we are better than needing
+						shorthand to understand or appreciate the soul in things. i encourage everybody to
+						search for the inherent soul in all things.
+					</blockquote>
+				</div>
+
+				<p>
+					I love working with a limited set of tools and create my own way of doing things. Per
+					example, working around the limitations of chat-based bots on Discord to build out my own
+					UI and functionalities. Unusual but robus solutions motivate me to continue.
+				</p>
+			</div>
 		</div>
 
 		<div class="lg:col-span-2 flex flex-col gap-5 overflow-x-hidden pt-10">
@@ -125,7 +162,11 @@
 					>&lt;nationality&gt; <bold class="font-bold lg:text-base">dutch 🇳🇱</bold> &lt;/nationality&gt;</span
 				>
 				<span class="h-5" />
-				<span>&lt;hobby&gt; <bold class="font-bold lg:text-base">coding</bold> &lt;/hobby&gt;</span>
+				<a href="#about-coding" class="group"
+					>&lt;hobby&gt; <bold class="font-bold lg:text-base group-hover:underline text-[#2563EB]"
+						>coding</bold
+					> &lt;/hobby&gt;</a
+				>
 				<span>&lt;hobby&gt; <bold class="font-bold lg:text-base">gaming</bold> &lt;/hobby&gt;</span>
 				<a href="#about-furry" class="group"
 					>&lt;hobby&gt; <bold class="font-bold lg:text-base group-hover:underline text-[#2563EB]"

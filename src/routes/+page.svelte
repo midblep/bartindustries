@@ -37,7 +37,7 @@
 		<Sona />
 	</div>
 
-	<div class="bg-repeat-y bg-contain dotsandlines py-20">
+	<div class="bg-repeat-y bg-contain dotsandlines mt-20 mb-20">
 		<Virtual />
 	</div>
 
