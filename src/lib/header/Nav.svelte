@@ -5,39 +5,19 @@
 	import NavDropdown from './NavDropdown.svelte';
 </script>
 
-<div class="flex items-center justify-between">
-	<div class="flex items-center">
-		<a class="flex h-16 hover:bg-white hover:bg-opacity-20 duration-300" href="/">
-			<img
-				src="/bart.png"
-				alt="Logo"
-				class="h-full px-5 py-3 transform hover:scale-95 duration-300"
-			/>
+<div class="@container">
+	<div class="flex flex-col @2xl:flex-row items-center gap-2 p-2 justify-between">
+		<a
+			class="flex items-center rounded-xl hover:dark:bg-white hover:bg-black hover:bg-opacity-20 hover:dark:bg-opacity-20 whitepigeon duration-300 text-center text-xl @2xl:text-4xl"
+			href="/"
+		>
+			<span class="transform hover:scale-95 duration-300 px-4 py-2">Bart Industries</span>
 		</a>
-		<div class="hidden lg:flex h-16">
-			<NavButton url="/" text="Home" />
-			<NavButton url="/#blog" text="Blog" />
-			<NavButton url="/#portfolio" text="Portfolio" />
-			<NavButton url="/#about" text="About" />
-			<NavButton url="/#vr" text="VR" />
-			<!-- <NavButton url="/#furry" text="Furry" /> -->
-			<NavButton url="/#contact" text="Contact" />
-		</div>
-	</div>
-	<div class="hidden lg:flex h-16">
-		<ThemeSwitcher />
-	</div>
-	<div class="flex lg:hidden h-16">
-		<NavDropdown text="🍔">
-			<NavButton url="/" text="Home" />
-			<NavButton url="/#blog" text="Blog" />
-			<NavButton url="/#portfolio" text="Portfolio" />
-			<NavButton url="/#about" text="About" />
-			<NavButton url="/#vr" text="VR" />
-			<!-- <NavButton url="/#furry" text="Furry" /> -->
-			<NavButton url="/#contact" text="Contact" />
-			<hr class="bg-white" />
+		<div class="flex gap-2">
+			<NavButton url="/about" text="About" />
+			<NavButton url="/portfolio" text="Portfolio" />
+			<NavButton url="/blog" text="Blog" />
 			<ThemeSwitcher />
-		</NavDropdown>
+		</div>
 	</div>
 </div>

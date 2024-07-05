@@ -60,7 +60,7 @@
 
 <section class="relative">
 	<div class="@container flex flex-col justify-center">
-		<div class="flex flex-col gap-2 whitepigeon text-white text-center">
+		<div class="flex flex-col gap-2 whitepigeon text-center">
 			<h2 class="font-bold text-4xl lg:text-8xl">Portfolio</h2>
 			<p class="lg:text-lg">
 				A collection of some of the projects and experiences I am most proud of
@@ -68,7 +68,7 @@
 		</div>
 
 		<div
-			class="container my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 gap-5 justify-between"
+			class="my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @4xl:grid-cols-3 @7xl:grid-cols-4 gap-5 justify-between"
 		>
 			<div class="absolute top-0 -mt-40" id="portfolio" />
 
@@ -80,11 +80,12 @@
 					<span class="text-sm font-light">2023 and ongoing</span>
 				</h3>
 				<p class="text-sm text-gray-800 dark:text-gray-100">
-					During my study's internship at Agro IT I developed a user friendly web environment for
-					their RVDM.<br /><br />
-					The company liked what I built and wanted to expand upon it, so they hired me after the internship
-					to finish the prototype and roll it out to clients. Now I work on creating web versions for
-					all their products.<br /><br />
+					During an internship at Agro IT I developed a web environment for RVDM, a realtime manure
+					transport compliance system. The company liked what I built and hired me to develop it
+					further as a sidejob. I then developed another system for hour and work registration for
+					my graduation project, and was hired to continue as a software engineer after my studies.
+					Now I help Agro IT transition their products to the cloud and develop new systems for
+					customers.
 				</p>
 				<img src="/rvdm.png" class="rounded-xl" alt="Picture of some people from the DevOps Team" />
 			</Card>
@@ -135,12 +136,11 @@
 					<span class="text-sm font-light">2020 to 2024</span>
 				</h3>
 				<p class="text-sm text-gray-800 dark:text-gray-100">
-					I am a year 4 student at the Saxion University of Applied Sciences in The Netherlands
-					majoring in Software Engineering and expected to graduate in July of 2024.
-					<br /><br />
-					During the study I've done several projects for real clients and worked in teams comprised
-					of people with lots of different backgrounds. I have mostly worked with Java, JavaScript, Python
-					and C#.
+					I obtained a Bachelor in HBO-ICT (Software Engineering) at the Saxion University of
+					Applied Sciences in The Netherlands. During the study I've done a multitude of projects
+					for clients and worked in teams comprised of people with lots of different backgrounds. I
+					have mostly worked with Java, JavaScript, Python and C#, and also have professional and
+					practical skills with many sysadmin tasks.
 				</p>
 				<img src="homepage/computer.png" class="w-40" />
 			</Card>
@@ -159,148 +159,6 @@
 						similar things. I have made several websites for clients under this name, and you can
 						find more of my works on the DubbelNull website.
 					</p>
-				</Card>
-			</span>
-
-			<span class="@xl:row-span-3 @container">
-				<Card>
-					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
-						<div class="inline-flex gap-3">🏢 Internships</div>
-					</h3>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">Agro IT - Graduation project</b>
-							<p class="text-sm">2024</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							I also did my graduation project at Agro IT, where I will build a complete system
-							around employee management, time tracking and employee payouts that integrates with
-							existing infrastructure and streamline the administrative process within the company
-							as well as for customers.
-						</p>
-					</div>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">Agro IT</b>
-							<p class="text-sm">2023</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							Agro IT is an agricultural software company in The Netherlands. In my 5 month long
-							internship I developed a new modern web app that connected to their existing APIs and
-							made it possible for customers to use their systems from anywhere.
-						</p>
-					</div>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">Witteveen+Bos</b>
-							<p class="text-sm">2022</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							Witteveen+Bos is a major worldwide agricultural software company. During my internship
-							me and my team developed a generic authentication system in Django that would be used
-							as a customized plug-in template for new projects at the company.
-						</p>
-					</div>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">AgroVision</b>
-							<p class="text-sm">2021</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							AgroVision is a Dutch software company for farmers. During my internship I worked on
-							an app that generates reports about CO2 usage on farms and informs the farmer on how
-							to reduce thecir emmissions.
-						</p>
-					</div>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">SuiteSeven</b>
-							<p class="text-sm">2019</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							SuitSeven is a local webdevelopment studio. During my internship I worked on the
-							design for a client's website.
-						</p>
-					</div>
-
-					<div class="flex flex-col gap-2">
-						<span class="flex justify-between items-end"
-							><b class="text-lg">Profity</b>
-							<p class="text-sm">2018</p></span
-						>
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							Profity is a software company creating ERP suites for the Dutch steel industry. During
-							my internship I learned the dynamics of a team and the different processes involved in
-							software development.
-						</p>
-					</div>
-				</Card>
-			</span>
-
-			<span class="@2xl:col-span-2">
-				<Card buttonHref="https://furality.org/" buttonText="🦊 Visit furality.org">
-					<div class="grid grid-cols-2 gap-10">
-						<div class="w-full flex flex-col gap-5">
-							<h3
-								class="w-full text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
-							>
-								<div class="inline-flex gap-3">
-									<img src="/fox.png" class="h-8" alt="furality" /> Furality
-								</div>
-								<span class="text-sm font-light">2023 and ongoing</span>
-							</h3>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								Furality is a nonprofit organisation that organises Furality Online Experience
-								(F.O.X.), the largest online furry convention in the world hosted inside VRChat.
-								<br /><br />
-								Since December 2023 I volunteer for Furality Inc. as a Backend Developer. I work together
-								with the rest of the DevOps Department to work on APIs and systems that use things such
-								as TypeScript, NestJS, Grafana, Prometheus, RabbitMQ, Authentik, C#, Unity, and more.
-								<br /><br />
-								I am mainly tasked with developing Furality's in-house OIDC system, and expanding Furality's
-								Unity plugins. But I also work on upgrading and scaling queue runners, updating existing
-								APIs that connect with Discord, Patreon, VRChat and others to run the convention itself,
-								and maintaining databases and infrastructure surrounding the systems.
-							</p>
-						</div>
-						<img
-							src="/furalitypic.png"
-							class="rounded-xl w-full aspect-square object-cover"
-							alt="Picture of some people from the DevOps Team"
-						/>
-					</div>
-				</Card>
-			</span>
-
-			<span class="@xl:row-span-3">
-				<Card>
-					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3">
-						<img src="/homepage/esu.png" class="h-10 rounded-full bg-black p-1" alt="esu" /> Easter System
-						Universe
-					</h3>
-					<div class="flex flex-col pb-10">
-						<p class="text-sm text-gray-800 dark:text-gray-100">
-							For the past years I've worked on building and writing a universe of mysteries called
-							ESU. It is now mature enough to release, with several dimensions and planets on which
-							the natives speak their own unique languages.
-							<br /><br />
-							The universe confronts you with anomalies and alien concepts familiar enough to relate
-							with as they fight for survival in an ever more technological world. Worlds collide as
-							it becomes ever more apparent that the puppeteers of the world might not be who you think
-							they are, instigating a battle in which you must rely on hope to make it through.
-							<br /><br />
-							The first written story titled "Luther's Throne" is planned to release soon and will be
-							published on this website.
-						</p>
-					</div>
-					<span class="flex items-center">
-						<img src="/homepage/esubanner.png" alt="cover of act 1" />
-					</span>
 				</Card>
 			</span>
 
@@ -331,6 +189,143 @@
 					<p class="text-sm font-bold italic pt-5">... and always eager to try out new things!</p>
 				</Card>
 			</span>
+
+			<span class="@xl:row-span-1 @xl:col-span-2 @container">
+				<Card>
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+						<div class="inline-flex gap-3">🏢 Internships</div>
+					</h3>
+
+					<div class="grid grid-cols-2 gap-10">
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">Agro IT - Graduation project</b>
+								<p class="text-sm">2024</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								I also did my graduation project at Agro IT, where I built a complete system around
+								employee management, time tracking and employee payouts that integrates with
+								existing infrastructure and streamline the administrative process within the company
+								as well as for customers.
+							</p>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">Agro IT - 3rd year internship</b>
+								<p class="text-sm">2023</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								Agro IT is an agricultural software company in The Netherlands. In my 5 month long
+								internship I developed a new modern web app that connected to their existing APIs
+								and made it possible for customers to use their systems from anywhere.
+							</p>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">Witteveen+Bos</b>
+								<p class="text-sm">2022</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								Witteveen+Bos is a major worldwide agricultural software company. During my
+								internship me and my team developed a generic authentication system in Django that
+								would be used as a customized plug-in template for new projects at the company.
+							</p>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">AgroVision</b>
+								<p class="text-sm">2021</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								AgroVision is a Dutch software company for farmers. During my internship I worked on
+								an app that generates reports about CO2 usage on farms and informs the farmer on how
+								to reduce thecir emmissions.
+							</p>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">SuiteSeven</b>
+								<p class="text-sm">2019</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								SuitSeven is a local webdevelopment studio. During my internship I worked on the
+								design for a client's website.
+							</p>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<span class="flex justify-between items-end"
+								><b class="text-lg">Profity</b>
+								<p class="text-sm">2018</p></span
+							>
+							<p class="text-sm text-gray-800 dark:text-gray-100">
+								Profity is a software company creating ERP suites for the Dutch steel industry.
+								During my internship I learned the dynamics of a team and the different processes
+								involved in software development.
+							</p>
+						</div>
+					</div>
+				</Card>
+			</span>
+
+			<span class="@2xl:col-span-1">
+				<Card buttonHref="https://furality.org/" buttonText="🦊 Visit furality.org">
+					<div class="w-full flex flex-col gap-5">
+						<h3
+							class="w-full text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
+						>
+							<div class="inline-flex gap-3">
+								<img src="/fox.png" class="h-8" alt="furality" /> Furality
+							</div>
+							<span class="text-sm font-light">2023 and ongoing</span>
+						</h3>
+						<p class="text-sm text-gray-800 dark:text-gray-100">
+							Furality is a nonprofit organisation that organises Furality Online Experience
+							(F.O.X.), the largest online furry convention in the world hosted inside VRChat.
+							<br /><br />
+							Since December 2023 I volunteer for Furality Inc. as a Backend Developer. I work together
+							with the rest of the DevOps Department to work on APIs and systems that use things such
+							as TypeScript, NestJS, Grafana, Prometheus, RabbitMQ, Authentik, C#, Unity, and more.
+							<br /><br />
+							I am mainly tasked with developing Furality's in-house OIDC system, and expanding Furality's
+							Unity plugins. But I also work on upgrading and scaling queue runners, updating existing
+							APIs that connect with Discord, Patreon, VRChat and others to run the convention itself,
+							and maintaining databases and infrastructure surrounding the systems.
+						</p>
+					</div>
+				</Card>
+			</span>
+
+			<!-- <span class="@xl:row-span-3">
+				<Card>
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3">
+						<img src="/homepage/esu.png" class="h-10 rounded-full bg-black p-1" alt="esu" /> Easter System
+						Universe
+					</h3>
+					<div class="flex flex-col pb-10">
+						<p class="text-sm text-gray-800 dark:text-gray-100">
+							For the past years I've worked on building and writing a universe of mysteries called
+							ESU. It is now mature enough to release, with several dimensions and planets on which
+							the natives speak their own unique languages.
+							<br /><br />
+							The universe confronts you with anomalies and alien concepts familiar enough to relate
+							with as they fight for survival in an ever more technological world. Worlds collide as
+							it becomes ever more apparent that the puppeteers of the world might not be who you think
+							they are, instigating a battle in which you must rely on hope to make it through.
+							<br /><br />
+							The first written story titled "Luther's Throne" is planned to release soon and will be
+							published on this website.
+						</p>
+					</div>
+					<span class="flex items-center">
+						<img src="/homepage/esubanner.png" alt="cover of act 1" />
+					</span>
+				</Card>
+			</span> -->
 
 			<span class="@xl:row-span-2 @container">
 				<Card>

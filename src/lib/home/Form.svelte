@@ -1,16 +1,16 @@
 <script>
-	import Socials from "$lib/Socials.svelte";
+	import Socials from '$lib/Socials.svelte';
 
-	import { variables } from "$lib/helpers/variables";
+	import { variables } from '$lib/helpers/variables';
 
-	let email = "";
-	let message = "";
+	let email = '';
+	let message = '';
 	let notify;
 
 	function send() {
-		email = "";
-		message = "";
-		notify = "Email sent!";
+		email = '';
+		message = '';
+		notify = 'Email sent!';
 	}
 </script>
 
@@ -18,27 +18,14 @@
 	<img src="/homepage/contact.png" class="w-60 mb-2" alt="fullbody of mid" />
 
 	<article class="flex flex-col gap-5 lg:gap-10">
-		<section
-			class="bg-slate-300 bg-opacity-50 dark:bg-slate-800 p-10 rounded-xl shadow flex flex-col gap-5 flex-grow"
-		>
-
-			<form
-				class="flex flex-col gap-5"
-				action="https://api.staticforms.xyz/submit"
-				method="post"
-			>
-				<input
-					type="hidden"
-					name="accessKey"
-					value="f237579b-85d1-414f-846c-409b8c8f57f0"
-				/>
+		<section class="flex flex-col gap-5 flex-grow">
+			<form class="flex flex-col gap-5" action="https://api.staticforms.xyz/submit" method="post">
+				<input type="hidden" name="accessKey" value="f237579b-85d1-414f-846c-409b8c8f57f0" />
 				<input type="text" name="honeypot" style="display: none;" />
 				<input type="hidden" name="redirectTo" value={variables.appUrl} />
 
 				<div class="flex flex-col">
-					<label for="email" value="E-Mail" class="text-lg font-bold"
-						>E-Mail</label
-					>
+					<label for="email" value="E-Mail" class="text-lg font-bold">E-Mail</label>
 					<input
 						id="email"
 						name="email"
@@ -49,9 +36,7 @@
 				</div>
 
 				<div class="flex flex-col">
-					<label for="message" value="E-Mail" class="text-lg font-bold"
-						>Message</label
-					>
+					<label for="message" value="E-Mail" class="text-lg font-bold">Message</label>
 					<textarea
 						id="message"
 						name="message"
@@ -62,7 +47,7 @@
 				</div>
 
 				<div class="flex flex-col">
-					{#if email != "" && message != ""}
+					{#if email != '' && message != ''}
 						<button
 							type="submit"
 							on:click={send}
@@ -88,7 +73,7 @@
 			</form>
 		</section>
 
-		<Socials/>
+		<Socials />
 	</article>
 </main>
 

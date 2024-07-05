@@ -16,18 +16,18 @@
 	</h3>
 	<div class="grid lg:grid-cols-5 gap-5">
 		<div class="lg:col-span-3 flex flex-col gap-5">
-			<div class="flex flex-wrap gap-2 bg-black bg-opacity-5 dark:bg-opacity-40 p-5">
+			<div class="flex flex-wrap gap-2 bg-blue-500 bg-opacity-20 dark:bg-opacity-40 p-5">
 				<p class="font-bold">
 					Hey there! I'm Pascal, but my internet name is Mid. Nice to have you here on my website.
 					I'm a {calculateAge(new Date('2001-10-30'))} year old programmer and tech enthusiast from The
 					Netherlands. If you wanna know a little more about me then here are some of the things I like
 					to do. For my past experience and portfolio visit
-					<a href="#portfolio" class="a">my portfolio section</a>.
+					<a href="/portfolio" class="a">my portfolio section</a>.
 				</p>
 			</div>
 
 			<div
-				class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4"
+				class="flex flex-col gap-5 relative text-sm p-5 border-gray-400 border-opacity-20 dark:border-opacity-20 border-4"
 			>
 				<span id="about-computers" class="absolute top-0 -mt-40" />
 
@@ -47,7 +47,7 @@
 			</div>
 
 			<div
-				class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4"
+				class="flex flex-col gap-5 relative text-sm p-5 border-gray-400 border-opacity-20 dark:border-opacity-20 border-4"
 			>
 				<span id="about-furry" class="absolute top-0 -mt-40" />
 
@@ -70,7 +70,7 @@
 			</div>
 
 			<div
-				class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4"
+				class="flex flex-col gap-5 relative text-sm p-5 border-gray-400 border-opacity-20 dark:border-opacity-20 border-4"
 			>
 				<span id="about-drones" class="absolute top-0 -mt-40" />
 
@@ -93,7 +93,7 @@
 			</div>
 
 			<div
-				class="flex flex-col gap-5 relative text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-4"
+				class="flex flex-col gap-5 relative text-sm p-5 border-gray-400 border-opacity-20 dark:border-opacity-20 border-4"
 			>
 				<span id="about-coding" class="absolute top-0 -mt-40" />
 
@@ -106,7 +106,7 @@
 					wrote the following on their website:
 				</p>
 
-				<div class="bg-gray-200 p-5 flex gap-5">
+				<div class="bg-neutral-200 dark:bg-neutral-900 p-5 flex gap-5">
 					<p class="text-6xl font-extrabold">"</p>
 					<blockquote cite="https://msx.horse/about.php">
 						as time has gone on, i have become fairly exhausted with the unnecesary bloat in all
@@ -132,10 +132,10 @@
 
 		<div class="lg:col-span-2 flex flex-col gap-5 overflow-x-hidden pt-10">
 			<div
-				class="flex flex-col gap-1 text-sm p-5 border-black border-opacity-10 dark:border-opacity-20 border-dashed border-4"
+				class="flex flex-col gap-1 text-sm p-5 border-gray-400 border-opacity-20 dark:border-opacity-20 border-dashed border-4"
 			>
 				<h4
-					class="-mt-12 lg:-mt-16 lg:text-lg bg-gray-100 dark:bg-gray-900 -mx-3 text-blue-500 overflow-x-hidden"
+					class="-mt-12 lg:-mt-16 lg:text-lg bg-white dark:bg-black -mx-3 text-blue-500 overflow-x-hidden"
 				>
 					<b
 						>////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</b

@@ -3,19 +3,21 @@
 	export let type = 'default';
 </script>
 
-<div class="@container grid grid-cols-2 @xl:grid-cols-3 @4xl:grid-cols-4 flex-wrap gap-3">
-	<Social
+<div class="@container grid grid-cols-2 @2xl:grid-cols-3 flex-wrap gap-5">
+	<!-- <Social
 		url="https://mastodon.social/@midblep"
 		title="My profile on the fediverse!"
 		icon="🐘"
 		text="Mastodon"
+
 	/>
 	<Social
 		url="https://mastodon.social/@midblep"
 		title="Bird app (or X?)"
 		icon="🐦"
 		text="Twitter (X)"
-	/>
+
+	/> -->
 	<Social url="https://git.bartindustries.com/" title="Git repositories" icon="🗃️" text="Git" />
 	<Social url="https://gitlab.com/midblep" title="GitLab repositories" icon="🦊" text="GitLab" />
 	<Social url="https://github.com/midblep" title="GitHub repositories" icon="🐙" text="GitHub" />

@@ -3,8 +3,9 @@
 	export let icon;
 	export let url;
 	export let title;
-	export let align = "center";
-	export let justify = "center";
+	export let align = 'center';
+	export let justify = 'center';
+	export let stay = null;
 
 	if (title == null) title = text;
 </script>
@@ -13,10 +14,10 @@
 	href={url}
 	{title}
 	target="_blank"
-	class="rounded-xl bg-gray-200 bg-opacity-80 hover:bg-opacity-100 dark:bg-slate-800 hover:bg-blue-400 dark:hover:bg-blue-600 hover:scale-[101%] hover:shadow-2xl duration-150 shadow"
+	class="border-2 border-white border-opacity-20 bg-opacity-10 bg-white hover:bg-opacity-40 rounded-xl duration-300"
 >
-	<div class="flex gap-2 items-center justify-{justify} p-2 lg:p-5">
-		<span class="text-2xl lg:text-5xl">{icon}</span>
-		<span class="text-gray-700 dark:text-gray-300 font-light text-base lg:text-lg text-{align}">{text}</span>
+	<div class="flex gap-4 items-center py-2 px-4">
+		<span class="text-2xl">{icon}</span>
+		<span class="font-light text-base lg:text-lg text-{align}">{text}</span>
 	</div>
 </a>
