@@ -102,7 +102,7 @@
 	randomBannerPic = '/homepage/banner.png';
 </script>
 
-<main class="w-full h-full @container">
+<main class="w-full h-full lg:px-2 xl:px-5 @container">
 	<section
 		class="bg-[#3A53FF] @2xl:rounded-t-[40px] relative overflow-hidden @container text-white"
 	>

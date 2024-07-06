@@ -58,17 +58,126 @@
 	];
 </script>
 
-<section class="relative">
+<section>
+	<div class="bg-[#3A53FF] h-80 absolute left-0 right-0 top-0" />
+	<img
+		class="absolute left-0 right-0 top-80 w-screen scale-150 z-0 lg:scale-100"
+		src="/homepage/steps.svg"
+		alt="Header"
+	/>
+
 	<div class="@container flex flex-col justify-center">
-		<div class="flex flex-col gap-2 whitepigeon text-center">
-			<h2 class="font-bold text-4xl lg:text-8xl">Portfolio</h2>
-			<p class="lg:text-lg">
-				A collection of some of the projects and experiences I am most proud of
-			</p>
-		</div>
+		<h2 class="font-bold text-4xl lg:text-8xl baron">Experience</h2>
 
 		<div
-			class="my-5 lg:my-20 grid grid-cols-1 @2xl:grid-cols-2 @4xl:grid-cols-3 @7xl:grid-cols-4 gap-5 justify-between"
+			class="mt-5 mb-5 lg:mb-20 grid grid-cols-1 @2xl:grid-cols-2 @4xl:grid-cols-3 @7xl:grid-cols-4 gap-5 justify-between"
+		>
+			<div class="absolute top-0 -mt-40" id="portfolio" />
+
+			<span class="@2xl:row-span-3">
+				<Card>
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+						<div class="inline-flex gap-3">
+							<img src="/saxion.png" class="h-8 rounded-full" alt="puppypride" /> Saxion University
+						</div>
+						<span class="text-sm font-light">2020 to 2024</span>
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I obtained a Bachelor of Science majoring in Software Engineering at the Saxion
+						University of Applied Sciences in The Netherlands. During the study I've done a
+						multitude of projects for clients and worked in teams comprised of people with lots of
+						different backgrounds. I have mostly worked with Java, JavaScript, Python and C#, and
+						also have professional and practical skills with many sysadmin tasks.
+					</p>
+					<img src="homepage/sona/MidFingers.jpg" class="w-full rounded-xl" />
+				</Card>
+			</span>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">Agro IT - Graduation Project</div>
+					<span class="text-sm font-light">2024</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					I also did my graduation project at Agro IT, where I built a complete system around
+					employee management, time tracking and employee payouts that integrates with existing
+					infrastructure and streamline the administrative process within the company as well as for
+					customers.
+				</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">Xential - University Project</div>
+					<span class="text-sm font-light">2023</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">// insert text here</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">Agro IT - Internship Project</div>
+					<span class="text-sm font-light">2023</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					Agro IT is an agricultural software company in The Netherlands. In my 5 month long
+					internship I developed a new modern web app that connected to their existing APIs and made
+					it possible for customers to use their systems from anywhere.
+				</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">Witteveen+Bos - University Project</div>
+					<span class="text-sm font-light">2022</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					Witteveen+Bos is a major worldwide agricultural software company. During my internship me
+					and my team developed a generic authentication system in Django that would be used as a
+					customized plug-in template for new projects at the company.
+				</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">AgroVision - University Project</div>
+					<span class="text-sm font-light">2021</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					AgroVision is a Dutch software company for farmers. During my internship I worked on an
+					app that generates reports about CO2 usage on farms and informs the farmer on how to
+					reduce thecir emmissions.
+				</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">SuiteSeven - Internship</div>
+					<span class="text-sm font-light">2019</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					SuitSeven is a local webdevelopment studio. During my internship I worked on the design
+					for a client's website.
+				</p>
+			</Card>
+
+			<Card>
+				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+					<div class="inline-flex gap-3">Profity - Internship</div>
+					<span class="text-sm font-light">2018</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					Profity is a software company creating ERP suites for the Dutch steel industry. During my
+					internship I learned the dynamics of a team and the different processes involved in
+					software development.
+				</p>
+			</Card>
+		</div>
+
+		<h2 class="font-bold text-4xl lg:text-8xl baron">Companies</h2>
+
+		<div
+			class="mt-5 mb-5 lg:mb-20 grid grid-cols-1 @2xl:grid-cols-2 @4xl:grid-cols-3 @7xl:grid-cols-4 gap-5 justify-between"
 		>
 			<div class="absolute top-0 -mt-40" id="portfolio" />
 
@@ -128,23 +237,6 @@
 				</Card>
 			</span>
 
-			<Card buttonHref="https://saxion.nl" buttonText="🎓 Open Website">
-				<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
-					<div class="inline-flex gap-3">
-						<img src="/saxion.png" class="h-8 rounded-full" alt="puppypride" /> Saxion University
-					</div>
-					<span class="text-sm font-light">2020 to 2024</span>
-				</h3>
-				<p class="text-sm text-gray-800 dark:text-gray-100">
-					I obtained a Bachelor in HBO-ICT (Software Engineering) at the Saxion University of
-					Applied Sciences in The Netherlands. During the study I've done a multitude of projects
-					for clients and worked in teams comprised of people with lots of different backgrounds. I
-					have mostly worked with Java, JavaScript, Python and C#, and also have professional and
-					practical skills with many sysadmin tasks.
-				</p>
-				<img src="homepage/computer.png" class="w-40" />
-			</Card>
-
 			<span>
 				<Card buttonHref="https://dubbelnull.com/showcase" buttonText="➡️ View DubbelNull showcase">
 					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
@@ -159,116 +251,6 @@
 						similar things. I have made several websites for clients under this name, and you can
 						find more of my works on the DubbelNull website.
 					</p>
-				</Card>
-			</span>
-
-			<span class="@2xl:row-span-2">
-				<Card>
-					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
-						<div class="inline-flex gap-3">⚔️ Skills</div>
-					</h3>
-					<p class="text-sm text-gray-800 dark:text-gray-100">
-						I can work with a wide range of systems, frameworks and technologies! I have a lot of
-						common knowledge around computer software and hardware that i can use to quickly adapt
-						to new languages and frameworks. Here is a constantly expanding list of some of the
-						things I am comfortable and like working with:
-					</p>
-					<div id="scroll-container" class="flex flex-wrap gap-1 w-full text-center">
-						{#each words as word, key}
-							<p>
-								{#if key == words.length - 2}
-									{@html word} and
-								{:else if key == words.length - 1}
-									{@html word}.
-								{:else}
-									{@html word},
-								{/if}
-							</p>
-						{/each}
-					</div>
-					<p class="text-sm font-bold italic pt-5">... and always eager to try out new things!</p>
-				</Card>
-			</span>
-
-			<span class="@xl:row-span-1 @xl:col-span-2 @container">
-				<Card>
-					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
-						<div class="inline-flex gap-3">🏢 Internships</div>
-					</h3>
-
-					<div class="grid grid-cols-2 gap-10">
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">Agro IT - Graduation project</b>
-								<p class="text-sm">2024</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								I also did my graduation project at Agro IT, where I built a complete system around
-								employee management, time tracking and employee payouts that integrates with
-								existing infrastructure and streamline the administrative process within the company
-								as well as for customers.
-							</p>
-						</div>
-
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">Agro IT - 3rd year internship</b>
-								<p class="text-sm">2023</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								Agro IT is an agricultural software company in The Netherlands. In my 5 month long
-								internship I developed a new modern web app that connected to their existing APIs
-								and made it possible for customers to use their systems from anywhere.
-							</p>
-						</div>
-
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">Witteveen+Bos</b>
-								<p class="text-sm">2022</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								Witteveen+Bos is a major worldwide agricultural software company. During my
-								internship me and my team developed a generic authentication system in Django that
-								would be used as a customized plug-in template for new projects at the company.
-							</p>
-						</div>
-
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">AgroVision</b>
-								<p class="text-sm">2021</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								AgroVision is a Dutch software company for farmers. During my internship I worked on
-								an app that generates reports about CO2 usage on farms and informs the farmer on how
-								to reduce thecir emmissions.
-							</p>
-						</div>
-
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">SuiteSeven</b>
-								<p class="text-sm">2019</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								SuitSeven is a local webdevelopment studio. During my internship I worked on the
-								design for a client's website.
-							</p>
-						</div>
-
-						<div class="flex flex-col gap-2">
-							<span class="flex justify-between items-end"
-								><b class="text-lg">Profity</b>
-								<p class="text-sm">2018</p></span
-							>
-							<p class="text-sm text-gray-800 dark:text-gray-100">
-								Profity is a software company creating ERP suites for the Dutch steel industry.
-								During my internship I learned the dynamics of a team and the different processes
-								involved in software development.
-							</p>
-						</div>
-					</div>
 				</Card>
 			</span>
 
@@ -300,7 +282,45 @@
 				</Card>
 			</span>
 
-			<!-- <span class="@xl:row-span-3">
+			<Card
+				buttonHref="https://prideunbound.uk"
+				buttonText="📂 See archived 2023 Pride Unbound site"
+			>
+				<div class="flex flex-col gap-5">
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+						<div class="inline-flex gap-3">
+							<img src="/prideunbound.png" class="h-8 rounded-full" alt="prideunbound" /> Pride Unbound
+						</div>
+						<span class="text-sm font-light">2023 and ongoing</span>
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						Pride Unbound is a convention based in London ran by Puppy Pride. I create and maintain
+						their software and server infrastructure. The website is custom made with Laravel and
+						has a registration system, payment system, scheduling system, booking system and CMS
+						pages system all managed by the event organisers through a dashboard.
+					</p>
+				</div>
+			</Card>
+
+			<Card>
+				<div class="flex flex-col gap-5">
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+						<div class="inline-flex gap-3">Flame Software</div>
+						<span class="text-sm font-light">2022 and ongoing</span>
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">// insert here</p>
+				</div>
+			</Card>
+		</div>
+
+		<h2 class="font-bold text-4xl lg:text-8xl baron">Skills</h2>
+
+		<div
+			class="mt-5 mb-5 lg:mb-20 grid grid-cols-1 @2xl:grid-cols-2 @4xl:grid-cols-3 @7xl:grid-cols-4 gap-5 justify-between"
+		>
+			<div class="absolute top-0 -mt-40" id="portfolio" />
+
+			<span class="@xl:row-span-3">
 				<Card>
 					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3">
 						<img src="/homepage/esu.png" class="h-10 rounded-full bg-black p-1" alt="esu" /> Easter System
@@ -325,7 +345,35 @@
 						<img src="/homepage/esubanner.png" alt="cover of act 1" />
 					</span>
 				</Card>
-			</span> -->
+			</span>
+
+			<span class="@2xl:row-span-2">
+				<Card>
+					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
+						<div class="inline-flex gap-3">⚔️ Skills</div>
+					</h3>
+					<p class="text-sm text-gray-800 dark:text-gray-100">
+						I can work with a wide range of systems, frameworks and technologies! I have a lot of
+						common knowledge around computer software and hardware that i can use to quickly adapt
+						to new languages and frameworks. Here is a constantly expanding list of some of the
+						things I am comfortable and like working with:
+					</p>
+					<div id="scroll-container" class="flex flex-wrap gap-1 w-full text-center">
+						{#each words as word, key}
+							<p>
+								{#if key == words.length - 2}
+									{@html word} and
+								{:else if key == words.length - 1}
+									{@html word}.
+								{:else}
+									{@html word},
+								{/if}
+							</p>
+						{/each}
+					</div>
+					<p class="text-sm font-bold italic pt-5">... and always eager to try out new things!</p>
+				</Card>
+			</span>
 
 			<span class="@xl:row-span-2 @container">
 				<Card>
@@ -346,26 +394,6 @@
 					</div>
 				</Card>
 			</span>
-
-			<Card
-				buttonHref="https://prideunbound.uk"
-				buttonText="📂 See archived 2023 Pride Unbound site"
-			>
-				<div class="flex flex-col gap-5">
-					<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
-						<div class="inline-flex gap-3">
-							<img src="/prideunbound.png" class="h-8 rounded-full" alt="prideunbound" /> Pride Unbound
-						</div>
-						<span class="text-sm font-light">2023 and ongoing</span>
-					</h3>
-					<p class="text-sm text-gray-800 dark:text-gray-100">
-						Pride Unbound is a convention based in London ran by Puppy Pride. I create and maintain
-						their software and server infrastructure. The website is custom made with Laravel and
-						has a registration system, payment system, scheduling system, booking system and CMS
-						pages system all managed by the event organisers through a dashboard.
-					</p>
-				</div>
-			</Card>
 		</div>
 	</div>
 </section>
