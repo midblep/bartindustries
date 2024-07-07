@@ -1,8 +1,6 @@
 <script>
 	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
-
 	import NavButton from './NavButton.svelte';
-	import NavDropdown from './NavDropdown.svelte';
 </script>
 
 <div class="@container">
@@ -17,6 +15,7 @@
 			<NavButton url="/about" text="About" />
 			<NavButton url="/portfolio" text="Portfolio" />
 			<NavButton url="/blog" text="Blog" />
+			<NavButton url="/vr" text="VR" />
 			<ThemeSwitcher />
 		</div>
 	</div>
