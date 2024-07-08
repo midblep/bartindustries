@@ -116,16 +116,18 @@
 		/>
 
 		<div
-			class="absolute inset-0 w-full h-screen flex flex-col items-center gap-1 justify-center font-bold anim opacity-5 dark:opacity-5"
+			class="absolute inset-0 w-full h-full flex flex-col items-center gap-1 justify-center font-bold anim opacity-5 dark:opacity-5"
 			id="lists"
 		/>
 
-		<div class="flex h-full w-full @4xl:p-20 gap-20 p-5 z-10">
-			<div class="items-start @7xl:block hidden z-10 w-full">
-				<img src={randomBannerPic} alt="mid" class="w-[40vw] z-10" />
-			</div>
+		<div class="flex @8xl:p-20 @2xl:p-10 gap-20 p-5 z-10">
+			<img
+				src={randomBannerPic}
+				alt="mid"
+				class="w-[40%] h-auto flex-none @6xl:inline-block hidden z-10"
+			/>
 
-			<div class="flex flex-col py-5 h-full gap-10 z-10 w-full">
+			<div class="flex flex-col py-5 h-full gap-10 w-full flex-grow z-10">
 				<div class="flex flex-col gap-2">
 					<p class="text-4xl font-bold"><span class="whitepigeon">Hello</span></p>
 					<h2 class="text-6xl flex gap-2 font-extralight">
@@ -138,7 +140,7 @@
 					</h2>
 				</div>
 
-				<p class="lg:text-lg @2xl:mb-10">
+				<p class="lg:text-lg @8xl:mb-10">
 					I'm a {calculateAge(new Date('2001-10-30'))} year old programmer and tech enthusiast from The
 					Netherlands. I have a Bachelor of Science degree in Software Engineering and run a development
 					company called DubbelNull. During the week I work at Agro IT and build software that improves
