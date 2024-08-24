@@ -40,7 +40,12 @@
 			<div class="inline-flex gap-3">Xential - University Project</div>
 			<span class="text-sm font-light">2023</span>
 		</h3>
-		<p class="text-sm text-gray-800 dark:text-gray-100">// insert text here</p>
+		<p class="text-sm text-gray-800 dark:text-gray-100">
+			For Xential I developed a video-editing service with a team in 2 months. We used Laravel to
+			develop a back-end API that could take JSON-based instructions and then use FFMPeg on the
+			server to add video's, text, audio tracks, so on. It would also encode to different formats
+			and sizes, and all be viewable on a mobile app and web dashboard.
+		</p>
 	</Card>
 
 	<Card>

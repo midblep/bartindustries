@@ -102,6 +102,26 @@
 		</Card>
 	</span>
 
+	<span class="@2xl:col-span-1">
+		<Card buttonHref="https://reffurence.com/" buttonText="🦊 Visit reffurence.com">
+			<div class="w-full flex flex-col gap-5">
+				<h3
+					class="w-full text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between"
+				>
+					<div class="inline-flex gap-3">
+						<img src="/reffurence.png" class="h-8" alt="furality" /> Reffurence
+					</div>
+					<span class="text-sm font-light">2024 and ongoing</span>
+				</h3>
+				<p class="text-sm text-gray-800 dark:text-gray-100">
+					Reffurence is a Dutch physical furry convention. I started volunteering as their Lead
+					Front-End developer in 2024 and work on maintaining and updating their website,
+					dashboards, CMS and other front-end tools used during the convention.
+				</p>
+			</div>
+		</Card>
+	</span>
+
 	<Card buttonHref="https://prideunbound.uk" buttonText="📂 See archived 2023 Pride Unbound site">
 		<div class="flex flex-col gap-5">
 			<h3 class="text-xl font-bold flex-wrap inline-flex items-center gap-3 justify-between">
@@ -125,7 +145,13 @@
 				<div class="inline-flex gap-3">Flame Software</div>
 				<span class="text-sm font-light">2022 and ongoing</span>
 			</h3>
-			<p class="text-sm text-gray-800 dark:text-gray-100">// insert here</p>
+			<p class="text-sm text-gray-800 dark:text-gray-100">
+				Flame Software is my company that focuses on developing the next era of instant messaging.
+				Where we currently have innovations being made in federated and independent social media
+				structures like Bluesky and Mastodon, the same is still lacking for more personal
+				communication platforms like Whatsapp. Flame aims to be the first federated network of
+				private messaging.
+			</p>
 		</div>
 	</Card>
 </Section>
