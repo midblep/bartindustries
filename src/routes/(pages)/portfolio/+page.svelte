@@ -1,7 +1,6 @@
 <script>
-	import Experience from '$lib/portfolio/Experience.svelte';
-	import Professional from '$lib/portfolio/Professional.svelte';
-	import Projects from '$lib/portfolio/Projects.svelte';
+	import Current from '$lib/portfolio/Current.svelte';
+	import Study from '$lib/portfolio/Study.svelte';
 </script>
 
 <svelte:head>
@@ -9,7 +8,6 @@
 </svelte:head>
 
 <main class="flex flex-col my-20 gap-20 2xl:gap-40">
-	<Professional />
-	<Experience />
-	<Projects />
+	<Current />
+	<Study />
 </main>

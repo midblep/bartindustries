@@ -14,7 +14,6 @@
 		<div class="flex gap-2">
 			<NavButton url="/about" text="About" />
 			<NavButton url="/portfolio" text="Portfolio" />
-			<NavButton url="/blog" text="Blog" />
 			<NavButton url="/vr" text="VR" />
 			<ThemeSwitcher />
 		</div>

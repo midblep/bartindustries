@@ -13,7 +13,7 @@
 	function initButton(givenUrl) {
 		let current;
 		classes =
-			'h-full xl:py-2 py-1 xl:px-10 px-2 flex justify-center items-center uppercase group rounded-xl';
+			'h-full xl:py-2 py-1 xl:px-10 px-5 flex justify-center items-center uppercase group rounded-xl';
 
 		switch (type) {
 			case 'title':
